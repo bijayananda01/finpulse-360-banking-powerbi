@@ -1,0 +1,8 @@
+# Power BI & System temp files
+*.tmp
+*.temp
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

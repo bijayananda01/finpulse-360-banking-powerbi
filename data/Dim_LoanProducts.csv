@@ -1,0 +1,7 @@
+ProductID,ProductName,ProductCategory,DefaultInterestRate,MinTenureMonths,MaxTenureMonths,CollateralRequired,RiskTier
+PRD-MORT,Prime Residential Home Mortgage,Mortgage & Real Estate,0.0625,120,360,Yes,Low
+PRD-AUTO,Secured Auto Loan,Vehicle Financing,0.0780,24,84,Yes,Medium
+PRD-PERS,Unsecured Personal Flexi-Loan,Personal Lending,0.1250,12,60,No,High
+PRD-SME,SME Commercial Growth Loan,Commercial & Business,0.0950,12,120,Yes,Medium-High
+PRD-EDU,Higher Education Career Loan,Education Finance,0.0690,36,120,No,Low-Medium
+PRD-EQUIP,Commercial Machinery & Equipment Lease,Commercial & Business,0.0890,24,84,Yes,Medium

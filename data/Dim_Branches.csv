@@ -1,0 +1,13 @@
+BranchID,BranchName,City,State,Region,RegionalManager,ManagerEmail,BranchTier
+BR-101,Downtown Manhattan Financial Center,New York,NY,East,Sarah Jenkins,s.jenkins@apexbank.com,Tier 1
+BR-102,Boston Beacon Hill Branch,Boston,MA,East,Michael Chang,m.chang@apexbank.com,Tier 1
+BR-103,Philadelphia Center City,Philadelphia,PA,East,Emily Watson,e.watson@apexbank.com,Tier 2
+BR-104,Chicago Loop Premier Hub,Chicago,IL,Midwest,David Miller,d.miller@apexbank.com,Tier 1
+BR-105,Detroit Metro Commercial Branch,Detroit,MI,Midwest,Robert Hayes,r.hayes@apexbank.com,Tier 2
+BR-106,Dallas Uptown Financial Hub,Dallas,TX,South,Carlos Rodriguez,c.rodriguez@apexbank.com,Tier 1
+BR-107,Atlanta Buckhead Branch,Atlanta,GA,South,Jessica Taylor,j.taylor@apexbank.com,Tier 1
+BR-108,Miami Brickell Financial Center,Miami,FL,South,Antonio Morales,a.morales@apexbank.com,Tier 1
+BR-109,San Francisco Bay Financial Plaza,San Francisco,CA,West,Lisa Wong,l.wong@apexbank.com,Tier 1
+BR-110,Los Angeles Century City Branch,Los Angeles,CA,West,Kevin Scott,k.scott@apexbank.com,Tier 1
+BR-111,Seattle Downtown Gateway,Seattle,WA,West,Rachel Green,r.green@apexbank.com,Tier 2
+BR-112,Denver Mile High Branch,Denver,CO,West,Brian Foster,b.foster@apexbank.com,Tier 2

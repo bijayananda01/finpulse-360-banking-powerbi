@@ -1,0 +1,1001 @@
+CustomerID,CustomerName,Age,Gender,Occupation,EmploymentType,AnnualIncomeUSD,CreditScore,CreditScoreBand,DebtToIncomeRatio,CustomerSegment,HomeOwnership,BranchID,CustomerSinceDate
+CUST-0001,Oliver Johnson,39,Male,Small Business Owner,Salaried - Public / Govt,177964,783,Very Good (740-799),0.157,Affluent & HNI,Own Mortgage,BR-101,2023-08-10
+CUST-0002,Avery Anderson,54,Other,Software Engineer,Contractor / Gig,129987,663,Fair (580-669),0.215,Emerging Prime,Own Outright,BR-101,2023-12-23
+CUST-0003,Arjun Perez,39,Male,Small Business Owner,Self-Employed Professional,60353,628,Fair (580-669),0.274,Subprime / High Risk,Own Mortgage,BR-105,2023-04-29
+CUST-0004,Rahul Wright,29,Female,Healthcare Professional,Contractor / Gig,85407,716,Good (670-739),0.423,Emerging Prime,Own Mortgage,BR-104,2024-09-14
+CUST-0005,Lucas Iyer,36,Male,Operations Manager,Self-Employed Professional,77638,716,Good (670-739),0.279,Mass Market Prime,Own Mortgage,BR-105,2023-06-26
+CUST-0006,Elizabeth Wright,68,Male,Corporate Executive,Business Owner,311408,698,Good (670-739),0.454,Emerging Prime,Own Mortgage,BR-101,2024-11-07
+CUST-0007,Priya Moore,26,Male,Educator / Professor,Self-Employed Professional,138712,643,Fair (580-669),0.5,Emerging Prime,Own Outright,BR-103,2024-07-26
+CUST-0008,Abigail Thomas,57,Other,Civil Servant,Contractor / Gig,129895,721,Good (670-739),0.214,Emerging Prime,Living with Family,BR-109,2025-11-06
+CUST-0009,Mia Carter,25,Male,Corporate Executive,Salaried - Public / Govt,210864,767,Very Good (740-799),0.284,Affluent & HNI,Living with Family,BR-109,2024-06-28
+CUST-0010,Emma Baker,68,Male,Attorney / Legal Counsel,Contractor / Gig,139242,789,Very Good (740-799),0.246,Emerging Prime,Own Mortgage,BR-101,2024-07-23
+CUST-0011,Wei Carter,33,Other,Healthcare Professional,Self-Employed Professional,87143,772,Very Good (740-799),0.186,Emerging Prime,Rent,BR-109,2026-01-21
+CUST-0012,James Hill,42,Female,Software Engineer,Salaried - Private,82592,819,Exceptional (800-850),0.224,Mass Market Prime,Own Outright,BR-102,2023-07-25
+CUST-0013,Juan Verma,26,Other,Corporate Executive,Salaried - Public / Govt,179483,775,Very Good (740-799),0.347,Affluent & HNI,Own Outright,BR-104,2026-02-08
+CUST-0014,Ella Rivera,41,Female,Attorney / Legal Counsel,Self-Employed Professional,141720,736,Good (670-739),0.227,Emerging Prime,Own Mortgage,BR-101,2026-03-10
+CUST-0015,Sofia Nguyen,36,Male,Healthcare Professional,Salaried - Private,121619,584,Fair (580-669),0.15,Emerging Prime,Own Mortgage,BR-111,2025-10-21
+CUST-0016,Avery Wright,30,Other,Educator / Professor,Contractor / Gig,141708,730,Good (670-739),0.202,Emerging Prime,Own Mortgage,BR-107,2025-01-25
+CUST-0017,Arjun Clark,51,Other,Software Engineer,Salaried - Private,179935,566,Poor (500-579),0.491,Emerging Prime,Own Mortgage,BR-104,2026-02-02
+CUST-0018,Sunita Rodriguez,49,Male,Civil Servant,Business Owner,151164,589,Fair (580-669),0.467,Emerging Prime,Rent,BR-102,2023-05-14
+CUST-0019,Yuki Gupta,22,Male,Small Business Owner,Salaried - Public / Govt,91032,731,Good (670-739),0.492,Emerging Prime,Rent,BR-103,2025-03-17
+CUST-0020,James Harris,38,Female,Civil Servant,Business Owner,162577,786,Very Good (740-799),0.187,Affluent & HNI,Own Mortgage,BR-101,2026-02-14
+CUST-0021,Ava Mitchell,42,Male,Software Engineer,Contractor / Gig,82455,737,Good (670-739),0.533,Mass Market Prime,Own Mortgage,BR-103,2023-06-20
+CUST-0022,Aiden Baker,37,Female,Healthcare Professional,Contractor / Gig,45418,656,Fair (580-669),0.386,Subprime / High Risk,Own Mortgage,BR-110,2026-04-02
+CUST-0023,Chen Lee,38,Male,Attorney / Legal Counsel,Self-Employed Professional,286079,630,Fair (580-669),0.398,Emerging Prime,Own Outright,BR-102,2023-02-19
+CUST-0024,Rahul Flores,58,Male,Healthcare Professional,Contractor / Gig,69722,613,Fair (580-669),0.521,Subprime / High Risk,Rent,BR-104,2025-02-25
+CUST-0025,Wyatt Hernandez,50,Other,Supply Chain Lead,Self-Employed Professional,37050,737,Good (670-739),0.407,Mass Market Prime,Own Outright,BR-111,2023-08-31
+CUST-0026,Abigail Taylor,29,Male,Supply Chain Lead,Contractor / Gig,90215,616,Fair (580-669),0.429,Emerging Prime,Own Mortgage,BR-111,2024-07-24
+CUST-0027,Wei Young,38,Male,Healthcare Professional,Business Owner,35929,742,Very Good (740-799),0.263,Mass Market Prime,Own Mortgage,BR-105,2023-12-27
+CUST-0028,Vikram Scott,67,Female,Civil Engineer,Salaried - Private,74073,668,Fair (580-669),0.355,Subprime / High Risk,Rent,BR-110,2026-03-07
+CUST-0029,Henry Ramirez,30,Male,Civil Servant,Self-Employed Professional,45458,790,Very Good (740-799),0.507,Mass Market Prime,Own Mortgage,BR-104,2023-08-29
+CUST-0030,Chloe Roberts,57,Female,Educator / Professor,Salaried - Public / Govt,77598,815,Exceptional (800-850),0.54,Mass Market Prime,Rent,BR-107,2023-03-22
+CUST-0031,Jack Mitchell,43,Female,Attorney / Legal Counsel,Salaried - Public / Govt,120151,683,Good (670-739),0.489,Emerging Prime,Own Mortgage,BR-108,2025-01-16
+CUST-0032,Madison Verma,36,Male,Software Engineer,Salaried - Public / Govt,176361,705,Good (670-739),0.24,Emerging Prime,Own Outright,BR-107,2026-02-02
+CUST-0033,Jayden Johnson,29,Female,Corporate Executive,Contractor / Gig,138417,816,Exceptional (800-850),0.377,Emerging Prime,Own Mortgage,BR-106,2025-07-12
+CUST-0034,Mei Davis,46,Other,Small Business Owner,Self-Employed Professional,35443,547,Poor (500-579),0.344,Subprime / High Risk,Rent,BR-111,2024-03-09
+CUST-0035,Grayson Ramirez,26,Other,Financial Analyst,Contractor / Gig,141469,685,Good (670-739),0.253,Emerging Prime,Own Mortgage,BR-107,2024-09-27
+CUST-0036,Alexander Gonzalez,48,Other,Operations Manager,Salaried - Public / Govt,141450,708,Good (670-739),0.356,Emerging Prime,Own Mortgage,BR-105,2024-04-05
+CUST-0037,Deepa Sharma,59,Other,Attorney / Legal Counsel,Self-Employed Professional,244001,726,Good (670-739),0.323,Emerging Prime,Rent,BR-112,2024-01-13
+CUST-0038,Lucas Jackson,54,Other,Attorney / Legal Counsel,Contractor / Gig,168888,700,Good (670-739),0.467,Emerging Prime,Own Mortgage,BR-101,2024-06-15
+CUST-0039,Carlos Flores,26,Female,Operations Manager,Contractor / Gig,135657,669,Fair (580-669),0.333,Emerging Prime,Own Mortgage,BR-111,2023-02-11
+CUST-0040,Harper Roberts,49,Male,Corporate Executive,Contractor / Gig,229658,701,Good (670-739),0.177,Emerging Prime,Own Outright,BR-109,2026-03-20
+CUST-0041,Luke Carter,50,Other,Supply Chain Lead,Contractor / Gig,76722,727,Good (670-739),0.44,Mass Market Prime,Own Outright,BR-105,2024-06-20
+CUST-0042,Scarlett Roberts,55,Female,Attorney / Legal Counsel,Salaried - Public / Govt,171471,679,Good (670-739),0.237,Emerging Prime,Own Mortgage,BR-109,2023-07-15
+CUST-0043,Abigail Martinez,36,Female,Supply Chain Lead,Salaried - Public / Govt,143755,744,Very Good (740-799),0.295,Emerging Prime,Own Outright,BR-107,2023-06-07
+CUST-0044,Theodore Gupta,48,Female,Educator / Professor,Salaried - Private,134714,788,Very Good (740-799),0.325,Emerging Prime,Rent,BR-105,2025-04-08
+CUST-0045,Ananya Wright,56,Other,Small Business Owner,Business Owner,162308,635,Fair (580-669),0.132,Emerging Prime,Own Mortgage,BR-111,2025-05-08
+CUST-0046,Elizabeth Gupta,51,Male,Educator / Professor,Contractor / Gig,42104,545,Poor (500-579),0.156,Subprime / High Risk,Own Mortgage,BR-108,2024-02-07
+CUST-0047,Jackson Taylor,46,Female,Small Business Owner,Business Owner,107943,718,Good (670-739),0.443,Emerging Prime,Rent,BR-105,2023-07-17
+CUST-0048,Carlos Johnson,56,Male,Financial Analyst,Salaried - Public / Govt,173858,789,Very Good (740-799),0.133,Affluent & HNI,Own Mortgage,BR-101,2023-12-09
+CUST-0049,David Rodriguez,52,Other,Healthcare Professional,Contractor / Gig,102172,829,Exceptional (800-850),0.45,Emerging Prime,Own Mortgage,BR-110,2023-09-22
+CUST-0050,Sebastian Martin,28,Other,Software Engineer,Self-Employed Professional,168718,718,Good (670-739),0.205,Emerging Prime,Own Outright,BR-111,2024-06-11
+CUST-0051,Harper Hall,41,Other,Educator / Professor,Salaried - Private,45766,776,Very Good (740-799),0.269,Mass Market Prime,Own Mortgage,BR-106,2023-06-21
+CUST-0052,Wei Adams,43,Male,Operations Manager,Business Owner,155517,626,Fair (580-669),0.424,Emerging Prime,Own Mortgage,BR-112,2026-01-03
+CUST-0053,John Flores,56,Female,Sales Director,Business Owner,194490,777,Very Good (740-799),0.486,Affluent & HNI,Rent,BR-102,2024-08-24
+CUST-0054,Sunita Thomas,51,Other,Educator / Professor,Business Owner,120200,733,Good (670-739),0.198,Emerging Prime,Own Mortgage,BR-105,2024-12-28
+CUST-0055,Scarlett Kulkarni,60,Other,Civil Servant,Contractor / Gig,57442,532,Poor (500-579),0.224,Subprime / High Risk,Own Mortgage,BR-109,2024-06-06
+CUST-0056,Carlos Adams,67,Female,Sales Director,Salaried - Private,291347,534,Poor (500-579),0.225,Emerging Prime,Rent,BR-106,2025-09-26
+CUST-0057,Jin Thompson,49,Other,Civil Engineer,Self-Employed Professional,106019,728,Good (670-739),0.252,Emerging Prime,Own Mortgage,BR-112,2024-02-29
+CUST-0058,Luke Davis,56,Other,Corporate Executive,Salaried - Public / Govt,299945,641,Fair (580-669),0.374,Emerging Prime,Rent,BR-110,2024-09-01
+CUST-0059,Ethan Gupta,34,Female,Small Business Owner,Self-Employed Professional,175020,581,Fair (580-669),0.174,Emerging Prime,Own Mortgage,BR-101,2026-03-09
+CUST-0060,Victoria Hall,30,Other,Sales Director,Salaried - Private,233049,776,Very Good (740-799),0.326,Affluent & HNI,Own Mortgage,BR-101,2024-07-01
+CUST-0061,Maria Davis,26,Female,Sales Director,Salaried - Private,149111,676,Good (670-739),0.469,Emerging Prime,Rent,BR-102,2024-06-22
+CUST-0062,Evelyn Scott,48,Other,Educator / Professor,Contractor / Gig,134713,646,Fair (580-669),0.314,Emerging Prime,Own Mortgage,BR-110,2025-06-27
+CUST-0063,Madison Torres,61,Male,Educator / Professor,Salaried - Private,90318,813,Exceptional (800-850),0.234,Emerging Prime,Own Mortgage,BR-104,2024-01-21
+CUST-0064,Isabella Hernandez,22,Female,Sales Director,Contractor / Gig,185524,674,Good (670-739),0.424,Emerging Prime,Rent,BR-108,2023-06-25
+CUST-0065,Sofia Reddy,38,Other,Educator / Professor,Salaried - Public / Govt,93932,739,Good (670-739),0.398,Emerging Prime,Rent,BR-103,2023-06-26
+CUST-0066,Ava Hernandez,41,Other,Supply Chain Lead,Contractor / Gig,67598,828,Exceptional (800-850),0.322,Mass Market Prime,Own Mortgage,BR-107,2024-08-10
+CUST-0067,Wei Wright,53,Female,Healthcare Professional,Contractor / Gig,119494,547,Poor (500-579),0.38,Emerging Prime,Own Mortgage,BR-104,2023-03-14
+CUST-0068,John Torres,24,Male,Sales Director,Contractor / Gig,157576,798,Very Good (740-799),0.549,Affluent & HNI,Own Mortgage,BR-108,2023-08-05
+CUST-0069,Carlos Thompson,48,Female,Financial Analyst,Salaried - Private,165921,761,Very Good (740-799),0.333,Affluent & HNI,Rent,BR-107,2026-03-02
+CUST-0070,Noah Robinson,27,Female,Civil Servant,Self-Employed Professional,169898,631,Fair (580-669),0.475,Emerging Prime,Own Mortgage,BR-109,2025-09-03
+CUST-0071,Amit Brown,34,Other,Financial Analyst,Contractor / Gig,174613,780,Very Good (740-799),0.142,Affluent & HNI,Own Mortgage,BR-103,2024-09-11
+CUST-0072,Vikram Kulkarni,66,Female,Healthcare Professional,Salaried - Private,97730,838,Exceptional (800-850),0.425,Emerging Prime,Own Mortgage,BR-101,2026-03-07
+CUST-0073,Amit Garcia,36,Male,Sales Director,Salaried - Private,297853,689,Good (670-739),0.246,Emerging Prime,Rent,BR-107,2025-10-15
+CUST-0074,Carlos Thomas,51,Other,Corporate Executive,Business Owner,305636,656,Fair (580-669),0.498,Emerging Prime,Rent,BR-105,2025-05-29
+CUST-0075,Grace Reddy,54,Female,Software Engineer,Self-Employed Professional,188411,793,Very Good (740-799),0.184,Affluent & HNI,Own Outright,BR-106,2024-12-11
+CUST-0076,Yuki Harris,51,Female,Small Business Owner,Salaried - Public / Govt,142682,699,Good (670-739),0.139,Emerging Prime,Rent,BR-112,2025-03-21
+CUST-0077,Layla Nelson,63,Male,Sales Director,Salaried - Private,136309,655,Fair (580-669),0.496,Emerging Prime,Own Mortgage,BR-109,2025-08-23
+CUST-0078,Emma Campbell,31,Female,Attorney / Legal Counsel,Salaried - Public / Govt,198751,570,Poor (500-579),0.388,Emerging Prime,Own Mortgage,BR-102,2024-12-03
+CUST-0079,Kenji Harris,42,Other,Supply Chain Lead,Business Owner,52936,742,Very Good (740-799),0.221,Mass Market Prime,Rent,BR-105,2024-05-10
+CUST-0080,Mia Ramirez,28,Other,Supply Chain Lead,Salaried - Private,42588,708,Good (670-739),0.14,Mass Market Prime,Rent,BR-105,2025-02-03
+CUST-0081,Penelope Ramirez,31,Male,Civil Engineer,Business Owner,79560,693,Good (670-739),0.195,Mass Market Prime,Own Outright,BR-107,2024-06-07
+CUST-0082,Elena Singh,59,Male,Small Business Owner,Business Owner,101932,728,Good (670-739),0.407,Emerging Prime,Rent,BR-108,2024-09-11
+CUST-0083,Yuki Hernandez,26,Female,Financial Analyst,Contractor / Gig,134878,724,Good (670-739),0.483,Emerging Prime,Own Mortgage,BR-107,2025-10-16
+CUST-0084,Harper Thomas,46,Other,Financial Analyst,Contractor / Gig,183794,707,Good (670-739),0.403,Emerging Prime,Own Mortgage,BR-110,2023-05-11
+CUST-0085,Elena Gupta,40,Male,Educator / Professor,Self-Employed Professional,100700,604,Fair (580-669),0.411,Emerging Prime,Rent,BR-111,2023-11-07
+CUST-0086,Ethan Deshmukh,62,Other,Software Engineer,Self-Employed Professional,170991,742,Very Good (740-799),0.177,Affluent & HNI,Rent,BR-106,2025-05-30
+CUST-0087,Jack Gonzalez,30,Other,Financial Analyst,Contractor / Gig,108681,704,Good (670-739),0.513,Emerging Prime,Rent,BR-105,2024-12-24
+CUST-0088,Oliver Robinson,26,Male,Small Business Owner,Business Owner,130885,835,Exceptional (800-850),0.159,Emerging Prime,Own Mortgage,BR-105,2026-02-02
+CUST-0089,Evelyn Robinson,45,Other,Supply Chain Lead,Self-Employed Professional,63402,717,Good (670-739),0.41,Mass Market Prime,Own Outright,BR-110,2026-03-25
+CUST-0090,Luna Singh,61,Male,Attorney / Legal Counsel,Salaried - Private,280194,729,Good (670-739),0.296,Emerging Prime,Own Mortgage,BR-101,2024-10-15
+CUST-0091,Elena Davis,28,Male,Civil Engineer,Salaried - Public / Govt,176608,717,Good (670-739),0.3,Emerging Prime,Rent,BR-103,2025-05-29
+CUST-0092,Ethan Gupta,53,Other,Operations Manager,Self-Employed Professional,91955,543,Poor (500-579),0.311,Emerging Prime,Living with Family,BR-106,2023-08-22
+CUST-0093,Penelope Wright,63,Female,Software Engineer,Business Owner,87015,685,Good (670-739),0.405,Emerging Prime,Own Outright,BR-110,2023-03-15
+CUST-0094,Jackson Sharma,43,Male,Corporate Executive,Contractor / Gig,263716,650,Fair (580-669),0.213,Emerging Prime,Rent,BR-106,2023-11-29
+CUST-0095,James Moore,31,Male,Civil Engineer,Self-Employed Professional,41758,747,Very Good (740-799),0.177,Mass Market Prime,Own Mortgage,BR-104,2024-11-24
+CUST-0096,Liam Lopez,38,Male,Corporate Executive,Business Owner,227512,678,Good (670-739),0.455,Emerging Prime,Own Outright,BR-102,2025-08-13
+CUST-0097,Wei Anderson,61,Male,Supply Chain Lead,Contractor / Gig,50945,673,Good (670-739),0.549,Mass Market Prime,Rent,BR-107,2023-09-09
+CUST-0098,Juan Rivera,50,Male,Healthcare Professional,Self-Employed Professional,68080,678,Good (670-739),0.238,Mass Market Prime,Own Outright,BR-109,2024-11-26
+CUST-0099,Levi Hill,55,Female,Sales Director,Contractor / Gig,281629,682,Good (670-739),0.4,Emerging Prime,Rent,BR-112,2024-04-15
+CUST-0100,Deepa Lewis,36,Female,Financial Analyst,Business Owner,130936,682,Good (670-739),0.254,Emerging Prime,Own Mortgage,BR-103,2025-09-28
+CUST-0101,Aiden Garcia,27,Male,Operations Manager,Salaried - Private,69108,763,Very Good (740-799),0.359,Mass Market Prime,Own Outright,BR-109,2026-03-26
+CUST-0102,Jayden Nelson,29,Female,Financial Analyst,Business Owner,112700,786,Very Good (740-799),0.378,Emerging Prime,Own Mortgage,BR-110,2025-12-05
+CUST-0103,Avery Martinez,64,Female,Small Business Owner,Salaried - Private,65116,717,Good (670-739),0.448,Mass Market Prime,Own Outright,BR-107,2026-03-24
+CUST-0104,Olivia Hill,64,Other,Civil Servant,Salaried - Private,115998,669,Fair (580-669),0.516,Emerging Prime,Own Mortgage,BR-103,2023-11-20
+CUST-0105,Priya Jones,31,Other,Attorney / Legal Counsel,Salaried - Private,208617,553,Poor (500-579),0.301,Emerging Prime,Own Mortgage,BR-106,2024-10-30
+CUST-0106,Luna Roberts,58,Other,Healthcare Professional,Salaried - Private,48044,659,Fair (580-669),0.41,Subprime / High Risk,Own Mortgage,BR-111,2025-06-17
+CUST-0107,Juan Hill,50,Female,Civil Servant,Salaried - Public / Govt,125484,747,Very Good (740-799),0.305,Emerging Prime,Own Mortgage,BR-111,2025-10-23
+CUST-0108,Jin Nelson,41,Male,Small Business Owner,Business Owner,37015,803,Exceptional (800-850),0.208,Mass Market Prime,Rent,BR-103,2024-07-07
+CUST-0109,Victoria Lee,29,Male,Sales Director,Business Owner,294463,628,Fair (580-669),0.219,Emerging Prime,Own Outright,BR-111,2025-01-25
+CUST-0110,Isabella Sanchez,24,Female,Software Engineer,Business Owner,150156,820,Exceptional (800-850),0.294,Affluent & HNI,Own Outright,BR-105,2023-09-23
+CUST-0111,Priya Johnson,42,Male,Educator / Professor,Business Owner,129857,798,Very Good (740-799),0.158,Emerging Prime,Rent,BR-104,2025-07-11
+CUST-0112,Priya King,27,Female,Civil Servant,Self-Employed Professional,55022,601,Fair (580-669),0.34,Subprime / High Risk,Own Mortgage,BR-109,2024-03-03
+CUST-0113,Dylan Thompson,68,Other,Corporate Executive,Salaried - Public / Govt,155481,612,Fair (580-669),0.379,Emerging Prime,Rent,BR-111,2023-07-04
+CUST-0114,Jack Roberts,62,Female,Sales Director,Contractor / Gig,274421,768,Very Good (740-799),0.256,Affluent & HNI,Own Mortgage,BR-108,2025-07-24
+CUST-0115,Carter Sharma,39,Other,Software Engineer,Self-Employed Professional,134233,709,Good (670-739),0.136,Emerging Prime,Own Mortgage,BR-105,2023-07-07
+CUST-0116,Mia Flores,60,Other,Operations Manager,Business Owner,152894,675,Good (670-739),0.511,Emerging Prime,Own Outright,BR-104,2024-11-19
+CUST-0117,Carlos Allen,31,Male,Sales Director,Salaried - Private,297253,793,Very Good (740-799),0.156,Affluent & HNI,Own Outright,BR-101,2024-06-21
+CUST-0118,Vikram Lewis,55,Other,Educator / Professor,Salaried - Public / Govt,136558,706,Good (670-739),0.296,Emerging Prime,Own Mortgage,BR-110,2023-05-18
+CUST-0119,Jayden Jones,43,Male,Civil Engineer,Business Owner,122388,689,Good (670-739),0.155,Emerging Prime,Rent,BR-106,2024-10-27
+CUST-0120,Rajesh Rodriguez,60,Other,Healthcare Professional,Self-Employed Professional,68500,712,Good (670-739),0.408,Mass Market Prime,Rent,BR-112,2026-01-13
+CUST-0121,Mia Adams,64,Female,Civil Engineer,Self-Employed Professional,82254,539,Poor (500-579),0.529,Subprime / High Risk,Own Mortgage,BR-108,2024-02-28
+CUST-0122,Samuel Rodriguez,31,Male,Civil Servant,Salaried - Private,173027,739,Good (670-739),0.136,Emerging Prime,Own Mortgage,BR-110,2023-10-26
+CUST-0123,Levi Martinez,32,Male,Supply Chain Lead,Contractor / Gig,149733,750,Very Good (740-799),0.139,Emerging Prime,Own Mortgage,BR-112,2024-05-31
+CUST-0124,Vikram Flores,40,Other,Sales Director,Salaried - Public / Govt,160860,709,Good (670-739),0.278,Emerging Prime,Rent,BR-108,2025-09-02
+CUST-0125,Wyatt Roberts,46,Other,Civil Engineer,Business Owner,71280,812,Exceptional (800-850),0.495,Mass Market Prime,Own Mortgage,BR-108,2025-03-01
+CUST-0126,Harper Rivera,55,Male,Civil Servant,Salaried - Private,152786,757,Very Good (740-799),0.509,Affluent & HNI,Own Mortgage,BR-107,2023-08-06
+CUST-0127,Samuel Verma,50,Female,Software Engineer,Business Owner,105903,552,Poor (500-579),0.286,Emerging Prime,Own Mortgage,BR-104,2023-03-29
+CUST-0128,Luke Reddy,28,Other,Attorney / Legal Counsel,Self-Employed Professional,185203,748,Very Good (740-799),0.514,Affluent & HNI,Own Outright,BR-103,2025-09-17
+CUST-0129,Sunita Flores,22,Male,Software Engineer,Self-Employed Professional,170320,599,Fair (580-669),0.382,Emerging Prime,Own Mortgage,BR-105,2024-05-31
+CUST-0130,Carter Davis,25,Male,Operations Manager,Contractor / Gig,166027,684,Good (670-739),0.377,Emerging Prime,Own Mortgage,BR-109,2024-06-09
+CUST-0131,Henry Jackson,49,Male,Educator / Professor,Self-Employed Professional,84103,633,Fair (580-669),0.406,Subprime / High Risk,Own Mortgage,BR-106,2023-06-18
+CUST-0132,Jin Wright,54,Other,Civil Engineer,Salaried - Private,46412,730,Good (670-739),0.393,Mass Market Prime,Living with Family,BR-105,2023-03-05
+CUST-0133,Chloe Sharma,26,Female,Small Business Owner,Salaried - Private,122167,787,Very Good (740-799),0.177,Emerging Prime,Own Mortgage,BR-106,2024-01-24
+CUST-0134,Kavita Hall,52,Other,Corporate Executive,Salaried - Public / Govt,119695,569,Poor (500-579),0.246,Emerging Prime,Own Mortgage,BR-104,2023-04-26
+CUST-0135,Luke Reddy,41,Other,Operations Manager,Contractor / Gig,85096,674,Good (670-739),0.243,Emerging Prime,Rent,BR-101,2024-12-10
+CUST-0136,John Davis,45,Female,Operations Manager,Business Owner,123876,764,Very Good (740-799),0.539,Emerging Prime,Own Outright,BR-108,2025-02-21
+CUST-0137,Chen Moore,27,Other,Operations Manager,Salaried - Private,177992,693,Good (670-739),0.246,Emerging Prime,Own Mortgage,BR-106,2024-09-27
+CUST-0138,Madison Lewis,60,Other,Operations Manager,Salaried - Public / Govt,152212,762,Very Good (740-799),0.138,Affluent & HNI,Rent,BR-106,2025-07-09
+CUST-0139,Scarlett Green,25,Male,Attorney / Legal Counsel,Business Owner,147428,690,Good (670-739),0.485,Emerging Prime,Rent,BR-108,2023-04-12
+CUST-0140,Alexander Jones,37,Other,Financial Analyst,Self-Employed Professional,164006,674,Good (670-739),0.313,Emerging Prime,Own Mortgage,BR-108,2023-07-07
+CUST-0141,Abigail King,45,Female,Financial Analyst,Self-Employed Professional,171426,594,Fair (580-669),0.2,Emerging Prime,Own Outright,BR-109,2023-09-29
+CUST-0142,Aria Roberts,38,Other,Sales Director,Salaried - Public / Govt,162475,818,Exceptional (800-850),0.173,Affluent & HNI,Rent,BR-108,2024-01-19
+CUST-0143,Vikram Garcia,65,Female,Attorney / Legal Counsel,Self-Employed Professional,186116,775,Very Good (740-799),0.503,Affluent & HNI,Rent,BR-112,2024-01-22
+CUST-0144,Grayson Allen,36,Male,Small Business Owner,Salaried - Public / Govt,41890,643,Fair (580-669),0.275,Subprime / High Risk,Own Outright,BR-108,2026-03-05
+CUST-0145,Alexander Flores,27,Male,Civil Servant,Business Owner,160479,846,Exceptional (800-850),0.346,Affluent & HNI,Rent,BR-110,2023-07-01
+CUST-0146,Alexander Lee,63,Male,Sales Director,Business Owner,314541,762,Very Good (740-799),0.357,Affluent & HNI,Own Outright,BR-103,2025-07-05
+CUST-0147,Wei Singh,25,Male,Civil Engineer,Salaried - Public / Govt,119583,690,Good (670-739),0.522,Emerging Prime,Own Mortgage,BR-109,2024-09-03
+CUST-0148,Lucas Taylor,34,Other,Civil Engineer,Self-Employed Professional,174848,618,Fair (580-669),0.16,Emerging Prime,Own Outright,BR-110,2023-12-12
+CUST-0149,Elizabeth Nelson,61,Other,Educator / Professor,Self-Employed Professional,45798,776,Very Good (740-799),0.475,Mass Market Prime,Own Mortgage,BR-101,2024-07-26
+CUST-0150,Theodore Roberts,58,Female,Educator / Professor,Salaried - Private,110935,739,Good (670-739),0.396,Emerging Prime,Own Mortgage,BR-104,2025-05-11
+CUST-0151,Carter Robinson,26,Other,Software Engineer,Salaried - Public / Govt,101741,731,Good (670-739),0.266,Emerging Prime,Own Mortgage,BR-112,2024-11-14
+CUST-0152,Dylan Sanchez,30,Female,Civil Engineer,Contractor / Gig,157282,610,Fair (580-669),0.173,Emerging Prime,Own Mortgage,BR-103,2023-08-17
+CUST-0153,Jackson Jackson,46,Other,Operations Manager,Salaried - Public / Govt,120835,810,Exceptional (800-850),0.522,Emerging Prime,Rent,BR-104,2023-12-23
+CUST-0154,Elena Allen,51,Female,Civil Servant,Business Owner,167499,545,Poor (500-579),0.317,Emerging Prime,Own Mortgage,BR-110,2025-01-22
+CUST-0155,Jackson Brown,40,Female,Educator / Professor,Business Owner,63179,671,Good (670-739),0.305,Mass Market Prime,Rent,BR-112,2025-02-18
+CUST-0156,Priya White,24,Female,Software Engineer,Contractor / Gig,84637,716,Good (670-739),0.286,Mass Market Prime,Own Outright,BR-109,2024-08-25
+CUST-0157,Evelyn Rodriguez,28,Female,Financial Analyst,Self-Employed Professional,101090,716,Good (670-739),0.379,Emerging Prime,Own Mortgage,BR-101,2023-05-03
+CUST-0158,Noah Rodriguez,67,Female,Sales Director,Contractor / Gig,195974,735,Good (670-739),0.52,Emerging Prime,Own Mortgage,BR-107,2024-10-04
+CUST-0159,Grace Allen,54,Other,Sales Director,Contractor / Gig,196832,672,Good (670-739),0.41,Emerging Prime,Living with Family,BR-110,2024-10-22
+CUST-0160,Olivia Hill,52,Female,Attorney / Legal Counsel,Contractor / Gig,154698,676,Good (670-739),0.345,Emerging Prime,Rent,BR-107,2023-11-29
+CUST-0161,Camila Williams,58,Other,Healthcare Professional,Salaried - Public / Govt,144780,540,Poor (500-579),0.185,Emerging Prime,Rent,BR-107,2025-11-23
+CUST-0162,Carlos Nair,68,Male,Supply Chain Lead,Salaried - Public / Govt,160402,711,Good (670-739),0.346,Emerging Prime,Own Mortgage,BR-103,2025-08-29
+CUST-0163,Kenji Perez,56,Female,Attorney / Legal Counsel,Self-Employed Professional,183139,694,Good (670-739),0.36,Emerging Prime,Own Mortgage,BR-105,2024-09-13
+CUST-0164,Theodore Hall,67,Female,Financial Analyst,Business Owner,90974,705,Good (670-739),0.367,Emerging Prime,Own Outright,BR-107,2025-01-06
+CUST-0165,Henry Jackson,24,Female,Supply Chain Lead,Salaried - Private,102225,726,Good (670-739),0.441,Emerging Prime,Own Mortgage,BR-109,2024-08-08
+CUST-0166,John Rodriguez,28,Other,Supply Chain Lead,Contractor / Gig,174209,586,Fair (580-669),0.217,Emerging Prime,Own Mortgage,BR-102,2025-05-26
+CUST-0167,Jayden Rivera,52,Male,Attorney / Legal Counsel,Salaried - Public / Govt,216668,555,Poor (500-579),0.401,Emerging Prime,Rent,BR-108,2025-10-04
+CUST-0168,Ella Carter,40,Female,Civil Servant,Salaried - Private,95875,805,Exceptional (800-850),0.35,Emerging Prime,Rent,BR-101,2024-01-24
+CUST-0169,Ananya Kulkarni,33,Male,Operations Manager,Business Owner,44821,617,Fair (580-669),0.124,Subprime / High Risk,Own Outright,BR-102,2024-12-17
+CUST-0170,Wyatt Robinson,63,Other,Civil Engineer,Business Owner,167176,748,Very Good (740-799),0.321,Affluent & HNI,Own Mortgage,BR-102,2024-12-08
+CUST-0171,Sebastian Campbell,51,Other,Civil Servant,Salaried - Public / Govt,112338,541,Poor (500-579),0.364,Emerging Prime,Rent,BR-103,2025-05-10
+CUST-0172,Arjun Allen,42,Male,Operations Manager,Salaried - Private,160161,597,Fair (580-669),0.259,Emerging Prime,Own Mortgage,BR-105,2025-03-26
+CUST-0173,David Lewis,39,Female,Civil Servant,Contractor / Gig,103564,740,Very Good (740-799),0.401,Emerging Prime,Rent,BR-101,2023-09-30
+CUST-0174,Kavita Martin,32,Female,Attorney / Legal Counsel,Contractor / Gig,290955,845,Exceptional (800-850),0.17,Affluent & HNI,Rent,BR-105,2025-02-21
+CUST-0175,Samuel Anderson,30,Female,Corporate Executive,Business Owner,219011,778,Very Good (740-799),0.422,Affluent & HNI,Rent,BR-109,2024-04-22
+CUST-0176,Camila Baker,60,Male,Civil Engineer,Business Owner,55474,716,Good (670-739),0.514,Mass Market Prime,Own Mortgage,BR-109,2025-12-01
+CUST-0177,Ella Torres,56,Male,Corporate Executive,Self-Employed Professional,288335,768,Very Good (740-799),0.208,Affluent & HNI,Own Outright,BR-102,2025-12-11
+CUST-0178,Sunita Patel,25,Female,Corporate Executive,Contractor / Gig,286362,677,Good (670-739),0.467,Emerging Prime,Rent,BR-107,2024-07-05
+CUST-0179,James Mitchell,35,Other,Healthcare Professional,Salaried - Private,176862,678,Good (670-739),0.547,Emerging Prime,Rent,BR-102,2025-09-23
+CUST-0180,Noah Jackson,48,Male,Corporate Executive,Business Owner,208958,718,Good (670-739),0.282,Emerging Prime,Rent,BR-111,2026-02-08
+CUST-0181,Abigail Adams,44,Male,Corporate Executive,Contractor / Gig,110910,686,Good (670-739),0.445,Emerging Prime,Living with Family,BR-108,2026-02-19
+CUST-0182,Arjun Wright,46,Male,Small Business Owner,Business Owner,84409,705,Good (670-739),0.523,Mass Market Prime,Rent,BR-102,2023-04-06
+CUST-0183,Ananya Flores,23,Male,Small Business Owner,Salaried - Private,152031,584,Fair (580-669),0.377,Emerging Prime,Rent,BR-101,2024-06-15
+CUST-0184,Sophia Sanchez,50,Male,Civil Engineer,Salaried - Public / Govt,49796,789,Very Good (740-799),0.18,Mass Market Prime,Living with Family,BR-104,2024-11-14
+CUST-0185,Luna Thomas,41,Male,Attorney / Legal Counsel,Contractor / Gig,125979,618,Fair (580-669),0.359,Emerging Prime,Own Outright,BR-112,2024-01-24
+CUST-0186,Arjun Scott,53,Male,Financial Analyst,Business Owner,128511,760,Very Good (740-799),0.184,Emerging Prime,Own Mortgage,BR-109,2025-09-26
+CUST-0187,David Iyer,36,Female,Supply Chain Lead,Salaried - Public / Govt,50105,798,Very Good (740-799),0.362,Mass Market Prime,Living with Family,BR-109,2026-01-20
+CUST-0188,Abigail Harris,37,Female,Small Business Owner,Self-Employed Professional,132275,727,Good (670-739),0.16,Emerging Prime,Rent,BR-104,2023-05-16
+CUST-0189,John Harris,65,Other,Educator / Professor,Salaried - Private,91889,752,Very Good (740-799),0.326,Emerging Prime,Rent,BR-106,2024-10-12
+CUST-0190,Emma Wilson,34,Other,Healthcare Professional,Business Owner,88611,844,Exceptional (800-850),0.291,Emerging Prime,Own Mortgage,BR-106,2024-09-01
+CUST-0191,Levi Robinson,56,Other,Financial Analyst,Self-Employed Professional,136080,735,Good (670-739),0.162,Emerging Prime,Living with Family,BR-108,2024-11-16
+CUST-0192,Theodore White,42,Female,Software Engineer,Contractor / Gig,77125,787,Very Good (740-799),0.232,Mass Market Prime,Rent,BR-110,2025-06-04
+CUST-0193,Victoria Martinez,34,Female,Small Business Owner,Business Owner,165888,701,Good (670-739),0.357,Emerging Prime,Rent,BR-106,2024-07-11
+CUST-0194,Juan Campbell,63,Other,Sales Director,Business Owner,146689,625,Fair (580-669),0.43,Emerging Prime,Own Outright,BR-109,2023-05-31
+CUST-0195,Jin Williams,26,Other,Software Engineer,Salaried - Private,167690,699,Good (670-739),0.185,Emerging Prime,Own Mortgage,BR-108,2025-03-05
+CUST-0196,Ava Flores,62,Other,Educator / Professor,Business Owner,36733,741,Very Good (740-799),0.349,Mass Market Prime,Own Mortgage,BR-101,2026-01-19
+CUST-0197,Scarlett Wright,40,Male,Civil Engineer,Business Owner,81993,798,Very Good (740-799),0.166,Mass Market Prime,Own Mortgage,BR-103,2024-06-07
+CUST-0198,Owen Flores,55,Female,Financial Analyst,Self-Employed Professional,128218,745,Very Good (740-799),0.317,Emerging Prime,Own Mortgage,BR-112,2024-05-07
+CUST-0199,Carter Baker,27,Other,Attorney / Legal Counsel,Salaried - Private,254887,544,Poor (500-579),0.325,Emerging Prime,Own Outright,BR-112,2024-01-16
+CUST-0200,Lucas Young,49,Other,Financial Analyst,Contractor / Gig,80577,806,Exceptional (800-850),0.219,Mass Market Prime,Rent,BR-112,2026-04-05
+CUST-0201,Carlos Moore,24,Male,Attorney / Legal Counsel,Self-Employed Professional,157016,776,Very Good (740-799),0.519,Affluent & HNI,Own Mortgage,BR-104,2023-11-22
+CUST-0202,Rajesh Reddy,26,Female,Corporate Executive,Contractor / Gig,196960,629,Fair (580-669),0.285,Emerging Prime,Rent,BR-112,2023-07-10
+CUST-0203,Wei Mitchell,44,Male,Healthcare Professional,Business Owner,124284,589,Fair (580-669),0.38,Emerging Prime,Own Outright,BR-110,2025-04-22
+CUST-0204,Luna Johnson,62,Female,Sales Director,Business Owner,223206,650,Fair (580-669),0.2,Emerging Prime,Own Outright,BR-107,2023-07-25
+CUST-0205,Victoria Patel,37,Other,Healthcare Professional,Salaried - Private,75442,718,Good (670-739),0.438,Mass Market Prime,Own Mortgage,BR-102,2023-08-06
+CUST-0206,James Martin,50,Female,Civil Servant,Salaried - Private,147978,603,Fair (580-669),0.313,Emerging Prime,Own Outright,BR-107,2023-08-30
+CUST-0207,Olivia Garcia,44,Other,Healthcare Professional,Contractor / Gig,135987,711,Good (670-739),0.125,Emerging Prime,Own Mortgage,BR-102,2026-03-21
+CUST-0208,Camila Torres,55,Male,Attorney / Legal Counsel,Business Owner,180361,614,Fair (580-669),0.332,Emerging Prime,Own Mortgage,BR-107,2024-08-18
+CUST-0209,Ananya Martin,52,Male,Financial Analyst,Self-Employed Professional,152831,846,Exceptional (800-850),0.385,Affluent & HNI,Own Outright,BR-103,2024-10-15
+CUST-0210,James Sanchez,43,Other,Operations Manager,Self-Employed Professional,70684,725,Good (670-739),0.249,Mass Market Prime,Own Outright,BR-112,2024-03-17
+CUST-0211,Maria Lee,33,Female,Financial Analyst,Self-Employed Professional,150481,780,Very Good (740-799),0.456,Affluent & HNI,Own Mortgage,BR-105,2025-04-14
+CUST-0212,Grayson Davis,58,Male,Educator / Professor,Contractor / Gig,42055,650,Fair (580-669),0.53,Subprime / High Risk,Own Outright,BR-112,2024-04-04
+CUST-0213,Vikram Patel,40,Other,Healthcare Professional,Business Owner,114385,748,Very Good (740-799),0.224,Emerging Prime,Rent,BR-112,2025-06-15
+CUST-0214,Levi Jones,50,Other,Sales Director,Contractor / Gig,252513,734,Good (670-739),0.136,Emerging Prime,Living with Family,BR-112,2026-02-03
+CUST-0215,Lucas Miller,37,Other,Attorney / Legal Counsel,Self-Employed Professional,257644,658,Fair (580-669),0.543,Emerging Prime,Rent,BR-107,2024-12-10
+CUST-0216,Deepa Miller,22,Male,Civil Servant,Salaried - Public / Govt,92942,736,Good (670-739),0.312,Emerging Prime,Own Mortgage,BR-111,2025-11-20
+CUST-0217,Emily Thompson,23,Female,Healthcare Professional,Self-Employed Professional,65426,680,Good (670-739),0.477,Mass Market Prime,Rent,BR-106,2024-10-30
+CUST-0218,Grace Robinson,35,Other,Sales Director,Self-Employed Professional,193600,726,Good (670-739),0.149,Emerging Prime,Own Mortgage,BR-112,2023-09-23
+CUST-0219,Liam Iyer,43,Other,Healthcare Professional,Salaried - Public / Govt,98940,847,Exceptional (800-850),0.342,Emerging Prime,Own Outright,BR-106,2026-03-22
+CUST-0220,Arjun Robinson,36,Female,Attorney / Legal Counsel,Salaried - Public / Govt,213699,664,Fair (580-669),0.133,Emerging Prime,Own Outright,BR-104,2025-08-08
+CUST-0221,Arjun Harris,22,Other,Small Business Owner,Salaried - Public / Govt,61673,678,Good (670-739),0.464,Mass Market Prime,Own Outright,BR-106,2024-11-28
+CUST-0222,Ella Robinson,29,Female,Attorney / Legal Counsel,Business Owner,270250,710,Good (670-739),0.289,Emerging Prime,Own Mortgage,BR-106,2025-08-25
+CUST-0223,Jack Verma,65,Other,Civil Servant,Contractor / Gig,117099,687,Good (670-739),0.171,Emerging Prime,Own Mortgage,BR-103,2025-03-05
+CUST-0224,Henry Allen,46,Female,Educator / Professor,Salaried - Public / Govt,83694,724,Good (670-739),0.329,Mass Market Prime,Own Outright,BR-111,2024-01-20
+CUST-0225,Elizabeth Young,40,Male,Corporate Executive,Self-Employed Professional,204119,779,Very Good (740-799),0.529,Affluent & HNI,Own Outright,BR-104,2025-03-27
+CUST-0226,Wei Adams,53,Female,Attorney / Legal Counsel,Business Owner,153844,726,Good (670-739),0.156,Emerging Prime,Own Mortgage,BR-104,2024-09-20
+CUST-0227,Noah Moore,36,Other,Civil Servant,Salaried - Public / Govt,164843,776,Very Good (740-799),0.356,Affluent & HNI,Own Mortgage,BR-102,2024-08-01
+CUST-0228,Yuki Verma,45,Other,Software Engineer,Business Owner,171467,724,Good (670-739),0.477,Emerging Prime,Rent,BR-105,2023-04-07
+CUST-0229,Sunita Taylor,44,Male,Sales Director,Salaried - Private,303360,755,Very Good (740-799),0.373,Affluent & HNI,Own Mortgage,BR-112,2025-06-25
+CUST-0230,Elizabeth Flores,30,Male,Small Business Owner,Salaried - Private,108684,738,Good (670-739),0.377,Emerging Prime,Own Mortgage,BR-112,2024-09-21
+CUST-0231,Victoria Torres,39,Other,Attorney / Legal Counsel,Salaried - Private,182698,632,Fair (580-669),0.493,Emerging Prime,Own Mortgage,BR-103,2024-06-25
+CUST-0232,Henry Rivera,42,Male,Attorney / Legal Counsel,Business Owner,208349,704,Good (670-739),0.314,Emerging Prime,Own Outright,BR-102,2025-05-05
+CUST-0233,Mei Mitchell,39,Other,Financial Analyst,Business Owner,188889,820,Exceptional (800-850),0.453,Affluent & HNI,Rent,BR-112,2025-08-26
+CUST-0234,Chloe Iyer,26,Other,Operations Manager,Salaried - Public / Govt,164686,813,Exceptional (800-850),0.235,Affluent & HNI,Rent,BR-106,2026-02-24
+CUST-0235,Alexander Torres,53,Female,Attorney / Legal Counsel,Salaried - Private,114268,560,Poor (500-579),0.173,Emerging Prime,Rent,BR-108,2025-08-22
+CUST-0236,James Ramirez,34,Other,Corporate Executive,Self-Employed Professional,281596,615,Fair (580-669),0.275,Emerging Prime,Own Mortgage,BR-111,2024-01-04
+CUST-0237,Jackson Sanchez,62,Female,Supply Chain Lead,Salaried - Public / Govt,59951,681,Good (670-739),0.12,Mass Market Prime,Own Outright,BR-103,2024-05-08
+CUST-0238,Chen Baker,50,Male,Software Engineer,Self-Employed Professional,165968,795,Very Good (740-799),0.177,Affluent & HNI,Own Mortgage,BR-107,2023-08-01
+CUST-0239,Harper Miller,42,Female,Civil Servant,Salaried - Public / Govt,72448,687,Good (670-739),0.149,Mass Market Prime,Own Outright,BR-110,2024-01-02
+CUST-0240,Vikram Thompson,68,Male,Attorney / Legal Counsel,Salaried - Public / Govt,166949,839,Exceptional (800-850),0.157,Affluent & HNI,Own Mortgage,BR-102,2025-03-27
+CUST-0241,Dylan Ramirez,42,Male,Small Business Owner,Self-Employed Professional,109690,701,Good (670-739),0.455,Emerging Prime,Rent,BR-111,2024-10-09
+CUST-0242,Theodore King,60,Other,Small Business Owner,Business Owner,97741,676,Good (670-739),0.333,Emerging Prime,Own Mortgage,BR-108,2023-06-25
+CUST-0243,Jin Kulkarni,22,Female,Financial Analyst,Salaried - Public / Govt,146612,723,Good (670-739),0.414,Emerging Prime,Rent,BR-102,2023-03-06
+CUST-0244,Aiden Smith,38,Male,Software Engineer,Salaried - Private,112550,825,Exceptional (800-850),0.39,Emerging Prime,Own Outright,BR-107,2025-06-16
+CUST-0245,Priya Garcia,62,Other,Civil Engineer,Contractor / Gig,116240,590,Fair (580-669),0.154,Emerging Prime,Rent,BR-103,2026-02-02
+CUST-0246,Luna Sanchez,59,Other,Attorney / Legal Counsel,Salaried - Private,125179,725,Good (670-739),0.225,Emerging Prime,Rent,BR-102,2025-08-16
+CUST-0247,Ava Martin,64,Other,Attorney / Legal Counsel,Salaried - Public / Govt,152947,597,Fair (580-669),0.333,Emerging Prime,Own Mortgage,BR-109,2024-07-14
+CUST-0248,Elizabeth White,30,Other,Civil Servant,Salaried - Private,122821,741,Very Good (740-799),0.467,Emerging Prime,Own Mortgage,BR-102,2024-07-22
+CUST-0249,Isabella Young,51,Other,Financial Analyst,Salaried - Private,95618,691,Good (670-739),0.23,Emerging Prime,Own Mortgage,BR-110,2023-09-24
+CUST-0250,Sofia Mitchell,54,Male,Software Engineer,Salaried - Private,125197,640,Fair (580-669),0.516,Emerging Prime,Own Mortgage,BR-101,2026-03-08
+CUST-0251,Ananya Anderson,42,Male,Operations Manager,Self-Employed Professional,132729,679,Good (670-739),0.171,Emerging Prime,Rent,BR-101,2024-02-02
+CUST-0252,Samuel Patel,55,Male,Operations Manager,Salaried - Private,109005,795,Very Good (740-799),0.453,Emerging Prime,Own Mortgage,BR-102,2026-03-08
+CUST-0253,Rahul Smith,45,Male,Civil Servant,Contractor / Gig,98591,787,Very Good (740-799),0.319,Emerging Prime,Own Outright,BR-108,2024-03-06
+CUST-0254,Yuki Carter,37,Male,Software Engineer,Business Owner,158354,554,Poor (500-579),0.481,Emerging Prime,Rent,BR-106,2023-02-02
+CUST-0255,Levi Iyer,68,Female,Healthcare Professional,Salaried - Public / Govt,145052,700,Good (670-739),0.332,Emerging Prime,Own Mortgage,BR-103,2024-08-26
+CUST-0256,Mia Williams,36,Other,Operations Manager,Self-Employed Professional,60054,680,Good (670-739),0.337,Mass Market Prime,Own Outright,BR-107,2023-07-03
+CUST-0257,Ava Ramirez,64,Male,Small Business Owner,Self-Employed Professional,138010,710,Good (670-739),0.421,Emerging Prime,Rent,BR-106,2025-08-15
+CUST-0258,John Anderson,26,Male,Corporate Executive,Contractor / Gig,227851,593,Fair (580-669),0.32,Emerging Prime,Own Mortgage,BR-109,2025-02-02
+CUST-0259,Theodore Lewis,41,Female,Civil Servant,Salaried - Private,114748,571,Poor (500-579),0.475,Emerging Prime,Rent,BR-101,2024-04-15
+CUST-0260,Luna Martinez,27,Other,Small Business Owner,Self-Employed Professional,113339,676,Good (670-739),0.232,Emerging Prime,Living with Family,BR-101,2025-05-08
+CUST-0261,Sunita Scott,57,Male,Healthcare Professional,Business Owner,66838,597,Fair (580-669),0.125,Subprime / High Risk,Rent,BR-104,2023-10-25
+CUST-0262,Ella Verma,47,Female,Attorney / Legal Counsel,Salaried - Private,115714,703,Good (670-739),0.549,Emerging Prime,Own Mortgage,BR-111,2025-07-27
+CUST-0263,Alexander Garcia,43,Male,Software Engineer,Business Owner,182699,579,Poor (500-579),0.432,Emerging Prime,Own Outright,BR-107,2025-06-22
+CUST-0264,Jack Thompson,35,Male,Civil Servant,Self-Employed Professional,44083,689,Good (670-739),0.384,Mass Market Prime,Own Outright,BR-111,2024-09-26
+CUST-0265,Elena Clark,57,Female,Software Engineer,Salaried - Private,101143,687,Good (670-739),0.396,Emerging Prime,Rent,BR-104,2026-02-17
+CUST-0266,Liam Harris,67,Female,Sales Director,Contractor / Gig,194306,762,Very Good (740-799),0.287,Affluent & HNI,Own Mortgage,BR-106,2024-04-23
+CUST-0267,Olivia Deshmukh,39,Male,Sales Director,Contractor / Gig,136249,699,Good (670-739),0.227,Emerging Prime,Own Mortgage,BR-109,2023-05-25
+CUST-0268,Samuel Torres,46,Female,Corporate Executive,Salaried - Public / Govt,265074,620,Fair (580-669),0.132,Emerging Prime,Rent,BR-110,2026-03-30
+CUST-0269,Henry Torres,34,Female,Civil Engineer,Self-Employed Professional,58660,584,Fair (580-669),0.144,Subprime / High Risk,Own Outright,BR-101,2026-01-13
+CUST-0270,Maria Smith,43,Other,Small Business Owner,Salaried - Public / Govt,119826,692,Good (670-739),0.146,Emerging Prime,Own Mortgage,BR-112,2023-11-17
+CUST-0271,Oliver Iyer,55,Female,Healthcare Professional,Self-Employed Professional,138703,782,Very Good (740-799),0.372,Emerging Prime,Own Mortgage,BR-106,2023-11-06
+CUST-0272,Sebastian Campbell,49,Other,Sales Director,Self-Employed Professional,168520,651,Fair (580-669),0.406,Emerging Prime,Rent,BR-107,2024-10-20
+CUST-0273,Victoria Rodriguez,33,Other,Software Engineer,Contractor / Gig,153956,674,Good (670-739),0.257,Emerging Prime,Rent,BR-110,2024-04-27
+CUST-0274,Harper Reddy,53,Male,Financial Analyst,Salaried - Private,158386,620,Fair (580-669),0.501,Emerging Prime,Own Mortgage,BR-112,2024-12-18
+CUST-0275,Sunita Smith,38,Male,Small Business Owner,Salaried - Private,35335,683,Good (670-739),0.141,Mass Market Prime,Own Mortgage,BR-107,2024-01-06
+CUST-0276,Amit Young,46,Female,Civil Engineer,Business Owner,94135,641,Fair (580-669),0.19,Emerging Prime,Own Mortgage,BR-101,2024-09-25
+CUST-0277,Liam Lee,38,Male,Healthcare Professional,Self-Employed Professional,77180,628,Fair (580-669),0.435,Subprime / High Risk,Own Outright,BR-102,2024-12-23
+CUST-0278,Maria Rivera,23,Female,Attorney / Legal Counsel,Salaried - Public / Govt,124039,725,Good (670-739),0.164,Emerging Prime,Own Mortgage,BR-104,2025-05-18
+CUST-0279,Yuki Taylor,64,Female,Civil Servant,Salaried - Public / Govt,179090,545,Poor (500-579),0.481,Emerging Prime,Own Mortgage,BR-106,2023-02-07
+CUST-0280,Arjun Garcia,40,Other,Attorney / Legal Counsel,Contractor / Gig,164251,682,Good (670-739),0.193,Emerging Prime,Own Mortgage,BR-102,2025-09-26
+CUST-0281,Oliver Martin,47,Female,Sales Director,Self-Employed Professional,158465,554,Poor (500-579),0.28,Emerging Prime,Own Mortgage,BR-103,2025-07-31
+CUST-0282,Sophia Taylor,50,Female,Civil Servant,Salaried - Public / Govt,51158,776,Very Good (740-799),0.185,Mass Market Prime,Rent,BR-102,2023-07-25
+CUST-0283,Dylan Patel,56,Female,Educator / Professor,Salaried - Public / Govt,171991,719,Good (670-739),0.3,Emerging Prime,Own Outright,BR-108,2024-05-27
+CUST-0284,Carlos Martin,27,Female,Supply Chain Lead,Salaried - Private,73652,736,Good (670-739),0.172,Mass Market Prime,Rent,BR-103,2024-01-08
+CUST-0285,Avery Patel,34,Male,Software Engineer,Business Owner,101465,563,Poor (500-579),0.549,Emerging Prime,Own Outright,BR-110,2024-07-12
+CUST-0286,Luke Singh,68,Male,Healthcare Professional,Business Owner,107404,711,Good (670-739),0.343,Emerging Prime,Rent,BR-101,2026-01-05
+CUST-0287,Ananya Davis,48,Male,Corporate Executive,Contractor / Gig,257504,682,Good (670-739),0.455,Emerging Prime,Rent,BR-109,2025-01-04
+CUST-0288,Amit Taylor,46,Other,Sales Director,Contractor / Gig,182198,674,Good (670-739),0.293,Emerging Prime,Own Outright,BR-111,2025-05-02
+CUST-0289,Noah Sanchez,43,Other,Small Business Owner,Salaried - Private,105407,798,Very Good (740-799),0.506,Emerging Prime,Own Mortgage,BR-105,2024-10-28
+CUST-0290,Scarlett Gupta,53,Other,Attorney / Legal Counsel,Salaried - Private,188769,814,Exceptional (800-850),0.539,Affluent & HNI,Own Mortgage,BR-106,2024-08-04
+CUST-0291,Ananya Hill,63,Male,Small Business Owner,Business Owner,161998,632,Fair (580-669),0.447,Emerging Prime,Rent,BR-101,2025-12-21
+CUST-0292,Sebastian Jones,41,Other,Civil Engineer,Business Owner,42588,647,Fair (580-669),0.195,Subprime / High Risk,Rent,BR-104,2023-05-29
+CUST-0293,Camila Williams,51,Male,Financial Analyst,Salaried - Public / Govt,127028,729,Good (670-739),0.393,Emerging Prime,Own Mortgage,BR-101,2024-06-09
+CUST-0294,Penelope Young,60,Female,Corporate Executive,Business Owner,152864,714,Good (670-739),0.48,Emerging Prime,Own Mortgage,BR-112,2023-08-04
+CUST-0295,Wyatt Johnson,46,Male,Corporate Executive,Contractor / Gig,279706,753,Very Good (740-799),0.217,Affluent & HNI,Own Mortgage,BR-111,2025-05-18
+CUST-0296,Mei Johnson,65,Male,Sales Director,Salaried - Public / Govt,176162,671,Good (670-739),0.382,Emerging Prime,Rent,BR-112,2024-08-16
+CUST-0297,Arjun Deshmukh,46,Female,Sales Director,Self-Employed Professional,273474,618,Fair (580-669),0.291,Emerging Prime,Own Mortgage,BR-109,2025-03-07
+CUST-0298,Wyatt Martin,65,Male,Sales Director,Salaried - Private,182583,705,Good (670-739),0.232,Emerging Prime,Rent,BR-111,2024-10-03
+CUST-0299,Owen Martinez,55,Male,Software Engineer,Contractor / Gig,169540,710,Good (670-739),0.131,Emerging Prime,Own Outright,BR-105,2024-07-15
+CUST-0300,Ananya Sanchez,46,Other,Software Engineer,Contractor / Gig,119979,776,Very Good (740-799),0.432,Emerging Prime,Own Mortgage,BR-109,2025-10-01
+CUST-0301,Chloe Allen,41,Male,Attorney / Legal Counsel,Contractor / Gig,143539,592,Fair (580-669),0.439,Emerging Prime,Rent,BR-109,2024-02-09
+CUST-0302,Jayden Adams,27,Male,Financial Analyst,Salaried - Public / Govt,178296,759,Very Good (740-799),0.501,Affluent & HNI,Own Mortgage,BR-110,2024-09-24
+CUST-0303,Kavita Iyer,29,Female,Software Engineer,Contractor / Gig,100499,679,Good (670-739),0.335,Emerging Prime,Rent,BR-107,2026-01-20
+CUST-0304,Carter Clark,25,Male,Corporate Executive,Salaried - Public / Govt,192938,728,Good (670-739),0.491,Emerging Prime,Own Mortgage,BR-102,2025-10-25
+CUST-0305,Jayden Green,33,Female,Attorney / Legal Counsel,Salaried - Private,309542,537,Poor (500-579),0.453,Emerging Prime,Own Outright,BR-103,2025-10-29
+CUST-0306,Mia Rodriguez,61,Female,Attorney / Legal Counsel,Business Owner,111223,731,Good (670-739),0.136,Emerging Prime,Own Mortgage,BR-106,2023-02-28
+CUST-0307,Luna Carter,55,Male,Software Engineer,Salaried - Private,165901,701,Good (670-739),0.497,Emerging Prime,Own Mortgage,BR-102,2025-03-26
+CUST-0308,Wei Nguyen,41,Male,Healthcare Professional,Salaried - Private,154518,707,Good (670-739),0.433,Emerging Prime,Own Outright,BR-106,2025-07-07
+CUST-0309,Abigail Perez,53,Female,Small Business Owner,Salaried - Public / Govt,40013,825,Exceptional (800-850),0.218,Mass Market Prime,Rent,BR-103,2024-04-07
+CUST-0310,Liam Nguyen,54,Male,Healthcare Professional,Self-Employed Professional,44794,790,Very Good (740-799),0.281,Mass Market Prime,Own Outright,BR-109,2023-05-10
+CUST-0311,Jackson Nelson,28,Other,Software Engineer,Salaried - Private,124840,766,Very Good (740-799),0.173,Emerging Prime,Own Mortgage,BR-112,2023-12-10
+CUST-0312,Theodore Hall,65,Other,Software Engineer,Self-Employed Professional,110386,682,Good (670-739),0.388,Emerging Prime,Rent,BR-107,2023-09-02
+CUST-0313,Mei Campbell,61,Male,Civil Servant,Salaried - Private,87074,771,Very Good (740-799),0.382,Emerging Prime,Rent,BR-109,2024-03-19
+CUST-0314,Chloe Rivera,48,Female,Corporate Executive,Salaried - Private,196665,696,Good (670-739),0.221,Emerging Prime,Own Mortgage,BR-102,2023-09-14
+CUST-0315,Elena Martinez,27,Other,Healthcare Professional,Salaried - Private,95597,841,Exceptional (800-850),0.316,Emerging Prime,Living with Family,BR-105,2025-09-07
+CUST-0316,Jackson Miller,33,Male,Civil Servant,Self-Employed Professional,146672,760,Very Good (740-799),0.438,Emerging Prime,Own Mortgage,BR-101,2023-02-19
+CUST-0317,Abigail Nelson,63,Male,Financial Analyst,Self-Employed Professional,171084,779,Very Good (740-799),0.16,Affluent & HNI,Rent,BR-103,2023-09-21
+CUST-0318,Priya Sanchez,51,Female,Operations Manager,Business Owner,78720,781,Very Good (740-799),0.169,Mass Market Prime,Rent,BR-101,2023-12-23
+CUST-0319,Harper Clark,59,Female,Educator / Professor,Business Owner,129004,628,Fair (580-669),0.383,Emerging Prime,Rent,BR-112,2023-10-25
+CUST-0320,Maria Singh,53,Male,Operations Manager,Business Owner,117375,536,Poor (500-579),0.125,Emerging Prime,Rent,BR-109,2026-04-02
+CUST-0321,Samuel Nelson,43,Other,Civil Engineer,Contractor / Gig,100162,562,Poor (500-579),0.327,Emerging Prime,Rent,BR-111,2025-03-29
+CUST-0322,Emily Gupta,57,Other,Software Engineer,Salaried - Private,186259,690,Good (670-739),0.322,Emerging Prime,Own Outright,BR-103,2023-07-03
+CUST-0323,Juan Lee,37,Female,Civil Servant,Salaried - Private,140716,718,Good (670-739),0.471,Emerging Prime,Own Mortgage,BR-108,2025-08-05
+CUST-0324,Mia Iyer,53,Female,Financial Analyst,Salaried - Private,88453,847,Exceptional (800-850),0.293,Emerging Prime,Own Mortgage,BR-109,2023-01-31
+CUST-0325,Mia Sharma,60,Other,Attorney / Legal Counsel,Self-Employed Professional,281598,775,Very Good (740-799),0.409,Affluent & HNI,Living with Family,BR-106,2023-05-22
+CUST-0326,Samuel Iyer,51,Female,Civil Engineer,Contractor / Gig,153628,716,Good (670-739),0.169,Emerging Prime,Rent,BR-104,2023-02-04
+CUST-0327,Grace Thompson,62,Female,Civil Engineer,Contractor / Gig,47000,683,Good (670-739),0.506,Mass Market Prime,Own Outright,BR-112,2025-05-18
+CUST-0328,Harper Taylor,61,Male,Small Business Owner,Salaried - Private,91515,825,Exceptional (800-850),0.317,Emerging Prime,Rent,BR-112,2024-12-23
+CUST-0329,Harper Carter,48,Male,Attorney / Legal Counsel,Contractor / Gig,282610,637,Fair (580-669),0.373,Emerging Prime,Own Outright,BR-108,2023-02-08
+CUST-0330,Jin Mitchell,25,Other,Operations Manager,Contractor / Gig,81452,735,Good (670-739),0.417,Mass Market Prime,Own Mortgage,BR-103,2023-08-31
+CUST-0331,Layla Nelson,60,Other,Financial Analyst,Contractor / Gig,110860,766,Very Good (740-799),0.291,Emerging Prime,Own Mortgage,BR-105,2025-08-15
+CUST-0332,Abigail Rodriguez,48,Other,Supply Chain Lead,Contractor / Gig,91975,710,Good (670-739),0.206,Emerging Prime,Own Outright,BR-105,2025-01-07
+CUST-0333,Alexander Rivera,63,Male,Civil Engineer,Contractor / Gig,65252,760,Very Good (740-799),0.447,Mass Market Prime,Own Outright,BR-110,2026-04-13
+CUST-0334,Ananya Baker,56,Female,Operations Manager,Salaried - Private,134842,673,Good (670-739),0.182,Emerging Prime,Rent,BR-104,2024-07-30
+CUST-0335,Sebastian Jackson,65,Female,Corporate Executive,Salaried - Private,307550,758,Very Good (740-799),0.353,Affluent & HNI,Own Mortgage,BR-108,2023-08-28
+CUST-0336,Samuel Mitchell,63,Other,Operations Manager,Salaried - Public / Govt,47315,706,Good (670-739),0.518,Mass Market Prime,Own Mortgage,BR-111,2024-11-01
+CUST-0337,Jackson Smith,38,Male,Educator / Professor,Business Owner,131401,798,Very Good (740-799),0.445,Emerging Prime,Own Outright,BR-110,2024-03-08
+CUST-0338,Owen Jackson,50,Male,Attorney / Legal Counsel,Salaried - Private,141287,602,Fair (580-669),0.282,Emerging Prime,Own Mortgage,BR-109,2024-07-25
+CUST-0339,Alexander Hernandez,59,Female,Software Engineer,Self-Employed Professional,95146,689,Good (670-739),0.519,Emerging Prime,Own Outright,BR-111,2024-10-08
+CUST-0340,Juan Sharma,58,Other,Financial Analyst,Salaried - Private,103830,760,Very Good (740-799),0.532,Emerging Prime,Own Outright,BR-109,2023-12-23
+CUST-0341,Ananya Wright,56,Female,Healthcare Professional,Self-Employed Professional,122001,607,Fair (580-669),0.262,Emerging Prime,Own Mortgage,BR-110,2026-01-21
+CUST-0342,Carlos Scott,63,Male,Healthcare Professional,Self-Employed Professional,45453,701,Good (670-739),0.413,Mass Market Prime,Own Mortgage,BR-102,2025-03-31
+CUST-0343,Joseph Wright,68,Female,Software Engineer,Contractor / Gig,180226,763,Very Good (740-799),0.339,Affluent & HNI,Own Outright,BR-105,2024-02-29
+CUST-0344,Luna Allen,27,Male,Corporate Executive,Contractor / Gig,285724,678,Good (670-739),0.391,Emerging Prime,Own Mortgage,BR-111,2025-06-17
+CUST-0345,Harper Wilson,56,Other,Supply Chain Lead,Business Owner,75305,679,Good (670-739),0.13,Mass Market Prime,Rent,BR-101,2023-07-29
+CUST-0346,Isabella Brown,33,Female,Civil Engineer,Salaried - Private,102803,699,Good (670-739),0.295,Emerging Prime,Own Outright,BR-107,2025-07-05
+CUST-0347,Luke Johnson,46,Other,Healthcare Professional,Contractor / Gig,51577,566,Poor (500-579),0.445,Subprime / High Risk,Own Outright,BR-112,2023-06-28
+CUST-0348,Chloe Reddy,54,Male,Civil Servant,Self-Employed Professional,149734,706,Good (670-739),0.284,Emerging Prime,Rent,BR-101,2025-09-27
+CUST-0349,Sebastian Wright,36,Male,Supply Chain Lead,Business Owner,178058,794,Very Good (740-799),0.247,Affluent & HNI,Own Outright,BR-105,2025-03-05
+CUST-0350,Emma Scott,57,Male,Healthcare Professional,Salaried - Private,138306,558,Poor (500-579),0.351,Emerging Prime,Rent,BR-105,2024-04-05
+CUST-0351,Dylan Wilson,48,Other,Civil Engineer,Salaried - Public / Govt,101254,608,Fair (580-669),0.204,Emerging Prime,Own Mortgage,BR-110,2023-05-22
+CUST-0352,Kavita Adams,57,Male,Civil Servant,Salaried - Private,162714,695,Good (670-739),0.529,Emerging Prime,Own Mortgage,BR-111,2024-05-25
+CUST-0353,Ethan Jackson,61,Male,Small Business Owner,Self-Employed Professional,115130,712,Good (670-739),0.418,Emerging Prime,Own Mortgage,BR-110,2025-02-15
+CUST-0354,Luke Ramirez,32,Male,Financial Analyst,Salaried - Public / Govt,111264,785,Very Good (740-799),0.481,Emerging Prime,Own Mortgage,BR-112,2024-12-10
+CUST-0355,Maria Robinson,50,Female,Civil Servant,Business Owner,56488,692,Good (670-739),0.482,Mass Market Prime,Rent,BR-103,2026-02-07
+CUST-0356,Ella Taylor,68,Other,Healthcare Professional,Salaried - Private,167953,794,Very Good (740-799),0.392,Affluent & HNI,Rent,BR-110,2025-05-09
+CUST-0357,Avery Singh,24,Other,Civil Servant,Contractor / Gig,158759,774,Very Good (740-799),0.401,Affluent & HNI,Own Mortgage,BR-107,2024-05-02
+CUST-0358,Victoria Rodriguez,51,Other,Civil Engineer,Salaried - Private,37776,734,Good (670-739),0.405,Mass Market Prime,Rent,BR-110,2024-01-05
+CUST-0359,Mei Rodriguez,50,Male,Corporate Executive,Contractor / Gig,302916,842,Exceptional (800-850),0.435,Affluent & HNI,Rent,BR-101,2024-04-23
+CUST-0360,Juan Anderson,26,Female,Financial Analyst,Salaried - Public / Govt,178738,533,Poor (500-579),0.275,Emerging Prime,Own Outright,BR-108,2023-05-06
+CUST-0361,Sophia Adams,42,Male,Supply Chain Lead,Contractor / Gig,104026,705,Good (670-739),0.369,Emerging Prime,Own Outright,BR-107,2025-03-16
+CUST-0362,Grayson Nguyen,63,Male,Civil Engineer,Self-Employed Professional,170363,698,Good (670-739),0.295,Emerging Prime,Rent,BR-106,2025-10-24
+CUST-0363,Maria Kulkarni,60,Male,Civil Engineer,Salaried - Public / Govt,55208,699,Good (670-739),0.341,Mass Market Prime,Own Mortgage,BR-103,2024-02-17
+CUST-0364,Sebastian White,60,Other,Healthcare Professional,Salaried - Public / Govt,64711,712,Good (670-739),0.327,Mass Market Prime,Own Outright,BR-104,2023-12-27
+CUST-0365,Amit Johnson,37,Male,Corporate Executive,Contractor / Gig,120273,687,Good (670-739),0.503,Emerging Prime,Own Mortgage,BR-103,2024-07-12
+CUST-0366,Mila King,47,Other,Educator / Professor,Salaried - Private,109305,786,Very Good (740-799),0.527,Emerging Prime,Own Mortgage,BR-110,2025-09-22
+CUST-0367,Maria Hernandez,36,Female,Educator / Professor,Salaried - Public / Govt,82679,792,Very Good (740-799),0.388,Mass Market Prime,Own Outright,BR-103,2025-01-01
+CUST-0368,Rahul Hill,59,Male,Small Business Owner,Business Owner,39341,683,Good (670-739),0.207,Mass Market Prime,Rent,BR-109,2025-06-08
+CUST-0369,Emily Hill,28,Male,Sales Director,Contractor / Gig,307232,738,Good (670-739),0.171,Emerging Prime,Own Outright,BR-103,2026-02-08
+CUST-0370,James Deshmukh,65,Other,Operations Manager,Contractor / Gig,173888,675,Good (670-739),0.304,Emerging Prime,Rent,BR-108,2025-03-21
+CUST-0371,Dylan Nguyen,66,Other,Healthcare Professional,Business Owner,95951,641,Fair (580-669),0.511,Emerging Prime,Own Mortgage,BR-110,2026-02-17
+CUST-0372,Amit Taylor,34,Male,Supply Chain Lead,Salaried - Private,171252,685,Good (670-739),0.123,Emerging Prime,Rent,BR-112,2024-11-07
+CUST-0373,Amit White,28,Male,Operations Manager,Contractor / Gig,146034,738,Good (670-739),0.363,Emerging Prime,Own Outright,BR-111,2025-04-23
+CUST-0374,Theodore Clark,57,Other,Sales Director,Salaried - Public / Govt,190387,731,Good (670-739),0.368,Emerging Prime,Rent,BR-107,2023-11-09
+CUST-0375,Evelyn Mitchell,36,Female,Supply Chain Lead,Salaried - Public / Govt,140004,645,Fair (580-669),0.458,Emerging Prime,Rent,BR-110,2023-05-17
+CUST-0376,Sebastian Harris,62,Male,Healthcare Professional,Salaried - Public / Govt,58105,725,Good (670-739),0.148,Mass Market Prime,Own Mortgage,BR-102,2023-04-18
+CUST-0377,Layla Reddy,47,Other,Attorney / Legal Counsel,Contractor / Gig,277848,677,Good (670-739),0.333,Emerging Prime,Own Mortgage,BR-111,2025-12-27
+CUST-0378,Wyatt Gonzalez,24,Other,Civil Engineer,Contractor / Gig,79428,779,Very Good (740-799),0.41,Mass Market Prime,Own Mortgage,BR-111,2023-01-31
+CUST-0379,Sebastian Garcia,39,Female,Financial Analyst,Business Owner,77014,695,Good (670-739),0.437,Mass Market Prime,Own Mortgage,BR-102,2026-03-01
+CUST-0380,Wyatt Campbell,57,Other,Financial Analyst,Self-Employed Professional,154477,817,Exceptional (800-850),0.534,Affluent & HNI,Own Outright,BR-107,2023-02-09
+CUST-0381,Aria Lopez,48,Other,Healthcare Professional,Contractor / Gig,124120,538,Poor (500-579),0.527,Emerging Prime,Rent,BR-105,2026-02-05
+CUST-0382,Joseph Hall,50,Female,Educator / Professor,Business Owner,124040,788,Very Good (740-799),0.533,Emerging Prime,Own Outright,BR-108,2023-03-28
+CUST-0383,Maria Davis,38,Male,Operations Manager,Salaried - Public / Govt,117766,754,Very Good (740-799),0.297,Emerging Prime,Own Mortgage,BR-109,2023-02-19
+CUST-0384,Aria Thomas,40,Male,Operations Manager,Self-Employed Professional,81788,579,Poor (500-579),0.325,Subprime / High Risk,Own Mortgage,BR-110,2024-08-04
+CUST-0385,Mila Mitchell,65,Male,Sales Director,Salaried - Public / Govt,164205,610,Fair (580-669),0.219,Emerging Prime,Rent,BR-110,2025-01-29
+CUST-0386,Emily Roberts,28,Male,Healthcare Professional,Business Owner,46079,739,Good (670-739),0.485,Mass Market Prime,Own Mortgage,BR-106,2025-11-04
+CUST-0387,Scarlett Young,33,Other,Civil Servant,Business Owner,68618,653,Fair (580-669),0.143,Subprime / High Risk,Rent,BR-108,2026-02-11
+CUST-0388,Noah Allen,44,Female,Attorney / Legal Counsel,Salaried - Public / Govt,230604,685,Good (670-739),0.256,Emerging Prime,Own Mortgage,BR-111,2024-04-06
+CUST-0389,Levi Nguyen,28,Female,Financial Analyst,Contractor / Gig,109452,751,Very Good (740-799),0.222,Emerging Prime,Own Outright,BR-110,2025-01-02
+CUST-0390,Grayson Lopez,53,Female,Small Business Owner,Business Owner,130703,763,Very Good (740-799),0.487,Emerging Prime,Own Mortgage,BR-103,2026-04-15
+CUST-0391,Alexander Torres,65,Male,Healthcare Professional,Self-Employed Professional,148303,775,Very Good (740-799),0.488,Emerging Prime,Own Mortgage,BR-112,2023-12-03
+CUST-0392,Carlos Patel,22,Male,Operations Manager,Business Owner,170530,660,Fair (580-669),0.35,Emerging Prime,Own Mortgage,BR-108,2024-10-06
+CUST-0393,Joseph Scott,58,Male,Operations Manager,Salaried - Private,91483,743,Very Good (740-799),0.47,Emerging Prime,Own Outright,BR-111,2023-08-16
+CUST-0394,Sunita Mitchell,43,Female,Financial Analyst,Self-Employed Professional,77599,702,Good (670-739),0.297,Mass Market Prime,Own Mortgage,BR-111,2024-03-13
+CUST-0395,Kenji Lopez,40,Female,Financial Analyst,Contractor / Gig,124947,727,Good (670-739),0.384,Emerging Prime,Own Outright,BR-103,2024-01-09
+CUST-0396,Grace Clark,62,Other,Educator / Professor,Business Owner,55738,744,Very Good (740-799),0.19,Mass Market Prime,Own Mortgage,BR-106,2024-09-18
+CUST-0397,John Hill,63,Female,Civil Servant,Business Owner,171560,763,Very Good (740-799),0.535,Affluent & HNI,Own Mortgage,BR-103,2023-03-19
+CUST-0398,Alexander Campbell,37,Other,Civil Servant,Salaried - Private,62003,630,Fair (580-669),0.161,Subprime / High Risk,Rent,BR-108,2026-02-27
+CUST-0399,Jackson Johnson,47,Other,Healthcare Professional,Salaried - Private,57101,689,Good (670-739),0.402,Mass Market Prime,Rent,BR-105,2024-05-14
+CUST-0400,Camila Mitchell,40,Female,Attorney / Legal Counsel,Salaried - Public / Govt,119215,601,Fair (580-669),0.405,Emerging Prime,Rent,BR-106,2025-10-02
+CUST-0401,Kavita Nair,56,Female,Civil Engineer,Business Owner,176371,669,Fair (580-669),0.196,Emerging Prime,Own Outright,BR-111,2026-03-31
+CUST-0402,Deepa King,62,Other,Civil Engineer,Self-Employed Professional,176470,830,Exceptional (800-850),0.218,Affluent & HNI,Own Mortgage,BR-105,2025-02-18
+CUST-0403,Amit Taylor,31,Female,Software Engineer,Salaried - Private,112586,687,Good (670-739),0.322,Emerging Prime,Own Mortgage,BR-108,2025-10-04
+CUST-0404,Carter Smith,49,Female,Educator / Professor,Salaried - Public / Govt,132948,775,Very Good (740-799),0.201,Emerging Prime,Rent,BR-107,2025-04-18
+CUST-0405,Camila Hernandez,67,Other,Attorney / Legal Counsel,Business Owner,130764,754,Very Good (740-799),0.302,Emerging Prime,Own Mortgage,BR-110,2024-08-09
+CUST-0406,Wyatt Adams,56,Female,Operations Manager,Salaried - Public / Govt,70815,751,Very Good (740-799),0.245,Mass Market Prime,Own Outright,BR-110,2025-08-15
+CUST-0407,John Hall,61,Female,Small Business Owner,Self-Employed Professional,175239,523,Poor (500-579),0.13,Emerging Prime,Living with Family,BR-105,2024-08-04
+CUST-0408,Alexander Rivera,50,Other,Software Engineer,Salaried - Public / Govt,103467,520,Poor (500-579),0.267,Emerging Prime,Own Mortgage,BR-108,2025-03-01
+CUST-0409,Kavita Hall,24,Female,Healthcare Professional,Salaried - Public / Govt,137871,569,Poor (500-579),0.151,Emerging Prime,Own Outright,BR-104,2024-06-26
+CUST-0410,Levi Gupta,22,Male,Supply Chain Lead,Salaried - Public / Govt,99792,726,Good (670-739),0.437,Emerging Prime,Own Mortgage,BR-108,2023-08-11
+CUST-0411,Chen Nelson,35,Female,Operations Manager,Self-Employed Professional,46058,810,Exceptional (800-850),0.44,Mass Market Prime,Own Outright,BR-102,2024-07-02
+CUST-0412,Maria Green,41,Male,Financial Analyst,Salaried - Private,105928,753,Very Good (740-799),0.392,Emerging Prime,Own Mortgage,BR-103,2024-08-18
+CUST-0413,Evelyn Sanchez,37,Male,Software Engineer,Contractor / Gig,123679,770,Very Good (740-799),0.451,Emerging Prime,Own Mortgage,BR-108,2023-08-06
+CUST-0414,Grace Reddy,62,Male,Software Engineer,Self-Employed Professional,91492,738,Good (670-739),0.33,Emerging Prime,Own Mortgage,BR-109,2025-01-11
+CUST-0415,Vikram Campbell,34,Male,Supply Chain Lead,Business Owner,100718,687,Good (670-739),0.506,Emerging Prime,Own Outright,BR-108,2026-03-20
+CUST-0416,Victoria Wright,66,Female,Small Business Owner,Contractor / Gig,119850,624,Fair (580-669),0.435,Emerging Prime,Own Mortgage,BR-110,2026-03-11
+CUST-0417,Sebastian Jones,55,Male,Sales Director,Self-Employed Professional,229034,774,Very Good (740-799),0.12,Affluent & HNI,Own Outright,BR-107,2024-02-14
+CUST-0418,Liam Flores,45,Other,Small Business Owner,Self-Employed Professional,176284,782,Very Good (740-799),0.472,Affluent & HNI,Own Mortgage,BR-111,2025-11-14
+CUST-0419,Emily Flores,40,Female,Operations Manager,Self-Employed Professional,52479,646,Fair (580-669),0.139,Subprime / High Risk,Rent,BR-103,2023-04-05
+CUST-0420,Ella Miller,53,Male,Healthcare Professional,Salaried - Private,163426,719,Good (670-739),0.346,Emerging Prime,Rent,BR-105,2023-05-11
+CUST-0421,Grayson Anderson,60,Other,Healthcare Professional,Salaried - Private,163819,813,Exceptional (800-850),0.519,Affluent & HNI,Rent,BR-108,2023-06-04
+CUST-0422,Grayson Scott,48,Female,Supply Chain Lead,Salaried - Private,173679,757,Very Good (740-799),0.137,Affluent & HNI,Own Mortgage,BR-105,2023-07-09
+CUST-0423,Avery King,28,Male,Supply Chain Lead,Salaried - Public / Govt,85625,694,Good (670-739),0.346,Emerging Prime,Own Mortgage,BR-111,2024-02-01
+CUST-0424,Ananya Mitchell,28,Other,Educator / Professor,Self-Employed Professional,146955,784,Very Good (740-799),0.5,Emerging Prime,Own Mortgage,BR-103,2026-03-02
+CUST-0425,Priya Allen,43,Other,Corporate Executive,Contractor / Gig,192615,828,Exceptional (800-850),0.357,Affluent & HNI,Living with Family,BR-106,2025-05-24
+CUST-0426,Deepa Verma,68,Female,Educator / Professor,Salaried - Public / Govt,133320,697,Good (670-739),0.449,Emerging Prime,Rent,BR-105,2025-02-06
+CUST-0427,Sunita Lewis,47,Male,Supply Chain Lead,Salaried - Private,39273,838,Exceptional (800-850),0.343,Mass Market Prime,Living with Family,BR-105,2023-02-13
+CUST-0428,Carter Anderson,35,Female,Software Engineer,Self-Employed Professional,87358,832,Exceptional (800-850),0.136,Emerging Prime,Own Mortgage,BR-103,2024-07-26
+CUST-0429,Grayson Kulkarni,59,Male,Small Business Owner,Self-Employed Professional,139804,745,Very Good (740-799),0.365,Emerging Prime,Own Mortgage,BR-102,2024-11-25
+CUST-0430,Maria Lopez,53,Other,Supply Chain Lead,Contractor / Gig,113746,746,Very Good (740-799),0.136,Emerging Prime,Rent,BR-107,2023-07-10
+CUST-0431,Ava Singh,43,Female,Operations Manager,Business Owner,94432,807,Exceptional (800-850),0.442,Emerging Prime,Rent,BR-101,2025-03-24
+CUST-0432,Jackson Martin,55,Male,Financial Analyst,Contractor / Gig,166457,711,Good (670-739),0.215,Emerging Prime,Own Mortgage,BR-112,2025-04-14
+CUST-0433,Sunita Carter,60,Other,Civil Engineer,Salaried - Private,138369,617,Fair (580-669),0.184,Emerging Prime,Own Mortgage,BR-108,2026-04-15
+CUST-0434,Jackson Scott,47,Female,Healthcare Professional,Business Owner,70355,686,Good (670-739),0.327,Mass Market Prime,Own Mortgage,BR-107,2026-04-15
+CUST-0435,Ella Scott,61,Other,Civil Engineer,Salaried - Public / Govt,147739,614,Fair (580-669),0.259,Emerging Prime,Rent,BR-102,2023-09-18
+CUST-0436,Amit Ramirez,45,Female,Small Business Owner,Self-Employed Professional,114906,673,Good (670-739),0.193,Emerging Prime,Own Mortgage,BR-108,2023-11-25
+CUST-0437,Vikram Williams,36,Male,Attorney / Legal Counsel,Self-Employed Professional,303876,590,Fair (580-669),0.143,Emerging Prime,Rent,BR-103,2024-09-11
+CUST-0438,Emma Perez,66,Male,Civil Servant,Business Owner,89790,712,Good (670-739),0.438,Emerging Prime,Own Mortgage,BR-109,2026-01-06
+CUST-0439,Aria Scott,52,Other,Supply Chain Lead,Salaried - Public / Govt,39820,782,Very Good (740-799),0.282,Mass Market Prime,Rent,BR-109,2023-04-30
+CUST-0440,Joseph Hernandez,25,Female,Small Business Owner,Contractor / Gig,37184,729,Good (670-739),0.149,Mass Market Prime,Rent,BR-111,2025-02-06
+CUST-0441,Harper Johnson,40,Other,Operations Manager,Salaried - Public / Govt,61110,832,Exceptional (800-850),0.509,Mass Market Prime,Own Outright,BR-110,2026-01-23
+CUST-0442,Mia Lopez,34,Other,Sales Director,Contractor / Gig,174852,801,Exceptional (800-850),0.517,Affluent & HNI,Own Mortgage,BR-108,2025-04-15
+CUST-0443,Sebastian Johnson,44,Other,Financial Analyst,Self-Employed Professional,111159,700,Good (670-739),0.469,Emerging Prime,Own Outright,BR-107,2023-04-01
+CUST-0444,Scarlett Anderson,31,Female,Operations Manager,Salaried - Public / Govt,171503,544,Poor (500-579),0.533,Emerging Prime,Own Outright,BR-111,2024-05-10
+CUST-0445,Ananya Thomas,58,Male,Operations Manager,Self-Employed Professional,152747,821,Exceptional (800-850),0.353,Affluent & HNI,Own Mortgage,BR-103,2026-02-12
+CUST-0446,Ella Nair,30,Female,Supply Chain Lead,Contractor / Gig,73050,827,Exceptional (800-850),0.402,Mass Market Prime,Own Outright,BR-103,2024-11-11
+CUST-0447,Aiden Scott,56,Other,Healthcare Professional,Salaried - Public / Govt,42728,688,Good (670-739),0.449,Mass Market Prime,Rent,BR-107,2025-05-22
+CUST-0448,Carter Lewis,62,Other,Civil Servant,Salaried - Public / Govt,69483,746,Very Good (740-799),0.199,Mass Market Prime,Rent,BR-110,2024-07-30
+CUST-0449,Sofia Hill,36,Male,Attorney / Legal Counsel,Salaried - Private,241681,731,Good (670-739),0.484,Emerging Prime,Own Outright,BR-111,2025-03-06
+CUST-0450,Mila Iyer,46,Female,Sales Director,Salaried - Public / Govt,217109,608,Fair (580-669),0.449,Emerging Prime,Own Mortgage,BR-105,2025-05-25
+CUST-0451,Samuel Mitchell,64,Male,Small Business Owner,Salaried - Private,163435,636,Fair (580-669),0.416,Emerging Prime,Rent,BR-104,2025-06-24
+CUST-0452,Priya Roberts,24,Other,Supply Chain Lead,Business Owner,175550,765,Very Good (740-799),0.346,Affluent & HNI,Rent,BR-101,2026-01-01
+CUST-0453,Harper Lewis,51,Male,Small Business Owner,Contractor / Gig,136554,675,Good (670-739),0.342,Emerging Prime,Own Outright,BR-101,2024-02-23
+CUST-0454,Victoria Lewis,47,Female,Civil Servant,Business Owner,49299,617,Fair (580-669),0.417,Subprime / High Risk,Rent,BR-108,2025-08-13
+CUST-0455,Mia Campbell,54,Male,Corporate Executive,Contractor / Gig,145469,844,Exceptional (800-850),0.289,Emerging Prime,Own Mortgage,BR-101,2024-02-01
+CUST-0456,Rahul Nguyen,67,Male,Sales Director,Salaried - Private,133905,690,Good (670-739),0.169,Emerging Prime,Own Mortgage,BR-106,2023-07-24
+CUST-0457,Jin Rivera,46,Other,Civil Engineer,Contractor / Gig,179269,824,Exceptional (800-850),0.284,Affluent & HNI,Rent,BR-106,2026-04-03
+CUST-0458,Emily Hernandez,31,Male,Supply Chain Lead,Salaried - Private,151983,709,Good (670-739),0.244,Emerging Prime,Own Mortgage,BR-103,2024-03-21
+CUST-0459,James Flores,38,Male,Sales Director,Business Owner,269379,774,Very Good (740-799),0.5,Affluent & HNI,Own Mortgage,BR-110,2025-10-01
+CUST-0460,Rahul Clark,50,Male,Educator / Professor,Contractor / Gig,178482,576,Poor (500-579),0.24,Emerging Prime,Own Outright,BR-104,2023-05-11
+CUST-0461,Mila Martinez,25,Other,Financial Analyst,Salaried - Private,118399,584,Fair (580-669),0.516,Emerging Prime,Own Mortgage,BR-107,2024-01-31
+CUST-0462,Sebastian Baker,40,Other,Attorney / Legal Counsel,Contractor / Gig,306433,692,Good (670-739),0.369,Emerging Prime,Rent,BR-102,2024-10-04
+CUST-0463,Luna White,46,Male,Operations Manager,Contractor / Gig,70270,550,Poor (500-579),0.172,Subprime / High Risk,Rent,BR-106,2026-01-14
+CUST-0464,Amit King,35,Other,Small Business Owner,Contractor / Gig,173660,556,Poor (500-579),0.544,Emerging Prime,Own Outright,BR-112,2024-09-10
+CUST-0465,Arjun Hill,42,Female,Civil Engineer,Contractor / Gig,69003,822,Exceptional (800-850),0.384,Mass Market Prime,Own Outright,BR-112,2025-11-15
+CUST-0466,Elena Patel,33,Other,Small Business Owner,Self-Employed Professional,65987,800,Exceptional (800-850),0.13,Mass Market Prime,Own Outright,BR-102,2024-03-30
+CUST-0467,Ananya Clark,24,Female,Financial Analyst,Contractor / Gig,158967,753,Very Good (740-799),0.207,Affluent & HNI,Own Mortgage,BR-102,2024-10-22
+CUST-0468,Carter Allen,57,Female,Software Engineer,Salaried - Private,169948,761,Very Good (740-799),0.365,Affluent & HNI,Living with Family,BR-103,2024-03-03
+CUST-0469,Jayden Gupta,43,Other,Sales Director,Business Owner,236221,781,Very Good (740-799),0.187,Affluent & HNI,Own Outright,BR-109,2024-12-17
+CUST-0470,Kavita Sharma,48,Other,Software Engineer,Contractor / Gig,77453,710,Good (670-739),0.21,Mass Market Prime,Rent,BR-106,2023-06-15
+CUST-0471,Emily Moore,23,Female,Operations Manager,Contractor / Gig,137122,776,Very Good (740-799),0.201,Emerging Prime,Own Mortgage,BR-105,2024-11-05
+CUST-0472,Noah Moore,48,Male,Sales Director,Salaried - Public / Govt,247651,708,Good (670-739),0.25,Emerging Prime,Own Mortgage,BR-101,2024-03-19
+CUST-0473,Mia Lewis,54,Male,Sales Director,Contractor / Gig,302005,623,Fair (580-669),0.496,Emerging Prime,Own Mortgage,BR-106,2023-11-20
+CUST-0474,Ethan Verma,55,Other,Corporate Executive,Salaried - Public / Govt,297086,769,Very Good (740-799),0.492,Affluent & HNI,Own Mortgage,BR-105,2023-05-01
+CUST-0475,Mia Perez,51,Male,Healthcare Professional,Contractor / Gig,116914,787,Very Good (740-799),0.13,Emerging Prime,Rent,BR-111,2024-04-04
+CUST-0476,Luna Gonzalez,34,Female,Civil Servant,Contractor / Gig,65841,726,Good (670-739),0.237,Mass Market Prime,Own Mortgage,BR-102,2023-03-03
+CUST-0477,Mei Miller,35,Other,Financial Analyst,Contractor / Gig,150246,688,Good (670-739),0.225,Emerging Prime,Own Mortgage,BR-110,2024-12-24
+CUST-0478,Yuki Lewis,25,Male,Software Engineer,Business Owner,125279,803,Exceptional (800-850),0.143,Emerging Prime,Own Mortgage,BR-103,2025-08-01
+CUST-0479,Chloe Martin,43,Male,Supply Chain Lead,Contractor / Gig,157079,579,Poor (500-579),0.364,Emerging Prime,Own Mortgage,BR-112,2025-09-16
+CUST-0480,Ethan Robinson,41,Other,Attorney / Legal Counsel,Business Owner,271727,698,Good (670-739),0.231,Emerging Prime,Own Mortgage,BR-103,2024-12-07
+CUST-0481,Luna Robinson,53,Male,Healthcare Professional,Business Owner,155911,641,Fair (580-669),0.484,Emerging Prime,Own Mortgage,BR-106,2023-10-18
+CUST-0482,Mei Miller,47,Other,Healthcare Professional,Self-Employed Professional,114198,679,Good (670-739),0.349,Emerging Prime,Own Mortgage,BR-107,2024-06-02
+CUST-0483,Camila Scott,32,Female,Operations Manager,Salaried - Private,149125,725,Good (670-739),0.364,Emerging Prime,Own Mortgage,BR-112,2024-05-28
+CUST-0484,Jack Nelson,64,Male,Supply Chain Lead,Contractor / Gig,156348,747,Very Good (740-799),0.26,Affluent & HNI,Own Mortgage,BR-108,2024-01-26
+CUST-0485,Madison Sanchez,26,Other,Healthcare Professional,Contractor / Gig,120828,764,Very Good (740-799),0.333,Emerging Prime,Rent,BR-102,2024-04-20
+CUST-0486,Abigail Kulkarni,59,Other,Software Engineer,Salaried - Public / Govt,113207,768,Very Good (740-799),0.288,Emerging Prime,Own Outright,BR-104,2024-03-27
+CUST-0487,Luke Martin,58,Other,Civil Servant,Business Owner,125246,798,Very Good (740-799),0.546,Emerging Prime,Own Outright,BR-110,2025-12-11
+CUST-0488,Priya Iyer,30,Female,Software Engineer,Self-Employed Professional,167190,803,Exceptional (800-850),0.361,Affluent & HNI,Living with Family,BR-102,2024-08-30
+CUST-0489,Olivia Thomas,49,Other,Educator / Professor,Business Owner,141439,718,Good (670-739),0.284,Emerging Prime,Own Outright,BR-111,2024-01-21
+CUST-0490,Carlos Rodriguez,34,Other,Operations Manager,Self-Employed Professional,110620,749,Very Good (740-799),0.549,Emerging Prime,Rent,BR-103,2023-02-23
+CUST-0491,Isabella Adams,23,Male,Supply Chain Lead,Business Owner,57194,748,Very Good (740-799),0.179,Mass Market Prime,Rent,BR-108,2025-06-20
+CUST-0492,Mila Robinson,54,Female,Civil Engineer,Business Owner,83704,698,Good (670-739),0.303,Mass Market Prime,Own Mortgage,BR-108,2024-05-29
+CUST-0493,Wei Moore,48,Other,Educator / Professor,Self-Employed Professional,161685,522,Poor (500-579),0.423,Emerging Prime,Own Mortgage,BR-108,2023-07-13
+CUST-0494,Henry Campbell,68,Other,Civil Servant,Business Owner,58185,736,Good (670-739),0.225,Mass Market Prime,Own Outright,BR-111,2023-07-09
+CUST-0495,Yuki Patel,59,Female,Educator / Professor,Salaried - Private,37826,834,Exceptional (800-850),0.322,Mass Market Prime,Own Outright,BR-108,2024-12-09
+CUST-0496,Ananya Thompson,40,Female,Corporate Executive,Salaried - Private,300571,778,Very Good (740-799),0.458,Affluent & HNI,Own Mortgage,BR-111,2025-09-26
+CUST-0497,Elizabeth Torres,25,Other,Civil Servant,Contractor / Gig,56629,551,Poor (500-579),0.175,Subprime / High Risk,Own Mortgage,BR-105,2024-06-30
+CUST-0498,Alexander Flores,39,Female,Civil Servant,Salaried - Private,80773,778,Very Good (740-799),0.511,Mass Market Prime,Rent,BR-111,2025-08-02
+CUST-0499,Penelope Patel,33,Female,Supply Chain Lead,Salaried - Public / Govt,43674,737,Good (670-739),0.267,Mass Market Prime,Own Mortgage,BR-103,2023-12-12
+CUST-0500,Elena Carter,48,Female,Small Business Owner,Business Owner,90274,750,Very Good (740-799),0.368,Emerging Prime,Rent,BR-101,2024-07-25
+CUST-0501,Oliver Brown,32,Female,Operations Manager,Business Owner,96252,738,Good (670-739),0.283,Emerging Prime,Rent,BR-108,2024-07-21
+CUST-0502,Henry King,49,Male,Civil Servant,Business Owner,174002,710,Good (670-739),0.414,Emerging Prime,Own Mortgage,BR-109,2025-01-24
+CUST-0503,Deepa Flores,63,Female,Financial Analyst,Self-Employed Professional,160766,682,Good (670-739),0.371,Emerging Prime,Own Outright,BR-111,2024-06-09
+CUST-0504,Owen King,43,Other,Supply Chain Lead,Salaried - Public / Govt,37221,671,Good (670-739),0.478,Mass Market Prime,Own Mortgage,BR-102,2026-01-10
+CUST-0505,Harper Baker,50,Female,Small Business Owner,Self-Employed Professional,41212,674,Good (670-739),0.386,Mass Market Prime,Own Mortgage,BR-110,2024-04-19
+CUST-0506,Evelyn Rivera,29,Male,Educator / Professor,Salaried - Public / Govt,64057,693,Good (670-739),0.419,Mass Market Prime,Own Mortgage,BR-108,2023-07-05
+CUST-0507,Rahul Reddy,39,Female,Supply Chain Lead,Self-Employed Professional,107689,679,Good (670-739),0.454,Emerging Prime,Own Mortgage,BR-106,2023-06-03
+CUST-0508,Aria Verma,38,Male,Sales Director,Salaried - Private,156777,695,Good (670-739),0.398,Emerging Prime,Own Mortgage,BR-109,2025-07-02
+CUST-0509,Avery Flores,63,Male,Sales Director,Self-Employed Professional,259774,589,Fair (580-669),0.433,Emerging Prime,Rent,BR-101,2025-11-15
+CUST-0510,Emily Adams,62,Male,Software Engineer,Business Owner,150319,712,Good (670-739),0.122,Emerging Prime,Rent,BR-108,2025-10-06
+CUST-0511,Deepa Sanchez,68,Male,Civil Engineer,Salaried - Public / Govt,161370,564,Poor (500-579),0.172,Emerging Prime,Own Outright,BR-106,2024-12-13
+CUST-0512,Carter Sanchez,25,Other,Attorney / Legal Counsel,Salaried - Private,230491,713,Good (670-739),0.447,Emerging Prime,Own Mortgage,BR-104,2024-01-27
+CUST-0513,Sophia Harris,64,Male,Civil Servant,Business Owner,129178,780,Very Good (740-799),0.329,Emerging Prime,Rent,BR-108,2024-02-23
+CUST-0514,Abigail Williams,34,Male,Supply Chain Lead,Contractor / Gig,51513,629,Fair (580-669),0.461,Subprime / High Risk,Own Outright,BR-108,2026-01-28
+CUST-0515,Sunita Johnson,24,Female,Software Engineer,Self-Employed Professional,90491,742,Very Good (740-799),0.211,Emerging Prime,Rent,BR-109,2025-08-26
+CUST-0516,Kenji Martinez,59,Male,Healthcare Professional,Salaried - Private,39997,771,Very Good (740-799),0.323,Mass Market Prime,Rent,BR-101,2024-06-11
+CUST-0517,Alexander Smith,33,Other,Software Engineer,Self-Employed Professional,155114,746,Very Good (740-799),0.193,Affluent & HNI,Own Outright,BR-102,2023-09-21
+CUST-0518,Elena Hill,61,Male,Healthcare Professional,Salaried - Public / Govt,119996,721,Good (670-739),0.172,Emerging Prime,Rent,BR-109,2023-11-08
+CUST-0519,Luna Gupta,35,Male,Educator / Professor,Salaried - Public / Govt,106799,685,Good (670-739),0.181,Emerging Prime,Own Mortgage,BR-112,2025-02-26
+CUST-0520,Elizabeth Lewis,37,Other,Software Engineer,Salaried - Public / Govt,176929,574,Poor (500-579),0.188,Emerging Prime,Rent,BR-102,2023-02-13
+CUST-0521,James Lopez,27,Other,Attorney / Legal Counsel,Contractor / Gig,291497,766,Very Good (740-799),0.175,Affluent & HNI,Own Mortgage,BR-105,2026-01-06
+CUST-0522,Sunita Clark,37,Male,Educator / Professor,Salaried - Private,58074,733,Good (670-739),0.39,Mass Market Prime,Rent,BR-106,2025-06-06
+CUST-0523,James Scott,37,Male,Healthcare Professional,Contractor / Gig,129870,839,Exceptional (800-850),0.491,Emerging Prime,Living with Family,BR-109,2024-04-24
+CUST-0524,Kavita Roberts,62,Other,Small Business Owner,Self-Employed Professional,74116,527,Poor (500-579),0.415,Subprime / High Risk,Living with Family,BR-108,2025-11-14
+CUST-0525,Jack Hernandez,64,Male,Software Engineer,Self-Employed Professional,118816,725,Good (670-739),0.385,Emerging Prime,Rent,BR-108,2023-04-29
+CUST-0526,Harper Mitchell,25,Other,Corporate Executive,Salaried - Public / Govt,140425,771,Very Good (740-799),0.15,Emerging Prime,Own Mortgage,BR-108,2024-11-28
+CUST-0527,Ananya Gonzalez,65,Female,Small Business Owner,Salaried - Private,97159,682,Good (670-739),0.437,Emerging Prime,Rent,BR-107,2024-04-26
+CUST-0528,Isabella Walker,59,Female,Software Engineer,Business Owner,98338,658,Fair (580-669),0.287,Emerging Prime,Own Mortgage,BR-112,2024-03-03
+CUST-0529,Chloe Moore,34,Female,Corporate Executive,Salaried - Private,145783,743,Very Good (740-799),0.168,Emerging Prime,Own Outright,BR-107,2024-01-16
+CUST-0530,Grace Anderson,40,Other,Corporate Executive,Contractor / Gig,170215,836,Exceptional (800-850),0.157,Affluent & HNI,Rent,BR-108,2024-04-18
+CUST-0531,Carlos Gupta,51,Female,Software Engineer,Business Owner,117899,755,Very Good (740-799),0.307,Emerging Prime,Own Mortgage,BR-110,2023-12-02
+CUST-0532,James Clark,24,Male,Sales Director,Contractor / Gig,235637,553,Poor (500-579),0.468,Emerging Prime,Rent,BR-102,2025-08-14
+CUST-0533,Elena Thomas,27,Other,Software Engineer,Business Owner,113769,808,Exceptional (800-850),0.223,Emerging Prime,Living with Family,BR-101,2025-10-09
+CUST-0534,Madison Hernandez,67,Female,Educator / Professor,Contractor / Gig,156572,549,Poor (500-579),0.452,Emerging Prime,Rent,BR-107,2024-02-13
+CUST-0535,Penelope Green,51,Other,Attorney / Legal Counsel,Salaried - Private,291076,744,Very Good (740-799),0.263,Affluent & HNI,Own Mortgage,BR-107,2024-08-05
+CUST-0536,Yuki Torres,35,Other,Healthcare Professional,Contractor / Gig,49368,787,Very Good (740-799),0.341,Mass Market Prime,Rent,BR-106,2023-05-16
+CUST-0537,Oliver Harris,45,Female,Educator / Professor,Salaried - Private,52565,692,Good (670-739),0.361,Mass Market Prime,Rent,BR-103,2024-12-16
+CUST-0538,David Wright,29,Other,Sales Director,Contractor / Gig,307439,784,Very Good (740-799),0.44,Affluent & HNI,Own Mortgage,BR-106,2024-07-31
+CUST-0539,Wei Baker,49,Female,Software Engineer,Salaried - Private,140726,727,Good (670-739),0.346,Emerging Prime,Own Mortgage,BR-112,2026-01-24
+CUST-0540,Kenji Deshmukh,40,Female,Educator / Professor,Self-Employed Professional,52203,784,Very Good (740-799),0.201,Mass Market Prime,Rent,BR-102,2023-07-14
+CUST-0541,Rajesh Deshmukh,33,Female,Healthcare Professional,Salaried - Private,73785,594,Fair (580-669),0.333,Subprime / High Risk,Rent,BR-109,2023-03-18
+CUST-0542,Victoria Clark,65,Other,Corporate Executive,Business Owner,186419,726,Good (670-739),0.201,Emerging Prime,Own Mortgage,BR-104,2025-12-30
+CUST-0543,Jayden Clark,59,Female,Attorney / Legal Counsel,Self-Employed Professional,226721,737,Good (670-739),0.317,Emerging Prime,Own Outright,BR-105,2024-01-17
+CUST-0544,Aria Anderson,52,Female,Civil Servant,Salaried - Private,154518,616,Fair (580-669),0.531,Emerging Prime,Own Outright,BR-103,2026-01-31
+CUST-0545,Wyatt Lopez,33,Other,Supply Chain Lead,Salaried - Public / Govt,45787,594,Fair (580-669),0.547,Subprime / High Risk,Own Outright,BR-108,2024-07-17
+CUST-0546,Penelope Lopez,35,Other,Supply Chain Lead,Salaried - Private,73782,762,Very Good (740-799),0.28,Mass Market Prime,Own Outright,BR-103,2026-01-27
+CUST-0547,Carter Davis,23,Female,Sales Director,Salaried - Public / Govt,111125,820,Exceptional (800-850),0.537,Emerging Prime,Own Outright,BR-109,2024-12-09
+CUST-0548,Victoria Walker,40,Other,Attorney / Legal Counsel,Salaried - Public / Govt,198784,786,Very Good (740-799),0.416,Affluent & HNI,Rent,BR-101,2023-11-12
+CUST-0549,Oliver Martin,23,Female,Educator / Professor,Salaried - Public / Govt,120555,681,Good (670-739),0.144,Emerging Prime,Own Outright,BR-110,2026-01-13
+CUST-0550,Samuel Sharma,39,Male,Software Engineer,Salaried - Private,142081,727,Good (670-739),0.29,Emerging Prime,Own Outright,BR-110,2025-12-13
+CUST-0551,Ava Singh,64,Female,Operations Manager,Salaried - Public / Govt,131896,767,Very Good (740-799),0.286,Emerging Prime,Own Mortgage,BR-106,2025-01-19
+CUST-0552,Madison Lewis,57,Male,Small Business Owner,Business Owner,150999,766,Very Good (740-799),0.244,Affluent & HNI,Rent,BR-107,2025-05-28
+CUST-0553,Abigail Gupta,59,Other,Healthcare Professional,Salaried - Public / Govt,172704,640,Fair (580-669),0.544,Emerging Prime,Own Mortgage,BR-110,2025-03-10
+CUST-0554,Mia Smith,48,Other,Civil Servant,Business Owner,70894,639,Fair (580-669),0.206,Subprime / High Risk,Rent,BR-105,2026-03-10
+CUST-0555,Juan Williams,41,Other,Civil Servant,Business Owner,93856,729,Good (670-739),0.132,Emerging Prime,Own Mortgage,BR-105,2024-10-06
+CUST-0556,Carlos Davis,63,Other,Civil Servant,Business Owner,99159,668,Fair (580-669),0.132,Emerging Prime,Rent,BR-108,2023-06-16
+CUST-0557,Grayson Nguyen,52,Other,Operations Manager,Self-Employed Professional,66348,730,Good (670-739),0.28,Mass Market Prime,Rent,BR-101,2024-07-15
+CUST-0558,Sebastian Nguyen,25,Male,Financial Analyst,Business Owner,96405,748,Very Good (740-799),0.143,Emerging Prime,Own Mortgage,BR-111,2025-01-29
+CUST-0559,Jackson Jackson,40,Other,Attorney / Legal Counsel,Salaried - Private,266961,693,Good (670-739),0.444,Emerging Prime,Own Outright,BR-106,2024-10-08
+CUST-0560,John Baker,66,Other,Financial Analyst,Salaried - Private,76690,715,Good (670-739),0.179,Mass Market Prime,Own Mortgage,BR-108,2025-05-23
+CUST-0561,Grace Singh,32,Male,Small Business Owner,Salaried - Public / Govt,172796,694,Good (670-739),0.484,Emerging Prime,Rent,BR-112,2023-09-21
+CUST-0562,Ananya Robinson,26,Male,Corporate Executive,Salaried - Private,146441,709,Good (670-739),0.471,Emerging Prime,Rent,BR-110,2026-01-06
+CUST-0563,Grace Lopez,67,Female,Software Engineer,Salaried - Private,165183,668,Fair (580-669),0.217,Emerging Prime,Own Mortgage,BR-103,2023-07-10
+CUST-0564,Arjun Hall,29,Male,Software Engineer,Business Owner,89131,742,Very Good (740-799),0.134,Emerging Prime,Rent,BR-110,2023-06-01
+CUST-0565,Carlos Davis,38,Male,Healthcare Professional,Self-Employed Professional,60297,788,Very Good (740-799),0.456,Mass Market Prime,Rent,BR-104,2024-03-15
+CUST-0566,Mila Nelson,44,Male,Healthcare Professional,Salaried - Public / Govt,126183,757,Very Good (740-799),0.271,Emerging Prime,Rent,BR-112,2024-06-09
+CUST-0567,Wei Torres,26,Male,Educator / Professor,Salaried - Private,108887,694,Good (670-739),0.194,Emerging Prime,Rent,BR-101,2023-08-21
+CUST-0568,Avery Singh,54,Other,Sales Director,Self-Employed Professional,286560,751,Very Good (740-799),0.532,Affluent & HNI,Own Mortgage,BR-106,2025-03-18
+CUST-0569,Arjun Wilson,54,Male,Operations Manager,Salaried - Private,67405,760,Very Good (740-799),0.32,Mass Market Prime,Own Outright,BR-108,2025-02-08
+CUST-0570,Wyatt Scott,68,Male,Healthcare Professional,Self-Employed Professional,109347,719,Good (670-739),0.316,Emerging Prime,Rent,BR-111,2025-07-28
+CUST-0571,Samuel Scott,48,Female,Operations Manager,Salaried - Public / Govt,159695,797,Very Good (740-799),0.524,Affluent & HNI,Own Mortgage,BR-101,2025-11-02
+CUST-0572,Harper Sanchez,50,Other,Attorney / Legal Counsel,Salaried - Private,292199,630,Fair (580-669),0.374,Emerging Prime,Own Mortgage,BR-103,2023-06-12
+CUST-0573,Grayson Gonzalez,43,Male,Educator / Professor,Business Owner,165838,634,Fair (580-669),0.24,Emerging Prime,Rent,BR-110,2024-08-12
+CUST-0574,Priya Thompson,52,Other,Educator / Professor,Business Owner,108109,832,Exceptional (800-850),0.183,Emerging Prime,Own Outright,BR-102,2024-06-27
+CUST-0575,Juan Young,36,Other,Corporate Executive,Salaried - Private,240583,523,Poor (500-579),0.412,Emerging Prime,Living with Family,BR-107,2024-11-30
+CUST-0576,Emily Martin,61,Other,Healthcare Professional,Salaried - Private,164024,773,Very Good (740-799),0.461,Affluent & HNI,Own Mortgage,BR-111,2025-11-15
+CUST-0577,Juan Allen,38,Other,Financial Analyst,Contractor / Gig,90615,674,Good (670-739),0.285,Emerging Prime,Own Mortgage,BR-107,2025-07-25
+CUST-0578,Rahul Williams,24,Male,Civil Engineer,Self-Employed Professional,163838,750,Very Good (740-799),0.305,Affluent & HNI,Own Mortgage,BR-107,2025-10-25
+CUST-0579,Oliver Torres,65,Female,Attorney / Legal Counsel,Contractor / Gig,234757,776,Very Good (740-799),0.362,Affluent & HNI,Own Mortgage,BR-101,2025-04-11
+CUST-0580,Aria Young,59,Female,Educator / Professor,Self-Employed Professional,119012,758,Very Good (740-799),0.146,Emerging Prime,Own Outright,BR-103,2025-02-19
+CUST-0581,Dylan Patel,59,Male,Attorney / Legal Counsel,Self-Employed Professional,203681,724,Good (670-739),0.297,Emerging Prime,Own Mortgage,BR-104,2024-06-21
+CUST-0582,David Adams,41,Other,Healthcare Professional,Salaried - Private,123498,747,Very Good (740-799),0.193,Emerging Prime,Own Outright,BR-101,2025-08-31
+CUST-0583,Arjun Torres,54,Female,Civil Servant,Salaried - Private,40829,777,Very Good (740-799),0.544,Mass Market Prime,Own Mortgage,BR-107,2024-11-21
+CUST-0584,Ethan Patel,53,Male,Supply Chain Lead,Salaried - Public / Govt,124008,734,Good (670-739),0.192,Emerging Prime,Own Mortgage,BR-107,2024-03-19
+CUST-0585,Elena Green,26,Other,Small Business Owner,Self-Employed Professional,140389,708,Good (670-739),0.466,Emerging Prime,Own Outright,BR-102,2023-08-13
+CUST-0586,Grace Moore,26,Other,Civil Engineer,Business Owner,55096,714,Good (670-739),0.4,Mass Market Prime,Own Mortgage,BR-105,2025-07-05
+CUST-0587,Yuki Lee,34,Female,Operations Manager,Self-Employed Professional,178540,728,Good (670-739),0.198,Emerging Prime,Own Mortgage,BR-112,2025-12-23
+CUST-0588,Mila Torres,53,Male,Attorney / Legal Counsel,Business Owner,258404,738,Good (670-739),0.432,Emerging Prime,Own Mortgage,BR-104,2025-02-15
+CUST-0589,Kavita Martinez,37,Male,Supply Chain Lead,Self-Employed Professional,118533,766,Very Good (740-799),0.49,Emerging Prime,Rent,BR-111,2024-03-22
+CUST-0590,Amit Moore,40,Other,Corporate Executive,Self-Employed Professional,172516,755,Very Good (740-799),0.169,Affluent & HNI,Own Mortgage,BR-104,2024-10-27
+CUST-0591,Kavita Young,57,Female,Operations Manager,Salaried - Private,70764,614,Fair (580-669),0.133,Subprime / High Risk,Rent,BR-105,2026-03-03
+CUST-0592,Jack Adams,24,Other,Sales Director,Salaried - Private,192288,577,Poor (500-579),0.379,Emerging Prime,Rent,BR-107,2025-02-13
+CUST-0593,Mia Sanchez,68,Male,Small Business Owner,Salaried - Private,66625,734,Good (670-739),0.344,Mass Market Prime,Rent,BR-109,2024-06-29
+CUST-0594,Elena Kulkarni,27,Male,Educator / Professor,Salaried - Private,121320,760,Very Good (740-799),0.478,Emerging Prime,Rent,BR-112,2024-05-28
+CUST-0595,Arjun Wilson,31,Male,Corporate Executive,Salaried - Public / Govt,176664,828,Exceptional (800-850),0.491,Affluent & HNI,Own Mortgage,BR-109,2025-03-08
+CUST-0596,Oliver Lee,56,Female,Sales Director,Salaried - Public / Govt,205157,850,Exceptional (800-850),0.324,Affluent & HNI,Own Mortgage,BR-105,2023-03-15
+CUST-0597,Noah Gupta,64,Male,Supply Chain Lead,Salaried - Public / Govt,116072,719,Good (670-739),0.395,Emerging Prime,Rent,BR-111,2023-10-07
+CUST-0598,Kenji Nair,37,Female,Operations Manager,Salaried - Private,101986,825,Exceptional (800-850),0.249,Emerging Prime,Rent,BR-104,2024-10-01
+CUST-0599,Theodore Nair,32,Female,Attorney / Legal Counsel,Self-Employed Professional,316914,789,Very Good (740-799),0.135,Affluent & HNI,Rent,BR-108,2025-09-21
+CUST-0600,Amit Reddy,43,Other,Operations Manager,Salaried - Private,103411,784,Very Good (740-799),0.338,Emerging Prime,Own Mortgage,BR-110,2026-02-25
+CUST-0601,Luna Robinson,66,Male,Software Engineer,Salaried - Public / Govt,127515,687,Good (670-739),0.206,Emerging Prime,Own Mortgage,BR-110,2023-07-18
+CUST-0602,Oliver Hernandez,37,Other,Supply Chain Lead,Salaried - Public / Govt,142561,783,Very Good (740-799),0.461,Emerging Prime,Own Mortgage,BR-108,2023-10-31
+CUST-0603,Aria Lopez,65,Other,Financial Analyst,Self-Employed Professional,98840,633,Fair (580-669),0.289,Emerging Prime,Own Mortgage,BR-110,2024-05-04
+CUST-0604,Liam Johnson,57,Other,Educator / Professor,Salaried - Public / Govt,86974,829,Exceptional (800-850),0.233,Emerging Prime,Rent,BR-101,2025-05-01
+CUST-0605,Arjun Hill,38,Male,Healthcare Professional,Self-Employed Professional,65762,652,Fair (580-669),0.126,Subprime / High Risk,Own Outright,BR-108,2025-11-08
+CUST-0606,Evelyn Anderson,67,Male,Small Business Owner,Self-Employed Professional,135158,733,Good (670-739),0.176,Emerging Prime,Rent,BR-110,2024-04-16
+CUST-0607,Wyatt Campbell,65,Male,Operations Manager,Salaried - Public / Govt,42542,688,Good (670-739),0.245,Mass Market Prime,Own Mortgage,BR-110,2025-08-11
+CUST-0608,Camila White,59,Other,Attorney / Legal Counsel,Business Owner,194736,550,Poor (500-579),0.539,Emerging Prime,Own Mortgage,BR-104,2025-03-26
+CUST-0609,Arjun Mitchell,60,Female,Healthcare Professional,Salaried - Private,122257,676,Good (670-739),0.52,Emerging Prime,Own Outright,BR-106,2023-05-04
+CUST-0610,James Taylor,54,Other,Operations Manager,Self-Employed Professional,132229,842,Exceptional (800-850),0.177,Emerging Prime,Rent,BR-101,2024-02-02
+CUST-0611,Aria Hernandez,54,Female,Financial Analyst,Business Owner,131744,620,Fair (580-669),0.181,Emerging Prime,Own Mortgage,BR-101,2023-10-19
+CUST-0612,Elena Nair,39,Other,Financial Analyst,Business Owner,142760,703,Good (670-739),0.255,Emerging Prime,Rent,BR-106,2025-11-02
+CUST-0613,Emily Scott,64,Other,Sales Director,Salaried - Private,158009,586,Fair (580-669),0.135,Emerging Prime,Own Mortgage,BR-112,2025-09-13
+CUST-0614,Deepa Davis,53,Male,Sales Director,Self-Employed Professional,229998,835,Exceptional (800-850),0.332,Affluent & HNI,Rent,BR-103,2023-10-11
+CUST-0615,Dylan Garcia,35,Female,Corporate Executive,Salaried - Public / Govt,257651,792,Very Good (740-799),0.503,Affluent & HNI,Own Outright,BR-110,2023-02-08
+CUST-0616,Jin Roberts,58,Male,Operations Manager,Salaried - Private,59721,643,Fair (580-669),0.502,Subprime / High Risk,Own Mortgage,BR-111,2023-10-07
+CUST-0617,Rajesh White,59,Male,Financial Analyst,Salaried - Public / Govt,134513,549,Poor (500-579),0.39,Emerging Prime,Own Mortgage,BR-111,2023-02-11
+CUST-0618,Jayden Williams,63,Other,Sales Director,Self-Employed Professional,165408,846,Exceptional (800-850),0.491,Affluent & HNI,Rent,BR-105,2024-11-22
+CUST-0619,Ava Mitchell,26,Other,Educator / Professor,Business Owner,81664,536,Poor (500-579),0.223,Subprime / High Risk,Rent,BR-107,2023-08-01
+CUST-0620,Liam Iyer,35,Male,Operations Manager,Business Owner,66615,689,Good (670-739),0.248,Mass Market Prime,Rent,BR-112,2024-10-27
+CUST-0621,Alexander Thompson,64,Male,Financial Analyst,Contractor / Gig,137447,637,Fair (580-669),0.235,Emerging Prime,Own Outright,BR-102,2025-06-14
+CUST-0622,Penelope Flores,33,Female,Attorney / Legal Counsel,Business Owner,231510,552,Poor (500-579),0.411,Emerging Prime,Own Outright,BR-112,2023-12-14
+CUST-0623,Elena King,62,Other,Civil Engineer,Salaried - Private,55757,725,Good (670-739),0.51,Mass Market Prime,Own Outright,BR-103,2023-10-19
+CUST-0624,Carter Gupta,37,Other,Operations Manager,Self-Employed Professional,46821,679,Good (670-739),0.341,Mass Market Prime,Own Outright,BR-107,2023-08-12
+CUST-0625,Kavita Nelson,68,Other,Civil Servant,Self-Employed Professional,166974,680,Good (670-739),0.127,Emerging Prime,Rent,BR-108,2024-02-02
+CUST-0626,Mila Gupta,47,Male,Healthcare Professional,Business Owner,117299,759,Very Good (740-799),0.372,Emerging Prime,Own Outright,BR-111,2025-08-09
+CUST-0627,Aria Perez,33,Male,Corporate Executive,Salaried - Private,286530,778,Very Good (740-799),0.166,Affluent & HNI,Own Outright,BR-101,2025-04-18
+CUST-0628,Oliver Smith,32,Other,Sales Director,Business Owner,189377,795,Very Good (740-799),0.386,Affluent & HNI,Living with Family,BR-106,2025-04-18
+CUST-0629,Carter Garcia,30,Male,Software Engineer,Salaried - Public / Govt,187592,582,Fair (580-669),0.132,Emerging Prime,Own Outright,BR-103,2024-06-09
+CUST-0630,Deepa Gupta,62,Other,Small Business Owner,Salaried - Private,73840,729,Good (670-739),0.324,Mass Market Prime,Own Mortgage,BR-103,2023-12-09
+CUST-0631,Vikram Young,52,Male,Sales Director,Contractor / Gig,123348,617,Fair (580-669),0.264,Emerging Prime,Own Mortgage,BR-112,2025-07-03
+CUST-0632,Ananya Iyer,53,Other,Educator / Professor,Contractor / Gig,44703,758,Very Good (740-799),0.33,Mass Market Prime,Own Outright,BR-110,2025-10-26
+CUST-0633,Sofia Rivera,25,Other,Software Engineer,Business Owner,159974,678,Good (670-739),0.299,Emerging Prime,Own Outright,BR-108,2025-01-10
+CUST-0634,Sunita Hall,49,Male,Corporate Executive,Self-Employed Professional,224848,770,Very Good (740-799),0.22,Affluent & HNI,Own Mortgage,BR-111,2024-12-25
+CUST-0635,Kavita Rodriguez,40,Other,Supply Chain Lead,Business Owner,129438,843,Exceptional (800-850),0.462,Emerging Prime,Rent,BR-103,2024-03-30
+CUST-0636,Wyatt Hall,27,Other,Sales Director,Salaried - Public / Govt,136451,600,Fair (580-669),0.461,Emerging Prime,Rent,BR-108,2024-10-13
+CUST-0637,David Wilson,57,Male,Software Engineer,Self-Employed Professional,97900,762,Very Good (740-799),0.476,Emerging Prime,Rent,BR-101,2023-06-10
+CUST-0638,Grace Ramirez,29,Other,Small Business Owner,Salaried - Private,102586,732,Good (670-739),0.547,Emerging Prime,Rent,BR-101,2026-03-16
+CUST-0639,John Deshmukh,31,Other,Civil Engineer,Contractor / Gig,48217,785,Very Good (740-799),0.518,Mass Market Prime,Own Mortgage,BR-108,2023-09-15
+CUST-0640,Harper Sharma,61,Other,Healthcare Professional,Contractor / Gig,78790,526,Poor (500-579),0.391,Subprime / High Risk,Rent,BR-106,2023-12-18
+CUST-0641,Victoria Rivera,50,Other,Sales Director,Salaried - Private,146116,626,Fair (580-669),0.173,Emerging Prime,Own Mortgage,BR-107,2023-02-13
+CUST-0642,Camila Gupta,52,Female,Civil Servant,Contractor / Gig,132631,614,Fair (580-669),0.428,Emerging Prime,Own Mortgage,BR-111,2024-06-16
+CUST-0643,Emily Carter,55,Female,Small Business Owner,Salaried - Public / Govt,142297,766,Very Good (740-799),0.506,Emerging Prime,Living with Family,BR-109,2025-02-09
+CUST-0644,Olivia Lewis,31,Male,Supply Chain Lead,Contractor / Gig,123684,805,Exceptional (800-850),0.255,Emerging Prime,Living with Family,BR-103,2025-07-07
+CUST-0645,Ava Sanchez,24,Other,Attorney / Legal Counsel,Salaried - Public / Govt,187522,803,Exceptional (800-850),0.3,Affluent & HNI,Rent,BR-112,2026-03-09
+CUST-0646,Carter Campbell,42,Female,Software Engineer,Self-Employed Professional,166789,839,Exceptional (800-850),0.294,Affluent & HNI,Own Outright,BR-109,2025-07-24
+CUST-0647,Dylan Kulkarni,63,Female,Small Business Owner,Self-Employed Professional,122685,554,Poor (500-579),0.288,Emerging Prime,Rent,BR-103,2025-12-31
+CUST-0648,Yuki Jackson,35,Male,Civil Engineer,Contractor / Gig,76950,713,Good (670-739),0.13,Mass Market Prime,Rent,BR-109,2024-07-13
+CUST-0649,David Gupta,41,Other,Operations Manager,Contractor / Gig,132774,587,Fair (580-669),0.232,Emerging Prime,Own Outright,BR-102,2023-05-08
+CUST-0650,Evelyn Lewis,41,Other,Supply Chain Lead,Salaried - Private,174798,700,Good (670-739),0.483,Emerging Prime,Own Mortgage,BR-105,2024-09-04
+CUST-0651,Abigail Rivera,46,Other,Supply Chain Lead,Salaried - Public / Govt,85477,646,Fair (580-669),0.474,Emerging Prime,Own Mortgage,BR-102,2023-11-27
+CUST-0652,Arjun Gupta,48,Male,Healthcare Professional,Salaried - Private,159846,686,Good (670-739),0.212,Emerging Prime,Own Mortgage,BR-111,2026-01-12
+CUST-0653,Priya Nguyen,57,Other,Operations Manager,Self-Employed Professional,150364,724,Good (670-739),0.416,Emerging Prime,Rent,BR-112,2025-06-02
+CUST-0654,Sebastian Martinez,54,Male,Sales Director,Business Owner,140948,645,Fair (580-669),0.419,Emerging Prime,Own Outright,BR-101,2023-12-18
+CUST-0655,Penelope Singh,29,Other,Operations Manager,Salaried - Private,110914,653,Fair (580-669),0.137,Emerging Prime,Own Mortgage,BR-106,2024-10-16
+CUST-0656,Penelope Martin,40,Female,Software Engineer,Salaried - Public / Govt,81376,655,Fair (580-669),0.523,Subprime / High Risk,Own Mortgage,BR-105,2024-04-16
+CUST-0657,Mila Verma,53,Male,Healthcare Professional,Contractor / Gig,144464,675,Good (670-739),0.327,Emerging Prime,Own Mortgage,BR-108,2024-12-22
+CUST-0658,Levi Walker,68,Other,Corporate Executive,Salaried - Public / Govt,284907,728,Good (670-739),0.313,Emerging Prime,Rent,BR-106,2023-08-01
+CUST-0659,Amit Harris,36,Female,Financial Analyst,Contractor / Gig,171457,562,Poor (500-579),0.239,Emerging Prime,Own Mortgage,BR-103,2023-03-22
+CUST-0660,Madison Scott,63,Male,Attorney / Legal Counsel,Contractor / Gig,261219,559,Poor (500-579),0.446,Emerging Prime,Living with Family,BR-109,2024-02-22
+CUST-0661,Carlos Allen,23,Male,Attorney / Legal Counsel,Contractor / Gig,316243,582,Fair (580-669),0.208,Emerging Prime,Rent,BR-110,2025-07-28
+CUST-0662,Lucas Patel,56,Other,Financial Analyst,Business Owner,119558,732,Good (670-739),0.308,Emerging Prime,Own Mortgage,BR-109,2024-11-10
+CUST-0663,Levi Taylor,27,Male,Healthcare Professional,Contractor / Gig,82885,598,Fair (580-669),0.23,Subprime / High Risk,Own Mortgage,BR-105,2025-05-14
+CUST-0664,Elizabeth Brown,61,Female,Corporate Executive,Salaried - Private,135885,759,Very Good (740-799),0.258,Emerging Prime,Own Mortgage,BR-106,2024-07-12
+CUST-0665,Levi Verma,29,Male,Small Business Owner,Salaried - Public / Govt,96994,777,Very Good (740-799),0.332,Emerging Prime,Rent,BR-107,2023-09-23
+CUST-0666,John Brown,42,Female,Civil Engineer,Business Owner,141822,521,Poor (500-579),0.392,Emerging Prime,Rent,BR-101,2024-08-04
+CUST-0667,Ethan Thomas,57,Other,Corporate Executive,Self-Employed Professional,276670,727,Good (670-739),0.335,Emerging Prime,Rent,BR-103,2025-03-05
+CUST-0668,Yuki Hernandez,37,Other,Operations Manager,Contractor / Gig,156805,670,Good (670-739),0.533,Emerging Prime,Own Outright,BR-111,2024-01-08
+CUST-0669,James Brown,52,Female,Educator / Professor,Self-Employed Professional,127122,764,Very Good (740-799),0.482,Emerging Prime,Own Mortgage,BR-109,2024-08-29
+CUST-0670,Sophia Hernandez,56,Other,Healthcare Professional,Self-Employed Professional,67237,564,Poor (500-579),0.477,Subprime / High Risk,Rent,BR-105,2025-07-03
+CUST-0671,Theodore Flores,54,Female,Attorney / Legal Counsel,Self-Employed Professional,174468,727,Good (670-739),0.405,Emerging Prime,Own Mortgage,BR-104,2025-08-29
+CUST-0672,Jayden Johnson,66,Male,Attorney / Legal Counsel,Salaried - Private,286345,670,Good (670-739),0.195,Emerging Prime,Own Outright,BR-112,2025-10-28
+CUST-0673,Rajesh Wright,27,Other,Attorney / Legal Counsel,Salaried - Private,202535,726,Good (670-739),0.538,Emerging Prime,Own Mortgage,BR-110,2025-02-02
+CUST-0674,Layla Lopez,66,Male,Healthcare Professional,Business Owner,151543,694,Good (670-739),0.124,Emerging Prime,Rent,BR-105,2025-02-01
+CUST-0675,Owen Garcia,61,Other,Civil Servant,Salaried - Public / Govt,130158,643,Fair (580-669),0.136,Emerging Prime,Own Outright,BR-112,2024-04-03
+CUST-0676,James Gonzalez,62,Female,Healthcare Professional,Self-Employed Professional,79689,733,Good (670-739),0.357,Mass Market Prime,Rent,BR-110,2026-04-02
+CUST-0677,Jack Jones,59,Male,Supply Chain Lead,Salaried - Private,94759,652,Fair (580-669),0.499,Emerging Prime,Rent,BR-105,2024-02-27
+CUST-0678,Liam Hall,65,Other,Educator / Professor,Self-Employed Professional,153994,796,Very Good (740-799),0.121,Affluent & HNI,Own Mortgage,BR-111,2023-05-17
+CUST-0679,Luna Ramirez,48,Female,Healthcare Professional,Contractor / Gig,170595,716,Good (670-739),0.446,Emerging Prime,Rent,BR-104,2023-05-07
+CUST-0680,Scarlett Singh,48,Other,Sales Director,Self-Employed Professional,131445,532,Poor (500-579),0.498,Emerging Prime,Rent,BR-112,2024-05-07
+CUST-0681,Arjun Jones,37,Male,Corporate Executive,Self-Employed Professional,235820,682,Good (670-739),0.306,Emerging Prime,Own Mortgage,BR-111,2024-12-15
+CUST-0682,Joseph Thomas,28,Female,Small Business Owner,Self-Employed Professional,122448,792,Very Good (740-799),0.343,Emerging Prime,Own Mortgage,BR-102,2025-07-17
+CUST-0683,Ethan Green,50,Other,Healthcare Professional,Salaried - Private,133931,802,Exceptional (800-850),0.255,Emerging Prime,Rent,BR-102,2023-10-19
+CUST-0684,Ava Singh,50,Male,Civil Servant,Contractor / Gig,61693,678,Good (670-739),0.411,Mass Market Prime,Own Outright,BR-105,2025-03-22
+CUST-0685,Priya Miller,61,Female,Small Business Owner,Contractor / Gig,37780,779,Very Good (740-799),0.315,Mass Market Prime,Own Outright,BR-107,2023-08-26
+CUST-0686,Grace Adams,65,Male,Sales Director,Contractor / Gig,136919,694,Good (670-739),0.125,Emerging Prime,Rent,BR-110,2024-03-02
+CUST-0687,Alexander Green,54,Female,Financial Analyst,Business Owner,106870,726,Good (670-739),0.179,Emerging Prime,Own Mortgage,BR-103,2024-10-30
+CUST-0688,Deepa Allen,63,Female,Civil Servant,Contractor / Gig,73174,789,Very Good (740-799),0.183,Mass Market Prime,Own Mortgage,BR-106,2024-09-18
+CUST-0689,Penelope Smith,55,Other,Attorney / Legal Counsel,Salaried - Public / Govt,220640,552,Poor (500-579),0.268,Emerging Prime,Living with Family,BR-111,2024-03-18
+CUST-0690,Aiden Perez,34,Other,Sales Director,Business Owner,271507,712,Good (670-739),0.249,Emerging Prime,Own Mortgage,BR-102,2025-08-18
+CUST-0691,Sophia Young,36,Male,Attorney / Legal Counsel,Salaried - Public / Govt,172657,769,Very Good (740-799),0.327,Affluent & HNI,Rent,BR-106,2025-03-10
+CUST-0692,Theodore Sanchez,33,Male,Financial Analyst,Salaried - Private,93664,521,Poor (500-579),0.245,Emerging Prime,Own Mortgage,BR-110,2025-02-06
+CUST-0693,Sophia Johnson,34,Male,Civil Servant,Salaried - Public / Govt,80687,613,Fair (580-669),0.266,Subprime / High Risk,Own Outright,BR-103,2024-03-07
+CUST-0694,Liam Lopez,38,Male,Software Engineer,Salaried - Public / Govt,102556,684,Good (670-739),0.251,Emerging Prime,Own Mortgage,BR-106,2024-01-16
+CUST-0695,Jin Patel,61,Female,Supply Chain Lead,Salaried - Private,84713,596,Fair (580-669),0.202,Subprime / High Risk,Own Mortgage,BR-106,2024-11-12
+CUST-0696,Arjun Green,37,Male,Educator / Professor,Contractor / Gig,112118,648,Fair (580-669),0.46,Emerging Prime,Own Mortgage,BR-101,2024-08-26
+CUST-0697,Alexander Iyer,54,Other,Sales Director,Salaried - Public / Govt,317355,790,Very Good (740-799),0.405,Affluent & HNI,Own Mortgage,BR-109,2025-04-04
+CUST-0698,Mei White,53,Other,Sales Director,Salaried - Public / Govt,292061,717,Good (670-739),0.328,Emerging Prime,Living with Family,BR-108,2024-08-02
+CUST-0699,Priya Green,59,Other,Software Engineer,Salaried - Public / Govt,188137,605,Fair (580-669),0.221,Emerging Prime,Own Mortgage,BR-107,2025-03-13
+CUST-0700,Sebastian Reddy,45,Female,Civil Engineer,Salaried - Private,112345,590,Fair (580-669),0.311,Emerging Prime,Own Mortgage,BR-110,2023-04-25
+CUST-0701,Kavita Allen,61,Female,Operations Manager,Business Owner,131341,722,Good (670-739),0.466,Emerging Prime,Own Mortgage,BR-107,2023-03-22
+CUST-0702,Jack Lewis,36,Female,Attorney / Legal Counsel,Salaried - Private,241534,680,Good (670-739),0.341,Emerging Prime,Own Outright,BR-105,2024-05-11
+CUST-0703,Ethan Davis,26,Female,Software Engineer,Contractor / Gig,107771,605,Fair (580-669),0.25,Emerging Prime,Rent,BR-111,2024-08-15
+CUST-0704,Owen Rivera,60,Male,Supply Chain Lead,Contractor / Gig,113505,800,Exceptional (800-850),0.241,Emerging Prime,Own Mortgage,BR-107,2025-05-10
+CUST-0705,Emma Walker,63,Other,Corporate Executive,Business Owner,171269,606,Fair (580-669),0.342,Emerging Prime,Rent,BR-108,2025-09-01
+CUST-0706,Grace Sharma,27,Female,Small Business Owner,Business Owner,144494,784,Very Good (740-799),0.21,Emerging Prime,Own Mortgage,BR-109,2023-04-02
+CUST-0707,Penelope Rodriguez,58,Male,Civil Servant,Salaried - Private,124082,715,Good (670-739),0.217,Emerging Prime,Own Mortgage,BR-107,2026-02-05
+CUST-0708,Carter Lee,59,Male,Educator / Professor,Salaried - Private,121573,809,Exceptional (800-850),0.364,Emerging Prime,Rent,BR-110,2025-04-10
+CUST-0709,Levi Wilson,47,Male,Civil Engineer,Business Owner,121203,593,Fair (580-669),0.365,Emerging Prime,Own Outright,BR-105,2023-08-09
+CUST-0710,Elizabeth Miller,65,Other,Corporate Executive,Salaried - Private,117035,778,Very Good (740-799),0.2,Emerging Prime,Own Mortgage,BR-107,2024-09-03
+CUST-0711,Theodore Anderson,40,Other,Civil Engineer,Salaried - Private,170929,717,Good (670-739),0.125,Emerging Prime,Own Mortgage,BR-107,2025-04-10
+CUST-0712,Sebastian Davis,30,Other,Operations Manager,Business Owner,89127,764,Very Good (740-799),0.176,Emerging Prime,Own Mortgage,BR-107,2025-09-29
+CUST-0713,Sebastian Hill,58,Female,Educator / Professor,Salaried - Public / Govt,107205,728,Good (670-739),0.207,Emerging Prime,Living with Family,BR-108,2023-06-11
+CUST-0714,Priya Hill,37,Other,Financial Analyst,Contractor / Gig,150514,769,Very Good (740-799),0.137,Affluent & HNI,Own Mortgage,BR-111,2025-08-22
+CUST-0715,Dylan Hall,67,Female,Operations Manager,Contractor / Gig,80908,794,Very Good (740-799),0.298,Mass Market Prime,Own Mortgage,BR-110,2025-07-03
+CUST-0716,Rahul Harris,64,Male,Supply Chain Lead,Contractor / Gig,46446,564,Poor (500-579),0.223,Subprime / High Risk,Rent,BR-105,2026-02-05
+CUST-0717,Victoria Nelson,26,Other,Supply Chain Lead,Salaried - Public / Govt,179919,826,Exceptional (800-850),0.172,Affluent & HNI,Own Mortgage,BR-102,2025-11-29
+CUST-0718,Luna Clark,50,Male,Civil Servant,Salaried - Public / Govt,42003,729,Good (670-739),0.151,Mass Market Prime,Rent,BR-112,2025-09-02
+CUST-0719,Levi Perez,47,Male,Operations Manager,Salaried - Private,70777,527,Poor (500-579),0.261,Subprime / High Risk,Rent,BR-108,2025-09-01
+CUST-0720,Aiden Garcia,57,Other,Small Business Owner,Business Owner,77301,615,Fair (580-669),0.193,Subprime / High Risk,Own Mortgage,BR-102,2024-01-28
+CUST-0721,Victoria Davis,56,Other,Operations Manager,Salaried - Public / Govt,37938,568,Poor (500-579),0.411,Subprime / High Risk,Own Mortgage,BR-106,2024-01-30
+CUST-0722,Avery Rivera,24,Other,Civil Engineer,Salaried - Public / Govt,172068,676,Good (670-739),0.396,Emerging Prime,Rent,BR-102,2025-04-09
+CUST-0723,Madison Lewis,25,Other,Software Engineer,Salaried - Private,107728,789,Very Good (740-799),0.281,Emerging Prime,Own Mortgage,BR-102,2023-03-04
+CUST-0724,Ananya Johnson,22,Female,Small Business Owner,Salaried - Private,79009,592,Fair (580-669),0.431,Subprime / High Risk,Own Mortgage,BR-109,2023-09-08
+CUST-0725,Luna Lee,57,Other,Small Business Owner,Contractor / Gig,138563,649,Fair (580-669),0.524,Emerging Prime,Own Mortgage,BR-104,2023-09-04
+CUST-0726,Chloe Lee,33,Male,Operations Manager,Self-Employed Professional,155265,533,Poor (500-579),0.215,Emerging Prime,Rent,BR-105,2025-02-24
+CUST-0727,Sophia Jones,35,Female,Civil Servant,Contractor / Gig,175556,683,Good (670-739),0.46,Emerging Prime,Rent,BR-110,2024-01-17
+CUST-0728,Joseph Miller,60,Female,Attorney / Legal Counsel,Business Owner,197044,789,Very Good (740-799),0.195,Affluent & HNI,Rent,BR-112,2024-11-12
+CUST-0729,Maria Jones,43,Male,Educator / Professor,Contractor / Gig,95928,735,Good (670-739),0.336,Emerging Prime,Rent,BR-101,2024-05-21
+CUST-0730,Liam Flores,29,Female,Small Business Owner,Business Owner,55811,779,Very Good (740-799),0.146,Mass Market Prime,Own Mortgage,BR-105,2024-03-19
+CUST-0731,Emily Harris,35,Other,Software Engineer,Salaried - Public / Govt,171895,838,Exceptional (800-850),0.497,Affluent & HNI,Own Mortgage,BR-106,2023-04-22
+CUST-0732,Chen Sharma,48,Other,Civil Servant,Salaried - Private,124844,622,Fair (580-669),0.224,Emerging Prime,Own Outright,BR-111,2024-06-22
+CUST-0733,Samuel Hill,46,Other,Financial Analyst,Salaried - Public / Govt,189015,670,Good (670-739),0.331,Emerging Prime,Living with Family,BR-101,2023-11-16
+CUST-0734,Theodore Rodriguez,27,Male,Educator / Professor,Contractor / Gig,88575,799,Very Good (740-799),0.222,Emerging Prime,Own Mortgage,BR-112,2025-09-13
+CUST-0735,Madison Hernandez,68,Male,Small Business Owner,Business Owner,114456,611,Fair (580-669),0.243,Emerging Prime,Own Mortgage,BR-111,2024-03-18
+CUST-0736,John Nair,52,Male,Financial Analyst,Business Owner,130403,730,Good (670-739),0.337,Emerging Prime,Rent,BR-103,2025-10-14
+CUST-0737,Liam Carter,46,Female,Healthcare Professional,Self-Employed Professional,179926,689,Good (670-739),0.432,Emerging Prime,Own Mortgage,BR-108,2024-10-18
+CUST-0738,Rahul Jackson,46,Other,Educator / Professor,Business Owner,158013,528,Poor (500-579),0.204,Emerging Prime,Rent,BR-101,2023-02-26
+CUST-0739,Wei Campbell,68,Female,Sales Director,Business Owner,210673,825,Exceptional (800-850),0.331,Affluent & HNI,Own Outright,BR-110,2023-06-25
+CUST-0740,Amit Kulkarni,24,Male,Operations Manager,Contractor / Gig,101914,635,Fair (580-669),0.452,Emerging Prime,Rent,BR-106,2025-12-09
+CUST-0741,Juan Green,66,Female,Supply Chain Lead,Salaried - Private,146159,799,Very Good (740-799),0.436,Emerging Prime,Own Mortgage,BR-101,2025-02-09
+CUST-0742,Olivia Hall,64,Other,Corporate Executive,Self-Employed Professional,174858,688,Good (670-739),0.379,Emerging Prime,Living with Family,BR-103,2023-02-25
+CUST-0743,Oliver Roberts,27,Other,Supply Chain Lead,Business Owner,170931,680,Good (670-739),0.511,Emerging Prime,Rent,BR-103,2025-06-23
+CUST-0744,Joseph Hall,41,Other,Civil Engineer,Business Owner,58297,722,Good (670-739),0.167,Mass Market Prime,Own Outright,BR-106,2023-11-19
+CUST-0745,John Mitchell,35,Other,Operations Manager,Self-Employed Professional,163902,530,Poor (500-579),0.121,Emerging Prime,Own Mortgage,BR-112,2025-06-04
+CUST-0746,Jin Clark,63,Female,Supply Chain Lead,Business Owner,83863,627,Fair (580-669),0.423,Subprime / High Risk,Own Mortgage,BR-103,2025-11-25
+CUST-0747,Oliver Lewis,58,Male,Corporate Executive,Salaried - Public / Govt,177987,531,Poor (500-579),0.543,Emerging Prime,Rent,BR-108,2023-09-11
+CUST-0748,Elizabeth Garcia,40,Male,Operations Manager,Salaried - Private,42776,713,Good (670-739),0.372,Mass Market Prime,Own Outright,BR-111,2023-08-25
+CUST-0749,Emma Brown,39,Male,Attorney / Legal Counsel,Contractor / Gig,165330,742,Very Good (740-799),0.345,Affluent & HNI,Own Mortgage,BR-110,2025-12-31
+CUST-0750,John Reddy,53,Female,Financial Analyst,Contractor / Gig,116317,717,Good (670-739),0.471,Emerging Prime,Rent,BR-111,2025-04-26
+CUST-0751,Levi Flores,25,Female,Financial Analyst,Salaried - Private,170056,575,Poor (500-579),0.479,Emerging Prime,Rent,BR-101,2023-10-09
+CUST-0752,Jin Moore,66,Male,Financial Analyst,Business Owner,129149,730,Good (670-739),0.404,Emerging Prime,Own Mortgage,BR-111,2024-11-20
+CUST-0753,Liam Green,45,Male,Supply Chain Lead,Self-Employed Professional,162018,754,Very Good (740-799),0.292,Affluent & HNI,Own Outright,BR-102,2025-01-13
+CUST-0754,Arjun Reddy,52,Other,Supply Chain Lead,Salaried - Private,86138,758,Very Good (740-799),0.426,Emerging Prime,Rent,BR-110,2025-11-29
+CUST-0755,Noah Rodriguez,53,Male,Civil Servant,Contractor / Gig,79054,829,Exceptional (800-850),0.505,Mass Market Prime,Living with Family,BR-108,2026-02-11
+CUST-0756,David Thomas,35,Male,Attorney / Legal Counsel,Salaried - Private,195590,583,Fair (580-669),0.508,Emerging Prime,Rent,BR-104,2024-07-11
+CUST-0757,Carlos Deshmukh,64,Male,Attorney / Legal Counsel,Salaried - Public / Govt,133708,840,Exceptional (800-850),0.462,Emerging Prime,Own Mortgage,BR-104,2023-06-12
+CUST-0758,Grace Harris,67,Other,Supply Chain Lead,Business Owner,149547,790,Very Good (740-799),0.468,Emerging Prime,Own Mortgage,BR-102,2024-09-17
+CUST-0759,Mia Davis,27,Female,Supply Chain Lead,Contractor / Gig,65436,847,Exceptional (800-850),0.366,Mass Market Prime,Own Mortgage,BR-106,2025-03-19
+CUST-0760,James Martin,25,Other,Civil Engineer,Salaried - Public / Govt,118792,767,Very Good (740-799),0.452,Emerging Prime,Rent,BR-103,2025-12-30
+CUST-0761,Samuel Miller,47,Male,Civil Engineer,Business Owner,92384,707,Good (670-739),0.335,Emerging Prime,Own Outright,BR-110,2024-09-02
+CUST-0762,Henry Mitchell,64,Other,Software Engineer,Contractor / Gig,110841,734,Good (670-739),0.549,Emerging Prime,Rent,BR-108,2024-04-16
+CUST-0763,Elena Jackson,67,Female,Software Engineer,Self-Employed Professional,166803,606,Fair (580-669),0.436,Emerging Prime,Rent,BR-103,2025-10-25
+CUST-0764,Rajesh Martin,64,Male,Software Engineer,Contractor / Gig,120653,724,Good (670-739),0.446,Emerging Prime,Own Mortgage,BR-109,2024-09-01
+CUST-0765,Wyatt Hall,34,Other,Civil Engineer,Business Owner,49188,540,Poor (500-579),0.485,Subprime / High Risk,Rent,BR-108,2024-01-01
+CUST-0766,Abigail Lewis,66,Female,Civil Servant,Salaried - Public / Govt,37394,605,Fair (580-669),0.276,Subprime / High Risk,Rent,BR-102,2023-11-29
+CUST-0767,Levi Ramirez,65,Male,Software Engineer,Salaried - Private,81877,730,Good (670-739),0.17,Mass Market Prime,Own Outright,BR-106,2025-07-07
+CUST-0768,Emily Green,68,Female,Small Business Owner,Salaried - Private,163090,630,Fair (580-669),0.25,Emerging Prime,Own Outright,BR-103,2025-03-09
+CUST-0769,Mia Roberts,51,Other,Operations Manager,Self-Employed Professional,131291,726,Good (670-739),0.125,Emerging Prime,Own Mortgage,BR-102,2025-10-28
+CUST-0770,Mei Anderson,23,Other,Educator / Professor,Contractor / Gig,82473,682,Good (670-739),0.285,Mass Market Prime,Living with Family,BR-112,2025-07-07
+CUST-0771,Carter Torres,30,Male,Financial Analyst,Salaried - Private,99233,795,Very Good (740-799),0.294,Emerging Prime,Rent,BR-107,2026-03-14
+CUST-0772,Kenji Sharma,55,Female,Healthcare Professional,Contractor / Gig,67529,774,Very Good (740-799),0.444,Mass Market Prime,Own Mortgage,BR-111,2023-09-28
+CUST-0773,Mila Nair,60,Other,Corporate Executive,Salaried - Private,120261,710,Good (670-739),0.175,Emerging Prime,Own Mortgage,BR-103,2023-07-29
+CUST-0774,Joseph Iyer,24,Male,Healthcare Professional,Contractor / Gig,79984,739,Good (670-739),0.302,Mass Market Prime,Rent,BR-101,2024-06-22
+CUST-0775,Carter Williams,55,Female,Attorney / Legal Counsel,Contractor / Gig,247013,732,Good (670-739),0.512,Emerging Prime,Living with Family,BR-110,2026-02-06
+CUST-0776,Mei Wilson,66,Male,Attorney / Legal Counsel,Salaried - Private,188566,604,Fair (580-669),0.488,Emerging Prime,Own Mortgage,BR-103,2026-03-06
+CUST-0777,Avery Nguyen,44,Female,Corporate Executive,Contractor / Gig,210081,702,Good (670-739),0.399,Emerging Prime,Own Mortgage,BR-108,2023-07-20
+CUST-0778,Joseph Baker,49,Other,Corporate Executive,Contractor / Gig,275968,660,Fair (580-669),0.42,Emerging Prime,Own Mortgage,BR-106,2026-03-30
+CUST-0779,Mei Hill,32,Female,Corporate Executive,Self-Employed Professional,116792,827,Exceptional (800-850),0.535,Emerging Prime,Own Mortgage,BR-105,2023-10-13
+CUST-0780,Kenji Davis,65,Other,Operations Manager,Salaried - Private,130110,681,Good (670-739),0.511,Emerging Prime,Rent,BR-103,2024-05-07
+CUST-0781,Scarlett Smith,28,Female,Small Business Owner,Business Owner,67375,850,Exceptional (800-850),0.196,Mass Market Prime,Rent,BR-105,2025-10-29
+CUST-0782,Ethan King,44,Other,Educator / Professor,Self-Employed Professional,47573,682,Good (670-739),0.193,Mass Market Prime,Rent,BR-107,2024-02-05
+CUST-0783,Dylan Patel,65,Other,Civil Engineer,Contractor / Gig,160006,765,Very Good (740-799),0.375,Affluent & HNI,Own Mortgage,BR-111,2025-12-17
+CUST-0784,Emily Nelson,30,Male,Operations Manager,Contractor / Gig,132032,743,Very Good (740-799),0.424,Emerging Prime,Own Mortgage,BR-110,2025-06-05
+CUST-0785,Rahul Lopez,50,Female,Sales Director,Contractor / Gig,298341,724,Good (670-739),0.499,Emerging Prime,Rent,BR-105,2023-07-28
+CUST-0786,Madison Clark,42,Male,Attorney / Legal Counsel,Salaried - Private,153283,535,Poor (500-579),0.367,Emerging Prime,Own Mortgage,BR-105,2026-03-10
+CUST-0787,Elena Patel,22,Female,Attorney / Legal Counsel,Contractor / Gig,240496,808,Exceptional (800-850),0.341,Affluent & HNI,Living with Family,BR-109,2023-10-13
+CUST-0788,Priya Smith,61,Male,Supply Chain Lead,Salaried - Private,175070,784,Very Good (740-799),0.442,Affluent & HNI,Own Mortgage,BR-112,2026-01-16
+CUST-0789,Sophia Hill,50,Male,Attorney / Legal Counsel,Contractor / Gig,206220,811,Exceptional (800-850),0.481,Affluent & HNI,Own Outright,BR-101,2025-06-14
+CUST-0790,Elena Harris,32,Female,Healthcare Professional,Self-Employed Professional,176326,815,Exceptional (800-850),0.486,Affluent & HNI,Rent,BR-105,2024-10-04
+CUST-0791,Maria Jackson,38,Male,Software Engineer,Contractor / Gig,183229,709,Good (670-739),0.504,Emerging Prime,Rent,BR-110,2025-10-26
+CUST-0792,Ava Thompson,22,Other,Sales Director,Self-Employed Professional,201677,683,Good (670-739),0.503,Emerging Prime,Own Mortgage,BR-106,2023-02-18
+CUST-0793,Ethan Ramirez,53,Male,Healthcare Professional,Contractor / Gig,142667,689,Good (670-739),0.173,Emerging Prime,Own Outright,BR-103,2024-06-26
+CUST-0794,Samuel Walker,47,Female,Civil Servant,Self-Employed Professional,175621,693,Good (670-739),0.469,Emerging Prime,Own Mortgage,BR-108,2025-07-18
+CUST-0795,Sebastian Rodriguez,44,Other,Operations Manager,Salaried - Private,64010,695,Good (670-739),0.202,Mass Market Prime,Own Mortgage,BR-107,2025-06-11
+CUST-0796,Jayden Deshmukh,24,Male,Attorney / Legal Counsel,Salaried - Public / Govt,141140,842,Exceptional (800-850),0.301,Emerging Prime,Own Outright,BR-111,2023-10-18
+CUST-0797,Luna Carter,47,Other,Supply Chain Lead,Business Owner,40544,593,Fair (580-669),0.174,Subprime / High Risk,Own Mortgage,BR-101,2024-05-29
+CUST-0798,Jackson Baker,43,Female,Educator / Professor,Salaried - Private,108983,707,Good (670-739),0.329,Emerging Prime,Rent,BR-104,2023-12-09
+CUST-0799,Mei Lopez,37,Female,Healthcare Professional,Self-Employed Professional,147501,815,Exceptional (800-850),0.205,Emerging Prime,Rent,BR-102,2025-11-24
+CUST-0800,Mila Gonzalez,59,Other,Attorney / Legal Counsel,Salaried - Public / Govt,120057,596,Fair (580-669),0.238,Emerging Prime,Own Mortgage,BR-103,2025-06-22
+CUST-0801,Liam Flores,34,Male,Software Engineer,Business Owner,104068,709,Good (670-739),0.265,Emerging Prime,Own Outright,BR-109,2025-06-23
+CUST-0802,Jackson Martin,29,Female,Financial Analyst,Self-Employed Professional,107370,845,Exceptional (800-850),0.258,Emerging Prime,Own Mortgage,BR-101,2023-02-01
+CUST-0803,Jackson Nelson,42,Male,Civil Servant,Business Owner,147959,682,Good (670-739),0.199,Emerging Prime,Rent,BR-106,2024-12-15
+CUST-0804,Carter Davis,28,Other,Software Engineer,Contractor / Gig,122260,748,Very Good (740-799),0.439,Emerging Prime,Own Mortgage,BR-110,2026-01-18
+CUST-0805,Penelope Thomas,63,Female,Small Business Owner,Contractor / Gig,69205,683,Good (670-739),0.391,Mass Market Prime,Own Outright,BR-101,2024-02-25
+CUST-0806,Owen Rivera,50,Male,Healthcare Professional,Contractor / Gig,159308,708,Good (670-739),0.546,Emerging Prime,Own Mortgage,BR-112,2023-12-11
+CUST-0807,Sophia Rodriguez,34,Female,Civil Engineer,Self-Employed Professional,126052,788,Very Good (740-799),0.505,Emerging Prime,Own Mortgage,BR-112,2023-09-28
+CUST-0808,Deepa Jones,52,Female,Civil Engineer,Contractor / Gig,106866,750,Very Good (740-799),0.42,Emerging Prime,Own Mortgage,BR-101,2026-04-04
+CUST-0809,Ava Sharma,66,Male,Supply Chain Lead,Business Owner,169607,738,Good (670-739),0.538,Emerging Prime,Own Mortgage,BR-109,2025-03-27
+CUST-0810,Layla Sanchez,60,Female,Small Business Owner,Salaried - Public / Govt,92096,556,Poor (500-579),0.375,Emerging Prime,Own Mortgage,BR-109,2025-08-20
+CUST-0811,Wei Rivera,68,Other,Civil Servant,Self-Employed Professional,105389,758,Very Good (740-799),0.357,Emerging Prime,Own Mortgage,BR-101,2026-01-27
+CUST-0812,David Jackson,24,Other,Corporate Executive,Self-Employed Professional,278404,817,Exceptional (800-850),0.541,Affluent & HNI,Living with Family,BR-104,2026-01-29
+CUST-0813,Oliver Smith,63,Female,Attorney / Legal Counsel,Contractor / Gig,294932,820,Exceptional (800-850),0.5,Affluent & HNI,Own Mortgage,BR-103,2025-05-16
+CUST-0814,Victoria Lee,25,Other,Software Engineer,Self-Employed Professional,108552,615,Fair (580-669),0.538,Emerging Prime,Own Outright,BR-110,2023-09-05
+CUST-0815,Levi Adams,38,Other,Attorney / Legal Counsel,Contractor / Gig,195003,726,Good (670-739),0.236,Emerging Prime,Own Outright,BR-107,2023-12-15
+CUST-0816,Sunita Anderson,68,Other,Operations Manager,Self-Employed Professional,59560,641,Fair (580-669),0.333,Subprime / High Risk,Own Outright,BR-103,2024-02-21
+CUST-0817,Juan Campbell,33,Other,Civil Servant,Salaried - Private,138336,692,Good (670-739),0.416,Emerging Prime,Own Mortgage,BR-103,2023-06-27
+CUST-0818,Arjun Thomas,51,Other,Operations Manager,Salaried - Private,38090,748,Very Good (740-799),0.379,Mass Market Prime,Own Mortgage,BR-101,2023-09-13
+CUST-0819,Emma Carter,63,Male,Corporate Executive,Salaried - Public / Govt,274465,757,Very Good (740-799),0.378,Affluent & HNI,Rent,BR-101,2023-09-05
+CUST-0820,Yuki Mitchell,43,Other,Healthcare Professional,Salaried - Public / Govt,151477,652,Fair (580-669),0.471,Emerging Prime,Own Mortgage,BR-108,2023-12-13
+CUST-0821,Camila Brown,56,Other,Civil Servant,Contractor / Gig,61952,585,Fair (580-669),0.354,Subprime / High Risk,Own Mortgage,BR-107,2023-11-17
+CUST-0822,James Singh,36,Male,Small Business Owner,Business Owner,110195,715,Good (670-739),0.217,Emerging Prime,Rent,BR-107,2023-09-18
+CUST-0823,Juan Hernandez,29,Male,Healthcare Professional,Self-Employed Professional,66024,712,Good (670-739),0.275,Mass Market Prime,Rent,BR-102,2023-04-29
+CUST-0824,Emily Lopez,49,Other,Financial Analyst,Contractor / Gig,162460,634,Fair (580-669),0.415,Emerging Prime,Own Outright,BR-105,2025-01-13
+CUST-0825,Harper Moore,53,Other,Financial Analyst,Self-Employed Professional,178396,785,Very Good (740-799),0.121,Affluent & HNI,Rent,BR-103,2023-11-27
+CUST-0826,Luke Martinez,46,Female,Supply Chain Lead,Business Owner,147054,747,Very Good (740-799),0.533,Emerging Prime,Own Mortgage,BR-102,2024-11-22
+CUST-0827,Alexander Lopez,46,Female,Financial Analyst,Business Owner,93116,722,Good (670-739),0.465,Emerging Prime,Rent,BR-104,2025-03-25
+CUST-0828,Ananya Scott,53,Other,Civil Engineer,Business Owner,135827,699,Good (670-739),0.156,Emerging Prime,Rent,BR-109,2024-04-24
+CUST-0829,Mia Thomas,45,Male,Small Business Owner,Salaried - Private,70020,730,Good (670-739),0.516,Mass Market Prime,Own Mortgage,BR-106,2025-02-08
+CUST-0830,Abigail Jackson,51,Male,Civil Engineer,Business Owner,49644,608,Fair (580-669),0.441,Subprime / High Risk,Own Mortgage,BR-112,2023-11-20
+CUST-0831,Levi Campbell,23,Other,Operations Manager,Self-Employed Professional,54338,526,Poor (500-579),0.325,Subprime / High Risk,Own Outright,BR-103,2023-04-02
+CUST-0832,Henry White,31,Male,Small Business Owner,Salaried - Private,144181,573,Poor (500-579),0.184,Emerging Prime,Own Mortgage,BR-112,2023-11-13
+CUST-0833,Jin Hall,41,Female,Operations Manager,Self-Employed Professional,110174,671,Good (670-739),0.168,Emerging Prime,Own Mortgage,BR-111,2023-04-06
+CUST-0834,Jack Allen,32,Male,Operations Manager,Business Owner,154091,796,Very Good (740-799),0.358,Affluent & HNI,Rent,BR-110,2025-11-23
+CUST-0835,Madison Rivera,36,Female,Corporate Executive,Self-Employed Professional,142802,833,Exceptional (800-850),0.44,Emerging Prime,Own Mortgage,BR-101,2024-04-23
+CUST-0836,Rajesh Lopez,57,Other,Healthcare Professional,Business Owner,134737,721,Good (670-739),0.191,Emerging Prime,Rent,BR-111,2025-06-17
+CUST-0837,Owen Moore,28,Male,Healthcare Professional,Self-Employed Professional,42352,712,Good (670-739),0.223,Mass Market Prime,Own Mortgage,BR-102,2023-06-13
+CUST-0838,Avery Hill,22,Female,Small Business Owner,Contractor / Gig,98002,584,Fair (580-669),0.236,Emerging Prime,Living with Family,BR-110,2023-05-02
+CUST-0839,Maria Williams,25,Female,Healthcare Professional,Self-Employed Professional,109030,542,Poor (500-579),0.532,Emerging Prime,Own Outright,BR-106,2025-04-10
+CUST-0840,Chloe Rodriguez,66,Other,Healthcare Professional,Self-Employed Professional,61477,734,Good (670-739),0.336,Mass Market Prime,Rent,BR-101,2025-03-23
+CUST-0841,Maria Nguyen,24,Female,Corporate Executive,Salaried - Public / Govt,298340,745,Very Good (740-799),0.22,Affluent & HNI,Own Mortgage,BR-111,2023-11-15
+CUST-0842,Sebastian Allen,55,Other,Educator / Professor,Contractor / Gig,152304,821,Exceptional (800-850),0.458,Affluent & HNI,Own Mortgage,BR-106,2025-07-01
+CUST-0843,Sophia Deshmukh,67,Other,Operations Manager,Salaried - Public / Govt,54660,658,Fair (580-669),0.532,Subprime / High Risk,Own Outright,BR-108,2023-08-18
+CUST-0844,Emma Martinez,41,Other,Healthcare Professional,Business Owner,79490,540,Poor (500-579),0.522,Subprime / High Risk,Own Mortgage,BR-105,2025-02-13
+CUST-0845,Chloe Garcia,26,Male,Supply Chain Lead,Business Owner,102115,730,Good (670-739),0.448,Emerging Prime,Own Mortgage,BR-103,2023-10-11
+CUST-0846,Juan Williams,45,Female,Operations Manager,Business Owner,68812,798,Very Good (740-799),0.31,Mass Market Prime,Own Outright,BR-110,2024-11-03
+CUST-0847,Penelope Garcia,65,Female,Civil Engineer,Business Owner,49957,675,Good (670-739),0.439,Mass Market Prime,Own Mortgage,BR-109,2023-02-16
+CUST-0848,Emily Iyer,28,Female,Operations Manager,Salaried - Public / Govt,93471,679,Good (670-739),0.287,Emerging Prime,Own Outright,BR-102,2025-01-14
+CUST-0849,Kavita Robinson,63,Other,Sales Director,Salaried - Private,214056,566,Poor (500-579),0.45,Emerging Prime,Own Mortgage,BR-106,2023-06-12
+CUST-0850,Luke Perez,60,Female,Small Business Owner,Business Owner,45035,638,Fair (580-669),0.354,Subprime / High Risk,Rent,BR-103,2024-04-12
+CUST-0851,Luke Torres,24,Other,Operations Manager,Salaried - Private,147750,823,Exceptional (800-850),0.541,Emerging Prime,Own Mortgage,BR-104,2023-03-18
+CUST-0852,Arjun Moore,38,Other,Corporate Executive,Salaried - Private,131419,615,Fair (580-669),0.248,Emerging Prime,Rent,BR-107,2026-01-09
+CUST-0853,Avery Nelson,38,Male,Software Engineer,Salaried - Private,173720,767,Very Good (740-799),0.248,Affluent & HNI,Own Mortgage,BR-107,2025-10-13
+CUST-0854,Carlos Wright,66,Male,Supply Chain Lead,Business Owner,37603,719,Good (670-739),0.361,Mass Market Prime,Rent,BR-104,2023-07-09
+CUST-0855,Henry Lee,64,Other,Supply Chain Lead,Self-Employed Professional,155234,577,Poor (500-579),0.522,Emerging Prime,Own Outright,BR-106,2023-09-20
+CUST-0856,Amit Taylor,55,Other,Software Engineer,Business Owner,158744,808,Exceptional (800-850),0.537,Affluent & HNI,Own Mortgage,BR-104,2024-02-19
+CUST-0857,Ananya Hall,56,Male,Educator / Professor,Business Owner,85111,606,Fair (580-669),0.538,Emerging Prime,Own Outright,BR-101,2025-02-27
+CUST-0858,Grayson Johnson,41,Female,Civil Engineer,Salaried - Private,154537,781,Very Good (740-799),0.298,Affluent & HNI,Own Mortgage,BR-109,2025-06-21
+CUST-0859,Chen Carter,43,Male,Corporate Executive,Business Owner,265947,692,Good (670-739),0.19,Emerging Prime,Own Mortgage,BR-105,2025-07-14
+CUST-0860,Wyatt Hall,61,Male,Healthcare Professional,Salaried - Private,142814,521,Poor (500-579),0.165,Emerging Prime,Rent,BR-110,2026-02-19
+CUST-0861,Ethan Green,50,Other,Educator / Professor,Salaried - Private,145268,794,Very Good (740-799),0.211,Emerging Prime,Rent,BR-109,2025-03-21
+CUST-0862,Oliver Gonzalez,52,Male,Financial Analyst,Business Owner,124105,720,Good (670-739),0.456,Emerging Prime,Own Outright,BR-105,2024-07-25
+CUST-0863,Madison Gupta,48,Other,Small Business Owner,Salaried - Private,43565,826,Exceptional (800-850),0.127,Mass Market Prime,Own Mortgage,BR-106,2025-12-28
+CUST-0864,Luke Perez,32,Other,Operations Manager,Salaried - Public / Govt,85504,720,Good (670-739),0.385,Emerging Prime,Own Mortgage,BR-101,2025-06-27
+CUST-0865,Alexander Green,46,Other,Corporate Executive,Business Owner,224662,833,Exceptional (800-850),0.219,Affluent & HNI,Rent,BR-103,2025-11-28
+CUST-0866,Evelyn Green,58,Female,Attorney / Legal Counsel,Self-Employed Professional,163415,750,Very Good (740-799),0.16,Affluent & HNI,Own Mortgage,BR-101,2023-12-10
+CUST-0867,Olivia Flores,67,Other,Healthcare Professional,Contractor / Gig,153936,686,Good (670-739),0.393,Emerging Prime,Rent,BR-103,2024-06-04
+CUST-0868,Samuel Martin,34,Other,Small Business Owner,Business Owner,48565,782,Very Good (740-799),0.238,Mass Market Prime,Rent,BR-111,2023-03-19
+CUST-0869,Harper Davis,51,Other,Healthcare Professional,Salaried - Private,82350,613,Fair (580-669),0.16,Subprime / High Risk,Own Outright,BR-106,2024-03-31
+CUST-0870,Rajesh Miller,53,Male,Operations Manager,Salaried - Private,90127,679,Good (670-739),0.416,Emerging Prime,Own Mortgage,BR-106,2025-08-11
+CUST-0871,Sebastian Lopez,41,Male,Corporate Executive,Contractor / Gig,199865,674,Good (670-739),0.547,Emerging Prime,Own Outright,BR-110,2026-02-23
+CUST-0872,James Hernandez,55,Other,Civil Servant,Salaried - Private,175497,583,Fair (580-669),0.13,Emerging Prime,Own Outright,BR-103,2024-04-17
+CUST-0873,Grayson Davis,35,Male,Financial Analyst,Salaried - Public / Govt,110073,668,Fair (580-669),0.238,Emerging Prime,Own Mortgage,BR-102,2025-01-13
+CUST-0874,Victoria Robinson,53,Female,Civil Engineer,Business Owner,80340,816,Exceptional (800-850),0.205,Mass Market Prime,Rent,BR-112,2024-08-28
+CUST-0875,Rajesh Miller,59,Other,Civil Servant,Salaried - Public / Govt,162882,786,Very Good (740-799),0.306,Affluent & HNI,Own Mortgage,BR-110,2024-08-09
+CUST-0876,Luke Flores,28,Other,Operations Manager,Business Owner,133031,625,Fair (580-669),0.506,Emerging Prime,Rent,BR-108,2024-01-08
+CUST-0877,Noah Allen,38,Other,Operations Manager,Self-Employed Professional,127341,737,Good (670-739),0.291,Emerging Prime,Own Mortgage,BR-106,2025-06-28
+CUST-0878,Mila Thompson,37,Male,Small Business Owner,Self-Employed Professional,67061,710,Good (670-739),0.124,Mass Market Prime,Rent,BR-112,2024-12-04
+CUST-0879,Avery Robinson,58,Female,Small Business Owner,Contractor / Gig,90620,538,Poor (500-579),0.347,Emerging Prime,Own Mortgage,BR-105,2023-07-03
+CUST-0880,Ananya Baker,49,Female,Financial Analyst,Salaried - Public / Govt,81133,643,Fair (580-669),0.546,Subprime / High Risk,Own Mortgage,BR-102,2025-08-15
+CUST-0881,Elizabeth Hill,42,Other,Operations Manager,Salaried - Public / Govt,39675,706,Good (670-739),0.397,Mass Market Prime,Rent,BR-101,2025-09-02
+CUST-0882,Wyatt Rodriguez,47,Male,Civil Engineer,Contractor / Gig,39265,561,Poor (500-579),0.15,Subprime / High Risk,Own Mortgage,BR-107,2024-10-08
+CUST-0883,Scarlett Lee,44,Female,Healthcare Professional,Contractor / Gig,47339,771,Very Good (740-799),0.289,Mass Market Prime,Rent,BR-108,2025-11-06
+CUST-0884,Evelyn Gupta,45,Other,Healthcare Professional,Salaried - Private,71368,581,Fair (580-669),0.165,Subprime / High Risk,Own Mortgage,BR-112,2025-07-11
+CUST-0885,Samuel Hernandez,27,Male,Supply Chain Lead,Self-Employed Professional,36295,774,Very Good (740-799),0.522,Mass Market Prime,Rent,BR-105,2023-04-29
+CUST-0886,Oliver Brown,41,Male,Civil Servant,Self-Employed Professional,134498,790,Very Good (740-799),0.236,Emerging Prime,Own Mortgage,BR-103,2025-08-31
+CUST-0887,Evelyn Rodriguez,42,Male,Educator / Professor,Business Owner,171777,685,Good (670-739),0.347,Emerging Prime,Own Outright,BR-111,2025-10-30
+CUST-0888,Scarlett Lee,68,Female,Small Business Owner,Salaried - Private,56704,707,Good (670-739),0.272,Mass Market Prime,Rent,BR-104,2024-03-27
+CUST-0889,Isabella Jones,53,Male,Small Business Owner,Salaried - Private,135941,769,Very Good (740-799),0.201,Emerging Prime,Own Mortgage,BR-104,2026-01-15
+CUST-0890,Mei Iyer,42,Female,Supply Chain Lead,Business Owner,167254,794,Very Good (740-799),0.165,Affluent & HNI,Own Mortgage,BR-106,2025-03-30
+CUST-0891,Sunita Nair,61,Other,Small Business Owner,Business Owner,145911,615,Fair (580-669),0.191,Emerging Prime,Own Mortgage,BR-110,2023-08-28
+CUST-0892,Henry Robinson,28,Other,Healthcare Professional,Salaried - Public / Govt,84028,549,Poor (500-579),0.235,Subprime / High Risk,Own Outright,BR-109,2025-08-15
+CUST-0893,Chloe Taylor,29,Other,Healthcare Professional,Self-Employed Professional,139052,689,Good (670-739),0.336,Emerging Prime,Own Outright,BR-101,2025-07-22
+CUST-0894,John White,28,Male,Attorney / Legal Counsel,Business Owner,187071,767,Very Good (740-799),0.201,Affluent & HNI,Own Mortgage,BR-105,2026-01-19
+CUST-0895,Elena King,49,Male,Attorney / Legal Counsel,Salaried - Private,140195,684,Good (670-739),0.143,Emerging Prime,Own Mortgage,BR-105,2024-06-02
+CUST-0896,Aiden Wright,28,Female,Small Business Owner,Contractor / Gig,137736,765,Very Good (740-799),0.289,Emerging Prime,Own Mortgage,BR-112,2024-08-02
+CUST-0897,Elena Wilson,32,Male,Financial Analyst,Self-Employed Professional,87352,758,Very Good (740-799),0.2,Emerging Prime,Rent,BR-110,2025-10-03
+CUST-0898,Madison Iyer,66,Male,Corporate Executive,Self-Employed Professional,197072,750,Very Good (740-799),0.507,Affluent & HNI,Own Mortgage,BR-101,2025-09-28
+CUST-0899,Arjun Perez,23,Male,Civil Servant,Salaried - Private,127312,581,Fair (580-669),0.537,Emerging Prime,Own Outright,BR-108,2024-06-20
+CUST-0900,Carlos Davis,24,Male,Educator / Professor,Self-Employed Professional,166896,773,Very Good (740-799),0.192,Affluent & HNI,Own Mortgage,BR-102,2023-08-23
+CUST-0901,Carter Patel,43,Female,Sales Director,Self-Employed Professional,176463,816,Exceptional (800-850),0.277,Affluent & HNI,Own Mortgage,BR-106,2024-10-08
+CUST-0902,Jayden Deshmukh,55,Other,Educator / Professor,Business Owner,171133,667,Fair (580-669),0.433,Emerging Prime,Own Mortgage,BR-107,2024-04-26
+CUST-0903,Henry Thompson,53,Male,Small Business Owner,Contractor / Gig,129219,767,Very Good (740-799),0.209,Emerging Prime,Own Mortgage,BR-107,2023-09-09
+CUST-0904,Scarlett Kulkarni,62,Other,Civil Engineer,Business Owner,80862,833,Exceptional (800-850),0.234,Mass Market Prime,Rent,BR-106,2025-04-10
+CUST-0905,Ananya Moore,41,Male,Software Engineer,Contractor / Gig,131814,713,Good (670-739),0.462,Emerging Prime,Own Outright,BR-106,2024-09-12
+CUST-0906,Oliver Smith,53,Other,Corporate Executive,Business Owner,273524,773,Very Good (740-799),0.36,Affluent & HNI,Own Mortgage,BR-108,2024-09-12
+CUST-0907,Aiden Patel,40,Male,Sales Director,Salaried - Private,123944,655,Fair (580-669),0.33,Emerging Prime,Own Mortgage,BR-106,2023-02-01
+CUST-0908,Jackson Taylor,30,Female,Civil Servant,Contractor / Gig,75642,789,Very Good (740-799),0.53,Mass Market Prime,Rent,BR-103,2024-03-08
+CUST-0909,Deepa Nguyen,27,Female,Small Business Owner,Salaried - Private,100202,715,Good (670-739),0.469,Emerging Prime,Own Outright,BR-107,2025-04-27
+CUST-0910,Ethan Deshmukh,38,Female,Educator / Professor,Self-Employed Professional,119536,635,Fair (580-669),0.466,Emerging Prime,Own Mortgage,BR-104,2024-06-26
+CUST-0911,Abigail Clark,57,Male,Civil Servant,Self-Employed Professional,155888,556,Poor (500-579),0.355,Emerging Prime,Own Mortgage,BR-107,2023-08-15
+CUST-0912,Abigail King,50,Other,Financial Analyst,Contractor / Gig,136391,845,Exceptional (800-850),0.272,Emerging Prime,Own Outright,BR-107,2025-09-01
+CUST-0913,Olivia Singh,57,Male,Operations Manager,Salaried - Private,114269,779,Very Good (740-799),0.458,Emerging Prime,Own Outright,BR-106,2023-10-18
+CUST-0914,Yuki Deshmukh,58,Female,Software Engineer,Business Owner,135661,665,Fair (580-669),0.467,Emerging Prime,Rent,BR-108,2023-05-22
+CUST-0915,Lucas Brown,39,Other,Healthcare Professional,Self-Employed Professional,161213,707,Good (670-739),0.417,Emerging Prime,Rent,BR-102,2025-12-12
+CUST-0916,Jackson Hall,35,Other,Corporate Executive,Contractor / Gig,168600,771,Very Good (740-799),0.505,Affluent & HNI,Own Outright,BR-103,2024-10-08
+CUST-0917,Madison Campbell,22,Female,Educator / Professor,Salaried - Public / Govt,75113,580,Fair (580-669),0.38,Subprime / High Risk,Own Mortgage,BR-102,2024-06-20
+CUST-0918,Theodore Miller,52,Male,Civil Engineer,Business Owner,113623,685,Good (670-739),0.294,Emerging Prime,Living with Family,BR-104,2026-02-23
+CUST-0919,Aria Verma,61,Other,Sales Director,Contractor / Gig,158446,598,Fair (580-669),0.181,Emerging Prime,Rent,BR-104,2024-01-15
+CUST-0920,Mei Mitchell,66,Other,Small Business Owner,Business Owner,61219,707,Good (670-739),0.532,Mass Market Prime,Own Outright,BR-111,2024-08-16
+CUST-0921,Rajesh Harris,66,Male,Sales Director,Business Owner,184297,749,Very Good (740-799),0.317,Affluent & HNI,Own Outright,BR-101,2024-10-12
+CUST-0922,Noah Adams,63,Other,Educator / Professor,Business Owner,127989,578,Poor (500-579),0.534,Emerging Prime,Own Outright,BR-112,2025-08-26
+CUST-0923,Scarlett Smith,32,Female,Civil Engineer,Contractor / Gig,137399,647,Fair (580-669),0.341,Emerging Prime,Own Mortgage,BR-103,2025-01-20
+CUST-0924,Grace Robinson,67,Male,Civil Servant,Self-Employed Professional,161810,804,Exceptional (800-850),0.282,Affluent & HNI,Own Outright,BR-111,2024-02-04
+CUST-0925,Wei Roberts,64,Other,Civil Servant,Salaried - Public / Govt,126251,777,Very Good (740-799),0.371,Emerging Prime,Rent,BR-102,2023-05-03
+CUST-0926,Olivia Iyer,68,Male,Small Business Owner,Salaried - Private,159888,771,Very Good (740-799),0.259,Affluent & HNI,Own Mortgage,BR-112,2024-05-29
+CUST-0927,Harper Deshmukh,33,Other,Operations Manager,Business Owner,100662,803,Exceptional (800-850),0.169,Emerging Prime,Rent,BR-102,2025-07-23
+CUST-0928,Penelope Hill,62,Male,Corporate Executive,Self-Employed Professional,144921,637,Fair (580-669),0.545,Emerging Prime,Own Outright,BR-104,2024-03-06
+CUST-0929,Joseph Young,50,Other,Civil Servant,Salaried - Public / Govt,148787,600,Fair (580-669),0.47,Emerging Prime,Rent,BR-104,2023-07-26
+CUST-0930,Olivia Green,64,Male,Small Business Owner,Salaried - Private,36372,797,Very Good (740-799),0.275,Mass Market Prime,Own Mortgage,BR-109,2023-06-27
+CUST-0931,Grace Lopez,65,Other,Supply Chain Lead,Contractor / Gig,159186,696,Good (670-739),0.335,Emerging Prime,Own Mortgage,BR-109,2023-11-09
+CUST-0932,Aiden Lewis,49,Other,Operations Manager,Salaried - Private,170593,686,Good (670-739),0.248,Emerging Prime,Own Mortgage,BR-104,2023-05-16
+CUST-0933,Yuki Perez,23,Male,Civil Servant,Self-Employed Professional,52813,715,Good (670-739),0.495,Mass Market Prime,Own Mortgage,BR-105,2023-07-03
+CUST-0934,Kenji Torres,37,Other,Educator / Professor,Contractor / Gig,178115,677,Good (670-739),0.42,Emerging Prime,Own Mortgage,BR-108,2024-07-22
+CUST-0935,Olivia Williams,43,Female,Civil Servant,Salaried - Public / Govt,71513,677,Good (670-739),0.208,Mass Market Prime,Rent,BR-106,2023-06-07
+CUST-0936,David Young,26,Other,Educator / Professor,Salaried - Private,144114,679,Good (670-739),0.377,Emerging Prime,Own Outright,BR-102,2026-03-05
+CUST-0937,Maria Rodriguez,39,Other,Software Engineer,Salaried - Private,160240,552,Poor (500-579),0.271,Emerging Prime,Own Outright,BR-104,2023-03-15
+CUST-0938,Ava Johnson,34,Other,Educator / Professor,Business Owner,39743,787,Very Good (740-799),0.358,Mass Market Prime,Own Mortgage,BR-107,2023-10-14
+CUST-0939,Deepa Hall,49,Other,Corporate Executive,Salaried - Private,160763,717,Good (670-739),0.268,Emerging Prime,Rent,BR-104,2024-05-20
+CUST-0940,Mia Nguyen,22,Male,Operations Manager,Contractor / Gig,100515,671,Good (670-739),0.469,Emerging Prime,Own Mortgage,BR-103,2025-07-17
+CUST-0941,Mila Jackson,24,Female,Financial Analyst,Contractor / Gig,92002,755,Very Good (740-799),0.381,Emerging Prime,Own Outright,BR-102,2023-07-07
+CUST-0942,Isabella Taylor,56,Male,Sales Director,Self-Employed Professional,226271,794,Very Good (740-799),0.427,Affluent & HNI,Rent,BR-109,2024-09-21
+CUST-0943,Camila King,39,Female,Supply Chain Lead,Contractor / Gig,125868,676,Good (670-739),0.507,Emerging Prime,Rent,BR-110,2025-10-22
+CUST-0944,Scarlett Garcia,35,Male,Civil Engineer,Salaried - Public / Govt,67177,696,Good (670-739),0.28,Mass Market Prime,Rent,BR-103,2023-04-14
+CUST-0945,David Hall,50,Other,Sales Director,Salaried - Private,180857,573,Poor (500-579),0.24,Emerging Prime,Own Mortgage,BR-102,2023-06-02
+CUST-0946,Scarlett Iyer,61,Female,Sales Director,Salaried - Private,121643,764,Very Good (740-799),0.217,Emerging Prime,Own Mortgage,BR-111,2025-07-01
+CUST-0947,Kenji Brown,64,Female,Software Engineer,Contractor / Gig,154788,799,Very Good (740-799),0.444,Affluent & HNI,Own Mortgage,BR-105,2024-04-18
+CUST-0948,Olivia Perez,68,Other,Operations Manager,Business Owner,49973,799,Very Good (740-799),0.467,Mass Market Prime,Own Outright,BR-112,2024-09-10
+CUST-0949,Kenji Robinson,49,Other,Supply Chain Lead,Contractor / Gig,77611,756,Very Good (740-799),0.533,Mass Market Prime,Own Outright,BR-104,2023-10-28
+CUST-0950,Emma Moore,65,Female,Healthcare Professional,Salaried - Public / Govt,123482,758,Very Good (740-799),0.366,Emerging Prime,Own Mortgage,BR-105,2025-02-09
+CUST-0951,John Nelson,38,Other,Educator / Professor,Salaried - Private,119145,652,Fair (580-669),0.479,Emerging Prime,Rent,BR-108,2025-09-04
+CUST-0952,Liam Lewis,22,Female,Software Engineer,Self-Employed Professional,82678,697,Good (670-739),0.369,Mass Market Prime,Own Mortgage,BR-110,2026-03-05
+CUST-0953,Luke Jones,50,Male,Civil Servant,Self-Employed Professional,68350,733,Good (670-739),0.218,Mass Market Prime,Own Mortgage,BR-110,2023-05-12
+CUST-0954,Sofia Davis,63,Male,Corporate Executive,Contractor / Gig,120998,777,Very Good (740-799),0.358,Emerging Prime,Own Mortgage,BR-112,2024-07-14
+CUST-0955,Joseph Johnson,65,Female,Civil Engineer,Salaried - Private,63616,714,Good (670-739),0.153,Mass Market Prime,Own Mortgage,BR-109,2023-07-08
+CUST-0956,David Wilson,42,Other,Financial Analyst,Business Owner,93753,547,Poor (500-579),0.131,Emerging Prime,Own Outright,BR-106,2024-12-17
+CUST-0957,Amit Deshmukh,63,Female,Sales Director,Self-Employed Professional,121694,690,Good (670-739),0.245,Emerging Prime,Own Mortgage,BR-110,2023-03-24
+CUST-0958,Harper Hill,35,Female,Civil Engineer,Contractor / Gig,125191,785,Very Good (740-799),0.524,Emerging Prime,Own Mortgage,BR-110,2023-04-07
+CUST-0959,Emily Harris,63,Male,Healthcare Professional,Salaried - Public / Govt,176287,723,Good (670-739),0.435,Emerging Prime,Rent,BR-109,2023-05-16
+CUST-0960,Carlos Nelson,55,Other,Sales Director,Self-Employed Professional,196162,707,Good (670-739),0.225,Emerging Prime,Rent,BR-106,2024-05-17
+CUST-0961,Rahul Lee,29,Other,Small Business Owner,Business Owner,142459,796,Very Good (740-799),0.276,Emerging Prime,Own Mortgage,BR-109,2023-07-06
+CUST-0962,Grayson Adams,52,Other,Small Business Owner,Business Owner,67841,754,Very Good (740-799),0.518,Mass Market Prime,Own Mortgage,BR-107,2023-11-09
+CUST-0963,Aria Sharma,40,Female,Financial Analyst,Salaried - Private,94450,546,Poor (500-579),0.368,Emerging Prime,Own Outright,BR-104,2024-02-03
+CUST-0964,Rahul Smith,32,Male,Operations Manager,Self-Employed Professional,158171,785,Very Good (740-799),0.439,Affluent & HNI,Own Mortgage,BR-101,2025-07-02
+CUST-0965,Olivia Hall,32,Male,Corporate Executive,Contractor / Gig,220718,798,Very Good (740-799),0.272,Affluent & HNI,Own Mortgage,BR-109,2024-06-08
+CUST-0966,Victoria Davis,43,Female,Educator / Professor,Contractor / Gig,54333,675,Good (670-739),0.438,Mass Market Prime,Own Mortgage,BR-108,2025-05-17
+CUST-0967,Sunita Mitchell,49,Female,Sales Director,Salaried - Public / Govt,131964,786,Very Good (740-799),0.185,Emerging Prime,Own Mortgage,BR-110,2025-02-26
+CUST-0968,Rahul Harris,42,Female,Corporate Executive,Contractor / Gig,170886,757,Very Good (740-799),0.248,Affluent & HNI,Own Mortgage,BR-110,2025-12-26
+CUST-0969,Jin Nguyen,54,Female,Civil Servant,Self-Employed Professional,72538,692,Good (670-739),0.138,Mass Market Prime,Rent,BR-112,2024-04-06
+CUST-0970,Deepa King,39,Other,Educator / Professor,Self-Employed Professional,78409,538,Poor (500-579),0.171,Subprime / High Risk,Own Mortgage,BR-108,2024-05-03
+CUST-0971,Elizabeth Jackson,38,Other,Healthcare Professional,Salaried - Public / Govt,60159,749,Very Good (740-799),0.209,Mass Market Prime,Rent,BR-103,2023-03-28
+CUST-0972,Sophia Deshmukh,56,Other,Small Business Owner,Salaried - Private,131872,673,Good (670-739),0.207,Emerging Prime,Rent,BR-110,2025-06-22
+CUST-0973,Vikram King,30,Female,Civil Servant,Salaried - Private,66441,798,Very Good (740-799),0.311,Mass Market Prime,Own Mortgage,BR-105,2023-07-27
+CUST-0974,Abigail Moore,68,Other,Healthcare Professional,Self-Employed Professional,93311,787,Very Good (740-799),0.433,Emerging Prime,Own Mortgage,BR-109,2024-12-17
+CUST-0975,Scarlett Robinson,62,Other,Civil Engineer,Salaried - Private,45055,760,Very Good (740-799),0.306,Mass Market Prime,Rent,BR-109,2024-11-11
+CUST-0976,Owen Gupta,57,Other,Attorney / Legal Counsel,Salaried - Private,174464,840,Exceptional (800-850),0.179,Affluent & HNI,Own Mortgage,BR-104,2024-03-06
+CUST-0977,Aria Walker,31,Female,Corporate Executive,Business Owner,245346,695,Good (670-739),0.489,Emerging Prime,Rent,BR-101,2025-07-08
+CUST-0978,Aiden Young,57,Other,Small Business Owner,Salaried - Public / Govt,103963,564,Poor (500-579),0.384,Emerging Prime,Own Outright,BR-104,2025-01-14
+CUST-0979,Maria King,64,Male,Civil Servant,Salaried - Public / Govt,162155,782,Very Good (740-799),0.331,Affluent & HNI,Own Outright,BR-110,2025-01-31
+CUST-0980,Yuki Walker,40,Male,Small Business Owner,Salaried - Private,110306,848,Exceptional (800-850),0.3,Emerging Prime,Own Mortgage,BR-104,2025-06-19
+CUST-0981,Oliver Lopez,51,Female,Attorney / Legal Counsel,Salaried - Private,312816,720,Good (670-739),0.499,Emerging Prime,Rent,BR-108,2025-05-23
+CUST-0982,David Johnson,40,Female,Civil Engineer,Salaried - Public / Govt,142218,790,Very Good (740-799),0.146,Emerging Prime,Rent,BR-105,2024-11-11
+CUST-0983,Amit Sanchez,50,Female,Operations Manager,Self-Employed Professional,162272,817,Exceptional (800-850),0.433,Affluent & HNI,Own Mortgage,BR-101,2024-10-23
+CUST-0984,Sunita Clark,36,Other,Corporate Executive,Contractor / Gig,270773,660,Fair (580-669),0.383,Emerging Prime,Own Mortgage,BR-109,2023-03-12
+CUST-0985,Liam Patel,46,Male,Supply Chain Lead,Self-Employed Professional,179937,849,Exceptional (800-850),0.147,Affluent & HNI,Own Mortgage,BR-104,2025-02-10
+CUST-0986,Kenji Gonzalez,32,Other,Operations Manager,Salaried - Public / Govt,133010,690,Good (670-739),0.263,Emerging Prime,Own Mortgage,BR-112,2024-06-23
+CUST-0987,Emma Williams,23,Other,Healthcare Professional,Contractor / Gig,46084,732,Good (670-739),0.187,Mass Market Prime,Own Mortgage,BR-104,2024-06-20
+CUST-0988,Noah Moore,29,Female,Attorney / Legal Counsel,Business Owner,130061,614,Fair (580-669),0.152,Emerging Prime,Rent,BR-112,2025-05-30
+CUST-0989,Liam Smith,56,Other,Corporate Executive,Salaried - Private,160930,790,Very Good (740-799),0.478,Affluent & HNI,Rent,BR-106,2025-06-19
+CUST-0990,Mei Mitchell,23,Female,Civil Servant,Business Owner,158574,613,Fair (580-669),0.282,Emerging Prime,Own Mortgage,BR-104,2025-05-12
+CUST-0991,Scarlett Walker,40,Other,Civil Engineer,Contractor / Gig,165294,582,Fair (580-669),0.433,Emerging Prime,Living with Family,BR-109,2023-09-09
+CUST-0992,Sunita Anderson,58,Male,Operations Manager,Salaried - Public / Govt,63560,731,Good (670-739),0.396,Mass Market Prime,Own Mortgage,BR-111,2023-07-21
+CUST-0993,Ethan Scott,32,Male,Sales Director,Contractor / Gig,271608,598,Fair (580-669),0.48,Emerging Prime,Own Outright,BR-110,2024-05-21
+CUST-0994,Ava Roberts,53,Female,Operations Manager,Self-Employed Professional,74482,793,Very Good (740-799),0.136,Mass Market Prime,Rent,BR-110,2025-05-12
+CUST-0995,James Moore,66,Male,Civil Engineer,Business Owner,96797,710,Good (670-739),0.258,Emerging Prime,Rent,BR-109,2026-03-12
+CUST-0996,Lucas Singh,28,Female,Supply Chain Lead,Salaried - Private,77491,671,Good (670-739),0.344,Mass Market Prime,Own Mortgage,BR-104,2025-07-15
+CUST-0997,Oliver Williams,49,Female,Corporate Executive,Contractor / Gig,112427,723,Good (670-739),0.248,Emerging Prime,Own Mortgage,BR-105,2024-08-08
+CUST-0998,Chen Lee,61,Female,Educator / Professor,Salaried - Public / Govt,88598,646,Fair (580-669),0.465,Emerging Prime,Living with Family,BR-106,2025-12-29
+CUST-0999,Joseph Walker,51,Male,Financial Analyst,Salaried - Public / Govt,116640,640,Fair (580-669),0.299,Emerging Prime,Own Mortgage,BR-102,2023-02-11
+CUST-1000,Madison Hall,34,Male,Supply Chain Lead,Salaried - Private,59828,712,Good (670-739),0.146,Mass Market Prime,Own Outright,BR-103,2023-06-16
