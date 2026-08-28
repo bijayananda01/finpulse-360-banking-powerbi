@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FinPulse 360 | Executive Banking Credit Risk & Loan Intelligence</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Fonts for Modern Financial UI -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <!-- Chart.js for Interactive Visualizations -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body class="dark-theme">
+  <!-- Top Navigation & Power BI Header Bar -->
+  <header class="pbi-header">
+    <div class="brand-group">
+      <div class="logo-box">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M3 13.5L9 7.5L14 12.5L21 4.5" stroke="#38BDF8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M16 4.5H21V9.5" stroke="#38BDF8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M3 20H21" stroke="#64748B" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <div class="brand-text">
+        <h1>FinPulse 360 <span class="badge-role">Enterprise Portfolio Analytics</span></h1>
+        <p class="subtitle">Apex Global Bank • Retail & Commercial Credit Risk Command Center</p>
+      </div>
+    </div>
+
+    <!-- Center Page Navigation Tabs -->
+    <nav class="report-tabs">
+      <button class="tab-btn active" data-page="page1">
+        <span class="tab-icon">📊</span> 1. Executive Portfolio
+      </button>
+      <button class="tab-btn" data-page="page2">
+        <span class="tab-icon">⚠️</span> 2. Delinquency & PAR 30+
+      </button>
+      <button class="tab-btn" data-page="page3">
+        <span class="tab-icon">👥</span> 3. Borrower Risk Profile
+      </button>
+      <button class="tab-btn" data-page="page4">
+        <span class="tab-icon">🎛️</span> 4. What-If Stress Simulator
+      </button>
+    </nav>
+
+    <!-- Header Actions -->
+    <div class="header-actions">
+      <button id="interview-mode-btn" class="btn-primary" title="Launch Interview Q&A Cheatsheet">
+        <span>💡 Interview Mode</span>
+      </button>
+      <button id="dax-guide-btn" class="btn-secondary" title="View DAX Measure Library">
+        <span>📐 DAX Dictionary</span>
+      </button>
+      <button id="theme-toggle" class="btn-icon" title="Toggle Dark/Light Mode">
+        <span class="theme-icon">☀️</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Global Filter & Slicer Ribbon -->
+  <section class="slicer-ribbon">
+    <div class="slicer-group">
+      <label for="slicer-year"><span class="icon">📅</span> Year</label>
+      <select id="slicer-year" class="slicer-select">
+        <option value="All">All Years (2023–2026)</option>
+        <option value="2026" selected>2026 (Current)</option>
+        <option value="2025">2025</option>
+        <option value="2024">2024</option>
+        <option value="2023">2023</option>
+      </select>
+    </div>
+
+    <div class="slicer-group">
+      <label for="slicer-region"><span class="icon">🗺️</span> Region</label>
+      <select id="slicer-region" class="slicer-select">
+        <option value="All" selected>All Regions (Global)</option>
+        <option value="East">East Region (NY, MA, PA)</option>
+        <option value="Midwest">Midwest Region (IL, MI)</option>
+        <option value="South">South Region (TX, GA, FL)</option>
+        <option value="West">West Region (CA, WA, CO)</option>
+      </select>
+    </div>
+
+    <div class="slicer-group">
+      <label for="slicer-product"><span class="icon">🏷️</span> Product Category</label>
+      <select id="slicer-product" class="slicer-select">
+        <option value="All" selected>All Loan Products</option>
+        <option value="Mortgage & Real Estate">Home Mortgage (PRD-MORT)</option>
+        <option value="Vehicle Financing">Secured Auto Loan (PRD-AUTO)</option>
+        <option value="Personal Lending">Unsecured Flexi-Loan (PRD-PERS)</option>
+        <option value="Commercial & Business">SME Commercial Loan (PRD-SME)</option>
+        <option value="Education Finance">Higher Education Loan (PRD-EDU)</option>
+      </select>
+    </div>
+
+    <div class="slicer-group">
+      <label for="slicer-segment"><span class="icon">🏛️</span> Customer Segment</label>
+      <select id="slicer-segment" class="slicer-select">
+        <option value="All" selected>All Segments</option>
+        <option value="Affluent & HNI">Affluent & HNI (Score 740+)</option>
+        <option value="Emerging Prime">Emerging Prime</option>
+        <option value="Mass Market Prime">Mass Market Prime</option>
+        <option value="Subprime / High Risk">Subprime / High Risk</option>
+      </select>
+    </div>
+
+    <div class="slicer-status">
+      <span class="live-dot"></span>
+      <span id="active-filter-summary">Showing 5,000 Loans | Direct Import Model</span>
+      <button id="reset-filters-btn" class="btn-text">Reset Filters</button>
+    </div>
+  </section>
+
+  <!-- Main Multi-Page Container -->
+  <main class="dashboard-viewport">
+    
+    <!-- ======================================================== -->
+    <!-- PAGE 1: EXECUTIVE PORTFOLIO COMMAND CENTER -->
+    <!-- ======================================================== -->
+    <div id="page1" class="report-page active">
+      <!-- 5 Key Executive Metric Cards -->
+      <div class="kpi-grid">
+        <div class="kpi-card inspectable" data-measure="Total Disbursed Amount">
+          <div class="kpi-top">
+            <span class="kpi-title">Total Disbursed Volume</span>
+            <span class="dax-tag">SUM</span>
+          </div>
+          <div class="kpi-val" id="kpi-disbursed">$485.2M</div>
+          <div class="kpi-bottom positive">
+            <span class="arrow">▲</span> <strong>+18.4%</strong> vs SPLY
+            <span class="subtext">5,000 Active Loans</span>
+          </div>
+        </div>
+
+        <div class="kpi-card inspectable" data-measure="Gross NPA Ratio %">
+          <div class="kpi-top">
+            <span class="kpi-title">Gross NPA Ratio (%)</span>
+            <span class="dax-tag">DIVIDE</span>
+          </div>
+          <div class="kpi-val safe-highlight" id="kpi-npa">3.24%</div>
+          <div class="kpi-bottom positive">
+            <span class="arrow">▼</span> <strong>-0.42%</strong> vs Prior Qtr
+            <span class="subtext">Regulatory Cap: &lt; 4.0%</span>
+          </div>
+        </div>
+
+        <div class="kpi-card inspectable" data-measure="WAIR">
+          <div class="kpi-top">
+            <span class="kpi-title">Weighted Avg Rate (WAIR)</span>
+            <span class="dax-tag">SUMX</span>
+          </div>
+          <div class="kpi-val" id="kpi-wair">8.42%</div>
+          <div class="kpi-bottom neutral">
+            <span class="arrow">●</span> Portfolio Yield
+            <span class="subtext">+35 bps vs Benchmark</span>
+          </div>
+        </div>
+
+        <div class="kpi-card inspectable" data-measure="Collection Efficiency %">
+          <div class="kpi-top">
+            <span class="kpi-title">Collection Efficiency</span>
+            <span class="dax-tag">DIVIDE</span>
+          </div>
+          <div class="kpi-val" id="kpi-collection">94.8%</div>
+          <div class="kpi-bottom positive">
+            <span class="arrow">▲</span> <strong>+1.2%</strong> vs Target
+            <span class="subtext">Total Cash: $118.6M</span>
+          </div>
+        </div>
+
+        <div class="kpi-card inspectable" data-measure="Expected Credit Loss (ECL)">
+          <div class="kpi-top">
+            <span class="kpi-title">Expected Loss (ECL)</span>
+            <span class="dax-tag">IFRS 9</span>
+          </div>
+          <div class="kpi-val warning-highlight" id="kpi-ecl">$9.42M</div>
+          <div class="kpi-bottom neutral">
+            <span class="arrow">●</span> Risk Provisioning
+            <span class="subtext">1.94% Capital Allocation</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Main Visuals Grid -->
+      <div class="visuals-grid-2col">
+        <!-- Area Chart: Monthly Disbursal Trend vs Rolling Average -->
+        <div class="chart-container card">
+          <div class="chart-header">
+            <div>
+              <h3>Monthly Disbursal Trend & 3-Month Moving Average</h3>
+              <p class="chart-subtitle">Evaluates seasonal lending peaks and rolling trajectory</p>
+            </div>
+            <button class="btn-dax-inspect inspectable" data-measure="3-Month Rolling Avg Disbursal">DAX Formula</button>
+          </div>
+          <div class="chart-body">
+            <canvas id="chart-disbursals-trend"></canvas>
+          </div>
+        </div>
+
+        <!-- Donut Chart: Portfolio Allocation by Product Category -->
+        <div class="chart-container card">
+          <div class="chart-header">
+            <div>
+              <h3>Portfolio Allocation by Loan Product</h3>
+              <p class="chart-subtitle">Distribution of total credit exposure across lending products</p>
+            </div>
+            <button class="btn-dax-inspect inspectable" data-measure="Total Disbursed Amount">DAX Formula</button>
+          </div>
+          <div class="chart-body">
+            <canvas id="chart-product-split"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <!-- Regional Branch Matrix with Heatmap -->
+      <div class="matrix-container card">
+        <div class="chart-header">
+          <div>
+            <h3>Branch Performance & Credit Quality Matrix</h3>
+            <p class="chart-subtitle">Regional branch level aggregation with conditional risk indicators</p>
+          </div>
+          <span class="badge-info">Click rows to cross-filter</span>
+        </div>
+        <div class="table-responsive">
+          <table class="pbi-table" id="branch-performance-table">
+            <thead>
+              <tr>
+                <th>Branch Hub</th>
+                <th>Region</th>
+                <th>Regional Manager</th>
+                <th>Disbursed Vol</th>
+                <th>Active Loans</th>
+                <th>Gross NPA %</th>
+                <th>PAR 30+ %</th>
+                <th>Collection %</th>
+                <th>Risk Health</th>
+              </tr>
+            </thead>
+            <tbody id="branch-table-body">
+              <!-- Populated dynamically via JS -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- ======================================================== -->
+    <!-- PAGE 2: DELINQUENCY AGING & EARLY WARNING MATRIX -->
+    <!-- ======================================================== -->
+    <div id="page2" class="report-page">
+      <div class="kpi-grid">
+        <div class="kpi-card inspectable" data-measure="PAR 30+ Amount">
+          <div class="kpi-top"><span class="kpi-title">Portfolio at Risk (PAR 30+)</span><span class="dax-tag">ALERT</span></div>
+          <div class="kpi-val warning-highlight" id="kpi-par30">$28.6M</div>
+          <div class="kpi-bottom"><span class="subtext">5.9% of Total Portfolio</span></div>
+        </div>
+        <div class="kpi-card inspectable" data-measure="Early Delinquency (31-60 DPD)">
+          <div class="kpi-top"><span class="kpi-title">Early Delinquent (31-60 DPD)</span><span class="dax-tag">INTERVENE</span></div>
+          <div class="kpi-val" id="kpi-dpd30">$12.1M</div>
+          <div class="kpi-bottom"><span class="subtext">Primary Target for Loan Restructuring</span></div>
+        </div>
+        <div class="kpi-card inspectable" data-measure="Non-Performing Assets (NPA)">
+          <div class="kpi-top"><span class="kpi-title">Severe Default (90+ DPD)</span><span class="dax-tag">DEFAULT</span></div>
+          <div class="kpi-val danger-highlight" id="kpi-default-amt">$15.7M</div>
+          <div class="kpi-bottom"><span class="subtext">Requires 70% Capital Provisioning</span></div>
+        </div>
+        <div class="kpi-card inspectable" data-measure="Total Late Penalties">
+          <div class="kpi-top"><span class="kpi-title">Late Fee Revenue Collected</span><span class="dax-tag">FEE INC</span></div>
+          <div class="kpi-val" id="kpi-penalties">$482.5K</div>
+          <div class="kpi-bottom"><span class="subtext">Average Penalty: $42.50 / cycle</span></div>
+        </div>
+      </div>
+
+      <div class="visuals-grid-2col">
+        <!-- Delinquency Aging Stacked Bar -->
+        <div class="chart-container card">
+          <div class="chart-header">
+            <div>
+              <h3>Delinquency Aging Buckets Distribution</h3>
+              <p class="chart-subtitle">Account transition from Current -> 1-30 DPD -> 31-60 DPD -> 61-90 DPD -> Default</p>
+            </div>
+            <button class="btn-dax-inspect inspectable" data-measure="PAR 30+ Ratio %">DAX Formula</button>
+          </div>
+          <div class="chart-body">
+            <canvas id="chart-delinquency-buckets"></canvas>
+          </div>
+        </div>
+
+        <!-- Scatter Risk Matrix: Collection Efficiency vs NPA Ratio -->
+        <div class="chart-container card">
+          <div class="chart-header">
+            <div>
+              <h3>Branch Risk Quadrant (Collection vs NPA %)</h3>
+              <p class="chart-subtitle">Top-Left = High Risk (Low Collection & High NPA)</p>
+            </div>
+            <button class="btn-dax-inspect inspectable" data-measure="Gross NPA Ratio %">DAX Formula</button>
+          </div>
+          <div class="chart-body">
+            <canvas id="chart-scatter-risk"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <!-- Actionable Early Intervention Table -->
+      <div class="matrix-container card">
+        <div class="chart-header">
+          <div>
+            <h3>High-Risk Delinquency Intervention Call-List (30+ DPD)</h3>
+            <p class="chart-subtitle">Actionable borrower list for credit recovery and restructuring teams</p>
+          </div>
+          <span class="badge-urgent">142 Accounts Require Immediate Outreach</span>
+        </div>
+        <div class="table-responsive">
+          <table class="pbi-table">
+            <thead>
+              <tr>
+                <th>Loan ID</th>
+                <th>Borrower Name</th>
+                <th>Product</th>
+                <th>Credit Score</th>
+                <th>DPD</th>
+                <th>Delinquency Bucket</th>
+                <th>Monthly EMI</th>
+                <th>Shortfall Due</th>
+                <th>Action Recommended</th>
+              </tr>
+            </thead>
+            <tbody id="delinquency-table-body">
+              <!-- Populated dynamically via JS -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- ======================================================== -->
+    <!-- PAGE 3: BORROWER RISK & CREDIT SCORING PROFILE -->
+    <!-- ======================================================== -->
+    <div id="page3" class="report-page">
+      <div class="kpi-grid">
+        <div class="kpi-card inspectable" data-measure="Avg Borrower Credit Score">
+          <div class="kpi-top"><span class="kpi-title">Average FICO Credit Score</span><span class="dax-tag">FICO</span></div>
+          <div class="kpi-val" id="kpi-avg-fico">712</div>
+          <div class="kpi-bottom positive"><span class="subtext">Prime Tier Benchmark (670–739)</span></div>
+        </div>
+        <div class="kpi-card inspectable" data-measure="Subprime Exposure Ratio (%)">
+          <div class="kpi-top"><span class="kpi-title">Subprime Book Exposure</span><span class="dax-tag">RISK</span></div>
+          <div class="kpi-val warning-highlight" id="kpi-subprime-pct">11.8%</div>
+          <div class="kpi-bottom"><span class="subtext">Credit Score &lt; 670 Borrowers</span></div>
+        </div>
+        <div class="kpi-card inspectable" data-measure="High DTI Borrower Exposure">
+          <div class="kpi-top"><span class="kpi-title">High DTI Exposure (DTI &gt; 40%)</span><span class="dax-tag">DTI</span></div>
+          <div class="kpi-val danger-highlight" id="kpi-high-dti">$64.2M</div>
+          <div class="kpi-bottom"><span class="subtext">13.2% of Total Disbursals</span></div>
+        </div>
+        <div class="kpi-card inspectable" data-measure="Average Ticket Size">
+          <div class="kpi-top"><span class="kpi-title">Avg Disbursed Ticket Size</span><span class="dax-tag">AVG</span></div>
+          <div class="kpi-val" id="kpi-avg-ticket">$97,040</div>
+          <div class="kpi-bottom"><span class="subtext">Across 5,000 Portfolio Contracts</span></div>
+        </div>
+      </div>
+
+      <div class="visuals-grid-2col">
+        <!-- FICO Score Bands Bar Chart -->
+        <div class="chart-container card">
+          <div class="chart-header">
+            <div>
+              <h3>Loan Volume by Credit Score Band</h3>
+              <p class="chart-subtitle">FICO Score Tier Distribution (Exceptional to Poor)</p>
+            </div>
+            <button class="btn-dax-inspect inspectable" data-measure="Subprime Exposure Ratio (%)">DAX Formula</button>
+          </div>
+          <div class="chart-body">
+            <canvas id="chart-fico-dist"></canvas>
+          </div>
+        </div>
+
+        <!-- Heatmap Cross-Tab: Credit Score Band vs Customer Segment -->
+        <div class="chart-container card">
+          <div class="chart-header">
+            <div>
+              <h3>NPA Ratio (%) Heatmap by Segment & FICO Tier</h3>
+              <p class="chart-subtitle">Dark Red highlights elevated default concentration</p>
+            </div>
+            <button class="btn-dax-inspect inspectable" data-measure="Gross NPA Ratio %">DAX Formula</button>
+          </div>
+          <div class="chart-body" style="display: flex; align-items: center; justify-content: center;">
+            <div class="heatmap-matrix" id="segment-heatmap-grid">
+              <!-- Rendered via JS -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ======================================================== -->
+    <!-- PAGE 4: DYNAMIC WHAT-IF STRESS TESTING SIMULATOR -->
+    <!-- ======================================================== -->
+    <div id="page4" class="report-page">
+      <!-- What-If Control Panel -->
+      <div class="whatif-panel card">
+        <div class="whatif-header">
+          <div>
+            <h3>🎛️ Macroeconomic Scenario & Stress Testing Control Panel</h3>
+            <p class="chart-subtitle">Simulate portfolio resilience under central bank rate changes & credit default spikes using DAX Disconnected Parameters</p>
+          </div>
+          <button class="btn-secondary" id="reset-whatif-btn">Reset to Baseline (0%)</button>
+        </div>
+
+        <div class="slider-controls-grid">
+          <!-- Parameter 1: Default Rate Spike -->
+          <div class="slider-box">
+            <div class="slider-label-row">
+              <span class="slider-title">Macro Default Rate Spike:</span>
+              <span class="slider-val-badge" id="val-default-spike">+0%</span>
+            </div>
+            <input type="range" id="param-default-spike" min="0" max="25" step="1" value="0" class="pbi-slider">
+            <div class="slider-ticks">
+              <span>0% (Baseline)</span>
+              <span>+10% (Mild Recession)</span>
+              <span>+25% (Severe Crisis)</span>
+            </div>
+          </div>
+
+          <!-- Parameter 2: Benchmark Interest Rate Hike -->
+          <div class="slider-box">
+            <div class="slider-label-row">
+              <span class="slider-title">Central Bank Interest Rate Hike:</span>
+              <span class="slider-val-badge" id="val-rate-hike">+0 bps</span>
+            </div>
+            <input type="range" id="param-rate-hike" min="0" max="300" step="25" value="0" class="pbi-slider">
+            <div class="slider-ticks">
+              <span>+0 bps</span>
+              <span>+150 bps</span>
+              <span>+300 bps (+3.0%)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Stress Testing Real-Time Impact Cards -->
+      <div class="kpi-grid">
+        <div class="kpi-card inspectable" data-measure="Stressed NPA Amount">
+          <div class="kpi-top"><span class="kpi-title">Simulated Stressed NPA</span><span class="dax-tag">WHAT-IF</span></div>
+          <div class="kpi-val danger-highlight" id="sim-stressed-npa">$15.7M</div>
+          <div class="kpi-bottom"><span class="subtext" id="sim-npa-diff">Baseline: $15.7M (+0.0%)</span></div>
+        </div>
+
+        <div class="kpi-card inspectable" data-measure="Additional Capital Provision Required">
+          <div class="kpi-top"><span class="kpi-title">Additional Capital Provision Req.</span><span class="dax-tag">IFRS 9</span></div>
+          <div class="kpi-val warning-highlight" id="sim-addl-provision">$0.00</div>
+          <div class="kpi-bottom"><span class="subtext">70% Regulatory Provision Coverage Ratio</span></div>
+        </div>
+
+        <div class="kpi-card inspectable" data-measure="Simulated NII Increase">
+          <div class="kpi-top"><span class="kpi-title">Simulated NII Net Gain</span><span class="dax-tag">YIELD</span></div>
+          <div class="kpi-val positive-highlight" id="sim-nii-gain">+$0.00</div>
+          <div class="kpi-bottom"><span class="subtext">Based on 65% Floating Rate Portfolio</span></div>
+        </div>
+
+        <div class="kpi-card inspectable" data-measure="Net Capital Buffer Impact">
+          <div class="kpi-top"><span class="kpi-title">Net Financial Impact</span><span class="dax-tag">NET</span></div>
+          <div class="kpi-val" id="sim-net-capital-impact">$0.00</div>
+          <div class="kpi-bottom"><span class="subtext">NII Gain vs Provision Deductions</span></div>
+        </div>
+      </div>
+
+      <!-- Simulation Chart -->
+      <div class="chart-container card">
+        <div class="chart-header">
+          <div>
+            <h3>Simulated Portfolio Stress Sensitivity (Baseline vs Stressed)</h3>
+            <p class="chart-subtitle">Interactive comparison of NPA, Loss Provisioning, and Net Interest Income across stress levels</p>
+          </div>
+          <button class="btn-dax-inspect inspectable" data-measure="Stressed NPA Amount">DAX Formula</button>
+        </div>
+        <div class="chart-body">
+          <canvas id="chart-stress-comparison"></canvas>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- ======================================================== -->
+  <!-- MODAL 1: DAX FORMULA INSPECTOR -->
+  <!-- ======================================================== -->
+  <div class="modal-overlay" id="dax-modal">
+    <div class="modal-card">
+      <div class="modal-header">
+        <div class="modal-title-group">
+          <span class="modal-badge">DAX Measure Inspector</span>
+          <h2 id="modal-measure-name">Gross NPA Ratio %</h2>
+        </div>
+        <button class="modal-close" id="modal-close-btn">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="code-block-wrapper">
+          <div class="code-header">
+            <span>DAX (Data Analysis Expressions)</span>
+            <button class="copy-btn" id="copy-dax-btn">Copy DAX</button>
+          </div>
+          <pre><code id="modal-dax-code" class="language-dax"></code></pre>
+        </div>
+
+        <div class="dax-meta-grid">
+          <div class="meta-item">
+            <span class="meta-label">Business Logic & Purpose:</span>
+            <p id="modal-dax-desc"></p>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Key DAX Functions Used:</span>
+            <p id="modal-dax-functions"></p>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Context Transition & Optimization:</span>
+            <p id="modal-dax-context"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================================================== -->
+  <!-- MODAL 2: INTERVIEW FLASHCARDS & DEFENSE DRAWER -->
+  <!-- ======================================================== -->
+  <div class="drawer-overlay" id="interview-drawer">
+    <div class="drawer-panel">
+      <div class="drawer-header">
+        <div>
+          <h2>🎓 Power BI Interview Masterclass & Q&A</h2>
+          <p class="subtitle">Quick-reference questions and model answers tailored for freshers</p>
+        </div>
+        <button class="modal-close" id="drawer-close-btn">&times;</button>
+      </div>
+      <div class="drawer-body">
+        <div class="interview-tabs">
+          <button class="qa-tab active" data-qacat="star">⭐ 3-Min STAR Story</button>
+          <button class="qa-tab" data-qacat="modeling">🏗️ Data Modeling</button>
+          <button class="qa-tab" data-qacat="dax">📐 DAX Deep Dive</button>
+          <button class="qa-tab" data-qacat="rls">🔒 RLS & Governance</button>
+        </div>
+
+        <div class="qa-content" id="qa-container">
+          <!-- Rendered via JS -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
