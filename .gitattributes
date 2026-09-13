@@ -1,0 +1,9 @@
+# Vendor preview app so GitHub Linguist labels repo as Python
+preview_app/* linguist-vendored
+preview_app/** linguist-vendored
+
+# Ensure Python data engineering scripts are counted
+scripts/*.py linguist-detectable=true
+
+# Mark documentation
+documentation/* linguist-documentation
